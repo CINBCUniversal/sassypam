@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "sassypam"
   spec.version       = Sassypam::VERSION
   spec.authors       = ["Abhi Sharma"]
-  spec.email         = ["pair+as@pivotallabs.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.email         = ["abhi.sharma@nbcuni.com"]
+  spec.summary       = %q{Toolkit for PAM styles}
+  spec.description   = %q{PAM is very very Sassy}
   spec.homepage      = ""
   spec.license       = "MIT"
 
