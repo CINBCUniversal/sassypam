@@ -1,6 +1,6 @@
-# Sassypam
+# SassyPAM
 
-TODO: Write a gem description
+SassyPam is our distributed style toolkit for different apps
 
 ## Installation
 
