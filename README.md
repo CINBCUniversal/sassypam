@@ -1,8 +1,9 @@
 # SassyPAM
 
-SassyPam is our distributed style toolkit for different apps
+SassyPam is our distributed style toolkit for different apps. Currently you can use SassyPAM using Ruby or Bower. More
+integrations our coming out soon!
 
-## Installation
+## Ruby Installation
 
 Add this line to your application's Gemfile:
 
@@ -16,14 +17,25 @@ Or install it yourself as:
 
     $ gem install sassypam
 
+## Bower Installation
+
+You must have Bower installed first:
+
+    $ npm install -g bower
+
+Using sassypam as a Bower package is still being tested. It is compatible with node-sass 0.8.3+:
+
+    $ bower install sassypam --save
+
 ## Usage
 
-TODO: Write usage instructions here
+Once you've installed the SassyPAM toolkit, use it by calling the main file name:
+
+    @import "sassypam"
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/sassypam/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+1. Create your feature branch (`git checkout -b my-new-feature`)
+2. Commit your changes (`git commit -am 'Add some feature'`)
+3. Push to the branch (`git push origin my-new-feature`)
+4. Create new Pull Request
