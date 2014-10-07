@@ -7,6 +7,8 @@ integrations are coming out soon!
 
 SassyPAM is maintained by the PAM Design Team. Please contact them if you have any questions.
 
+<br>
+
 
 ## Ruby Installation
 
