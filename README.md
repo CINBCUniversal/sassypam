@@ -1,13 +1,13 @@
 # SassyPAM
 
 SassyPam is our distributed style toolkit for different apps. Currently you can use SassyPAM using Ruby or Bower. More
-integrations our coming out soon!
+integrations are coming out soon!
 
 ## Ruby Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'sassypam'
+    gem 'sassypam', git: 'git@github.com:CINBCUniversal/sassypam.git'
 
 And then execute:
 
