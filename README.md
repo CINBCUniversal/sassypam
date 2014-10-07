@@ -1,9 +1,12 @@
 # SassyPAM
 
+<img align="right" height="200" src="/vendor/assets/images/sassy_pam.png">
+
 SassyPam is our distributed style toolkit for different apps. Currently you can use SassyPAM using Ruby or Bower. More
 integrations are coming out soon!
 
-<img align="right" height="300" src="/vendor/assets/images/sassy_pam.png">
+SassyPAM is maintained by the PAM Design Team. Please contact them if you have any questions.
+
 
 ## Ruby Installation
 
