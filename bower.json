@@ -1,0 +1,28 @@
+{
+  "name": "sassypam",
+  "version": "0.0.1",
+  "homepage": "https://github.com/CINBCUniversal/sassypam",
+  "authors": [
+    "Abhi Sharma"
+  ],
+  "description": "PAM Toolkit",
+  "main": "vendor/assets/stylesheets/sassypam.css.sass",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "PAM",
+    "toolkit",
+    "sassypam"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
