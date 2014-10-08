@@ -1,0 +1,39 @@
+%button-base
+  border-radius: 3px
+  height: inherit
+  padding: 10px 16px
+  margin-bottom: 0
+  text-align: center
+  vertical-align: middle
+  cursor: pointer
+  text-decoration: none
+  white-space: nowrap
+  text-transform: uppercase
+  letter-spacing: .1em
+  font-size: 12px
+  display: flex
+  align-items: center
+
+@mixin button($name, $background:white)
+  @if $name == $false
+    .button
+      @extend %button-base
+      background: $background
+      border: 1px solid $button-border
+      i
+        color: $button-icon-color
+        margin-right: 5px
+        font-size: 18px
+  @else
+    .button-#{$name}
+      @extend %button-base
+      background: $background
+      border: none
+      color: white
+
+@include button($false, white)
+@include button(primary,$button-blue)
+@include button(success,$button-green)
+@include button(warning,$button-yellow)
+@include button(danger,$button-red)
+@include button(info,$button-lightBlue)
