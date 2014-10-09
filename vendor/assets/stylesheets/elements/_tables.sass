@@ -1,0 +1,51 @@
+.left-align
+  text-align: left
+.right-align
+  text-align: right
+
+table
+  tr
+    border: 1px solid #d6dce0
+  tr.primary-header
+    th
+      border-right: 1px solid $border
+  tr.secondary-header
+    th
+      font-weight: normal
+  tr.row-summary,tr.grand-summary
+    td
+      box-shadow:  none
+  tr.row-summary
+    td
+      background: $summary
+  tr.grand-summary
+    td
+      background: $grand-summary
+  tr.selectable
+    &:hover
+      td
+        cursor: pointer
+        background-color: $selectable
+  th,td
+    padding: 5px
+    font-size: 12px
+  th
+    background: $th-gradient
+  td
+    background: white
+    border: 1px solid $border
+    max-width: 10rem
+    width: 8rem
+  td.negative
+    color: $negative
+  td.row-title
+    background: #f1f1f1 !important
+    border: 1px solid #D6DCE0
+    border-left: none
+    box-shadow: 0 1px 0 white inset !important
+  td.editable
+    padding: 0px
+    input
+      background-color: $selectable
+      padding-right: 5px
+      height: 100%
