@@ -17,10 +17,10 @@ table
       box-shadow:  none
   tr.row-summary
     td
-      background: $summary
+      background: $summary !important
   tr.grand-summary
     td
-      background: $grand-summary
+      background: $grand-summary !important
   tr.selectable
     &:hover
       td
@@ -49,3 +49,13 @@ table
       background-color: $selectable
       padding-right: 5px
       height: 100%
+
+table.report
+  tr
+    border: none
+    &:nth-child(even)
+      td
+        background-color: white
+  td
+    border: none
+    background-color: $striped
