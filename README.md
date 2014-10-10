@@ -24,7 +24,7 @@ Or install it yourself as:
 
     $ gem install sassypam
 
-## Bower Installation
+## Node.js Installation
 
 You must have Bower installed first:
 
@@ -32,11 +32,11 @@ You must have Bower installed first:
 
 Using sassypam as a Bower package is still being tested. It is compatible with node-sass 0.8.3+:
 
-    $ bower install sassypam --save
+    $ bower install sassypam
 
 ## Usage
 
-Once you've installed the SassyPAM toolkit, use it by calling the main file name:
+Once you've installed the SassyPAM toolkit, use it by calling the main file in your application.sass/scss:
 
     @import "sassypam"
 
