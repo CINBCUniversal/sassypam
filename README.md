@@ -46,3 +46,14 @@ Once you've installed the SassyPAM toolkit, use it by calling the main file in y
 2. Commit your changes (`git commit -am 'Add some feature'`)
 3. Push to the branch (`git push origin my-new-feature`)
 4. Create new Pull Request
+
+## Tagging
+
+In order to allow Bower to install pacakges, we must follow semver tagging rules when pushing updates
+to the toolkit. To see a list of tags:
+
+    $ git tag
+
+To create a new tag, it might look something like this:
+
+    $ git tag -a 0.0.6 -m 'updating to version 0.0.6: adding dropdowns'
