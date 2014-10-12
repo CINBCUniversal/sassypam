@@ -1,4 +1,4 @@
-# SassyPAM [![Gem Version](https://badge.fury.io/rb/sassypam.svg)](http://badge.fury.io/rb/sassypam)[![Bower Version](https://badge.fury.io/bo/sassypam.svg)](http://badge.fury.io/bo/sassypam)
+# SassyPAM [![Gem Version](https://badge.fury.io/rb/sassypam.svg)](http://badge.fury.io/rb/sassypam) [![Bower Version](https://badge.fury.io/bo/sassypam.svg)](http://badge.fury.io/bo/sassypam)
 
 <img align="right" height="200" src="/vendor/assets/images/sassy_pam.png">
 
