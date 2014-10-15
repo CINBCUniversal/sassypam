@@ -1,0 +1,19 @@
+.button-group
+  list-style-type: none
+  li
+    display: inline-block
+    &:first-of-type
+      .filter-button
+        border-radius: 3px 0px 0px 3px
+    &:last-of-type
+      .filter-button
+        border-radius: 0px 3px 3px 0px
+  .filter-button
+    @extend %button-base
+    border: 1px solid $button-filter-border
+    border-radius: 0px
+    background: white
+    color: black
+  .active
+    box-shadow: inset 0px 7px 8px $button-filter-active
+    background: #FAFAFA
