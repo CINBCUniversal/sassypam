@@ -1,0 +1,14 @@
+%content-title-base
+  background: white
+  position: relative
+  width: 100%
+  padding: .75rem
+
+@mixin content-title($name, $highlight)
+  .content-title-#{$name}
+    @extend %content-title-base
+    box-shadow: 0 -2px 0 0 $highlight
+
+@include content-title(finance, $finance-models)
+@include content-title(registrations, $registrations)
+@include content-title(pacing, $pacing)
