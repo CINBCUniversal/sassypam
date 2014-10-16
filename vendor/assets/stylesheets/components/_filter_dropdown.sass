@@ -1,0 +1,42 @@
+.dropdown
+  position: relative
+  display: block
+
+.dropdown-toggle
+  @extend %button-base
+  background: white
+  padding: .5rem .75rem
+  display: block
+  border: 1px solid $border-grey
+  i
+    color: $bg-globalNav
+    margin-left: 1rem
+  &:focus
+    outline: none
+
+.dropdown-menu
+  position: absolute
+  top: 100%
+  left: 0
+  z-index: 1000
+  display: none
+  float: left
+  min-width: 160px
+  padding: 5px 0
+  margin: 2px 0 0
+  list-style: none
+  font-size: 14px
+  background-color: #fff
+  border-radius: 4px
+  background-clip: padding-box
+  border: 1px solid rgba(0,0,0,.15)
+  .open &
+    display: block
+  li
+    border-top: 1px solid $border-grey
+    padding: .75rem
+    &:hover
+      background-color: $light-grey
+      cursor: pointer
+  a
+    color: $bg-globalNav
