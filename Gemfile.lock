@@ -1,8 +1,7 @@
 PATH
   remote: .
   specs:
-    sassypam (0.0.1)
-      sass (>= 3.2)
+    sassypam (0.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -14,7 +13,6 @@ GEM
       method_source (~> 0.8)
       slop (~> 3.4)
     rake (10.3.2)
-    sass (3.4.5)
     slop (3.5.0)
 
 PLATFORMS
