@@ -1,0 +1,35 @@
+.group-list
+  margin: 0px
+
+.list-item
+  border-top: 1px solid $border-grey
+  display: flex
+  background: white
+  &:first-child
+    border-top: none
+  &:last-child
+    border-bottom: none
+  a
+    width: 100%
+    cursor: pointer
+
+.list-item--link
+  display: flex
+  justify-content: space-between
+
+.list-item--header
+  display: flex
+  align-items: center
+  align-self: center
+
+.list-item--status
+  border-right: 1px solid $border-grey
+  display: flex
+  align-items: center
+  flex-direction: column
+  justify-content: center
+
+.list-item--value
+  display: flex
+  flex-direction: column
+  align-items: flex-end
