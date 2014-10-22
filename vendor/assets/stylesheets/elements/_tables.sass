@@ -1,14 +1,14 @@
 .left-align
-  text-align: left
+  text-align: left !important
 .right-align
-  text-align: right
+  text-align: right !important
 
 table
   tr
     border: 1px solid #d6dce0
   tr.primary-header
     th
-      border-right: 1px solid $border
+      border-bottom: 1px solid $column-border
   tr.secondary-header
     th
       font-weight: normal
@@ -51,7 +51,6 @@ table
       height: 100%
   colgroup.colgroup
     border-right: 2px solid $column-border
-    border-left: 2px solid $column-border
 
 table.report
   tr
@@ -64,3 +63,6 @@ table.report
     background-color: $striped
     max-width: none // Do not use the regular table styles
     width: auto // Do not use regular table styles
+
+table.finance-table
+  @extend table
