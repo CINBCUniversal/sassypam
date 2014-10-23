@@ -1,0 +1,27 @@
+%side-nav
+  list-style-type: none
+  background: white
+  border-radius: 5px
+  display: flex
+  flex-direction: column
+  padding: 0px
+  li
+    padding: 4px 20px
+  a
+    color: $bg-globalNav
+    font-size: 14px
+    padding-left: 18px //offset the 2px border
+  .active
+    a
+      font-weight: 700
+      background-color: transparent
+
+@mixin side-nav($name, $color:black)
+  .side-nav-#{$name}
+    @extend %side-nav
+    .active
+      a
+        border-left: 2px solid $color
+        color: $color
+
+@include side-nav(finance, $finance-models)
