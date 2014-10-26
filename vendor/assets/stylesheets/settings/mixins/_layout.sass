@@ -1,0 +1,31 @@
+// Fixed positioning
+%fixed
+  position: fixed
+
+@mixin fixedPosition($name,$top:inherit,$bottom:inherit,$left:inherit,$right:inherit)
+  .fixed-#{$name}
+    @extend %fixed
+    top: $top
+    bottom: $bottom
+    right: $right
+    left: $left
+
+@include fixedPosition(finance,350px)
+
+// Simple Flex Grid System
+
+%flex
+  display: flex
+
+@mixin flexGrid($cols, $percent)
+  .flex
+    @extend %flex
+  .flex-#{$cols}-col
+    width: $percent
+
+@include flexGrid(1, 96%)
+@include flexGrid(2, 48%)
+@include flexGrid(3, 32%)
+@include flexGrid(4, 24%)
+
+
