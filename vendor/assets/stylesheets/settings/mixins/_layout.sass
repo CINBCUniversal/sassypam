@@ -17,6 +17,10 @@
 %flex
   display: flex
 
+//TODO
+// Define a function to calculate width of column
+// numbers given in the mixin
+
 @mixin flexGrid($cols, $percent)
   .flex
     @extend %flex
@@ -27,5 +31,3 @@
 @include flexGrid(2, 48%)
 @include flexGrid(3, 32%)
 @include flexGrid(4, 24%)
-
-
