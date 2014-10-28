@@ -14,7 +14,7 @@
   display: flex
   align-items: center
 
-@mixin button($name, $background:white)
+@mixin button($name, $background:white, $max-width:none)
   @if $name == $false
     .button
       @extend %button-base
@@ -27,12 +27,13 @@
   @else
     .button-#{$name}
       @extend %button-base
-      background: $background
+      background: $background !important //important tags will come off once shark-sass button styles are removed
       border: none
-      color: white
+      color: white !important //important tags will come off once shark-sass button styles are removed
+      max-width: $max-width
 
 @include button($false, white)
-@include button(primary,$button-blue)
+@include button(primary,$button-blue,8rem)
 @include button(success,$button-green)
 @include button(warning,$button-yellow)
 @include button(danger,$button-red)
