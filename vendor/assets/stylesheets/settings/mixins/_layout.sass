@@ -31,3 +31,13 @@
 @include flexGrid(2, 48%)
 @include flexGrid(3, 32%)
 @include flexGrid(4, 24%)
+
+.flex-end, .flex-between, .flex-start
+  @extend %flex
+
+.flex-between
+  justify-content: space-between
+.flex-end
+  justify-content: flex-end
+.flex-start
+  justify-content: flex-start
