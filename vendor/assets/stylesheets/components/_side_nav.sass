@@ -1,7 +1,6 @@
 %side-nav
   list-style-type: none
   background: white
-  border-radius: 5px
   display: flex
   flex-direction: column
   padding: 0px
@@ -11,9 +10,13 @@
     color: $dark-blue
     font-size: 14px
     padding-left: 18px //offset the 2px border
+    &:hover
+      cursor: pointer
+      color: $dark-blue
+    &:visited
+      color: $dark-blue
   .active
     a
-      font-weight: 700
       background-color: transparent
 
 @mixin side-nav($name, $color:black)
@@ -31,3 +34,7 @@
 .sticky
   position: fixed
   top: 90px
+
+//to give spied on element a relative positioning
+.scrollspy
+  position: relative
