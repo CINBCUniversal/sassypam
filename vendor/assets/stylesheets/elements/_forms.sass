@@ -5,3 +5,19 @@ input
   width: 100%
   &:focus
     outline: none
+
+.editable-field
+  display: flex
+.editable-input
+  background-color: inherit
+  border: none
+  height: 1.3em
+  line-height: 1
+  &:focus
+    border: none
+.edit-button
+  cursor: pointer
+  color: $dark-grey
+  font-size: 16px
+  &:hover
+    color: darken($dark-grey, 10%)
