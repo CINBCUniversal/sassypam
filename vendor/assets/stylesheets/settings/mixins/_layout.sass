@@ -32,7 +32,7 @@
 @include flexGrid(3, 32%)
 @include flexGrid(4, 24%)
 
-.flex-end, .flex-between, .flex-start
+.flex, .flex-end, .flex-between, .flex-start, .flex-column, .flex-center
   @extend %flex
 
 .flex-between
@@ -43,3 +43,7 @@
   justify-content: flex-start
 .flex-grow
   flex-grow: 1
+.flex-column
+  flex-direction: column
+.flex-center
+  align-items: center
