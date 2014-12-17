@@ -1,0 +1,60 @@
+.modal
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 100
+  display: none
+  overflow: hidden
+  -webkit-overflow-scrolling: touch
+  outline: 0
+
+.example-modal
+  position: relative
+  top: auto
+  right: auto
+  bottom: auto
+  left: auto
+  display: block
+
+.modal-dialog
+  width: 600px
+  margin: 30px auto
+
+.modal-content
+  display: flex
+  position: relative
+  border-radius: 5px
+  flex-direction: column
+  box-shadow: 0px 5px 15px $modal-box-shadow
+  background: white
+
+.modal-header
+  border-bottom: 1px solid $alt-grey
+.modal-body
+  border-bottom: 1px solid $alt-grey
+.modal-footer
+  display: flex
+  justify-content: flex-end
+
+.modal-backdrop
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  background-color: $modal-bg
+  opacity: .5
+
+.fade
+  display: none
+  opacity: 0
+  transition: opacity .15s linear
+
+.fade.in
+  display: block
+  opacity: 1
+
+.modal.fade.in
+  transition: transform .3s ease-out
