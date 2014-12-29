@@ -14,3 +14,34 @@ ul
     &:first-child
       margin-left: 0px
 
+
+%list-base
+  list-style-type: none
+  margin: 0px
+
+@mixin list($direction, $margin, $display, $alignment)
+  @if $direction == horizontal
+    .horizontal-list-#{$alignment}
+      @extend %list-base
+      li
+        display: $display
+        margin: 0px $margin
+        vertical-align: $alignment
+        &:first-child
+          margin-left: 0px
+  @if $direction == vertical
+    .vertical-list-#{$alignment}
+      @extend %list-base
+      li
+        display: $display
+        margin: $margin 0px
+        text-align: $alignment
+        &:first-child
+          margin-top: 0px
+
+@include list(horizontal, 10px, inline-block, middle)
+@include list(horizontal, 10px, inline-block, top)
+@include list(horizontal, 10px, inline-block, bottom)
+@include list(vertical, 10px, block, left)
+@include list(vertical, 10px, block, center)
+@include list(vertical, 10px, block, right)
