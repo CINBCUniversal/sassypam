@@ -5,15 +5,6 @@ ol,ul
 ul
   list-style-type: none
 
-.horizontal-list-group
-  list-style-type: none
-  padding-left: 0px
-  li
-    display: inline-block
-    margin: 0px 10px
-    &:first-child
-      margin-left: 0px
-
 
 %list-base
   list-style-type: none
@@ -29,6 +20,9 @@ ul
         vertical-align: $alignment
         &:first-child
           margin-left: 0px
+        li 
+          display: block
+          margin: 0
   @if $direction == vertical
     .vertical-list-#{$alignment}
       @extend %list-base
@@ -45,3 +39,6 @@ ul
 @include list(vertical, 10px, block, left)
 @include list(vertical, 10px, block, center)
 @include list(vertical, 10px, block, right)
+
+
+
