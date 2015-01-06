@@ -25,7 +25,7 @@
       font-weight: 600
       text-transform: none
       margin-top: 20px
-      color: #738890
+      color: $timestamp
     &:before
       content: ''
       width: 25px
@@ -39,10 +39,19 @@
       transition: all 200ms ease-in
   .li.complete
     .status
-      border-top: 2px solid #66DC71
+      border-top: 2px solid $green
       &:before
-        background-color: #66DC71
+        background-color: $green
         border: none
         transition: all 200ms ease-in
       h4
-        color: #66DC71
+        color: $green
+  .li.rejected
+    .status
+      border-top: 2px solid $red
+      &:before
+        background-color: $red
+        border: none
+        transition: all 200ms ease-in
+      h4
+        color: $red
