@@ -28,7 +28,7 @@
     .button-#{$name}
       @extend %button-base
       background: $background !important //important tags will come off once shark-sass button styles are removed
-      border: none !important //important tags will come off once shark-sass button styles are removed
+      border: 1px solid $background !important //important tags will come off once shark-sass button styles are removed
       color: white !important //important tags will come off once shark-sass button styles are removed
       max-width: $max-width
 
@@ -38,3 +38,8 @@
 @include button(warning,$button-yellow)
 @include button(danger,$button-red)
 @include button(info,$button-lightBlue)
+
+.button-sm
+  padding: 5px 10px !important //important tags will come off once shark-sass button styles are removed
+
+
