@@ -16,6 +16,8 @@
 
 	i 
 		display: inline-block
+
+
 .collapse-icon
 	height: 100%
 	width: 50px
@@ -25,10 +27,12 @@
 	transition: all 0.2s ease-in-out
 	position: relative
 
-	&.collapsed
-		background: rgba(0,0,0, .10)
+	&:hover
+		i
+			color: $pam-blue
 
 	i
+		color: white
 		display: block
 		width: 100%
 		font-size: 2rem
