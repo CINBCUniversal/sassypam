@@ -1,13 +1,30 @@
+body
+	&.collapsed
+		.main-content
+			margin-left: 47px
+
+		.collapse-icon 
+			background: rgba(0,0,0, .10)
+
+			i
+				color: $pam-blue
+
 .main-content
-  margin-left: 200px
-  background: $white
-  height: 100%
+	margin-left: 230px
+	background: $white
+	height: 100%
+	position: relative
+	z-index: 2
+	transition: margin .2s ease-in-out
+
+	.global-header
+		border-left: 1px solid rgba(255, 255, 255, 0.2)
 
 .content, .content-body
-  @extend %clearfix
+	@extend %clearfix
 
 .content-body
-  background: white
+	background: white
 .content-border
-  border: 1px solid $border-grey
+	border: 1px solid $border-grey
 

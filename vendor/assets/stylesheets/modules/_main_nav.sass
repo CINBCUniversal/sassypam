@@ -1,34 +1,141 @@
+@mixin module-title()
+	color: $grey
+	font-size: 13px
+	letter-spacing: 0.05em
+	text-transform: uppercase
+	font-weight: 600
+
+// Subnavigation styling when body is collapsed
+body.collapsed
+	.main-nav
+		li
+			.app-title.active
+				+ .sub-nav
+					display: none
+
+		li:hover
+			.sub-nav, .app-title.active + .sub-nav
+				display: block
+				position: absolute
+				left: 46px
+				top: 0
+				box-shadow: none
+
+			.sub-nav .tool-title
+				display: block
+
+
 .main-nav
 	list-style-type: none
-	position: fixed
+	position: absolute
 	left: 0
 	top: 0
+	bottom: 0
 	height: 100%
-	overflow-x: hidden
-	overflow-y: auto
 	background: #EDEDED
-	width: 200px
+	width: 230px
+	box-shadow: inset -4px 0px 0px -2px rgba(0, 0, 0, 0.1)
 
 	.pam-branding
 		height: 50px
 		background: $dark-blue
-		width
+
+		.logo
+			display: block
+			height: 100%
+			color: white
+			padding-left: 55px
+			line-height: 50px
+
+			span
+				font-size: 20px
+				letter-spacing: 1px
+				font-weight: lighter
+
+		i
+			position: absolute
+			left: 12px
+			top: 8px
+
 	ul
 		margin: 0px
 
-	.app-title
-		display: block
-		color: $grey
-		padding: 15px 10px
-		font-size: 13px
-		letter-spacing: 0.05em
-		text-transform: uppercase
-	
-	.sub-nav
-		background: darken(#EDEDED, 5%)
+	li
+		position: relative
 
-		a
-			padding: 15px 20px 15px 35px
+		.sub-nav
+			background: darken(#EDEDED, 5%)
+			box-shadow: inset -4px 0px 0px -2px rgba(0, 0, 0, 0.1)
+			display: none
+			z-index: 3
+			width: 100%
+
+
+			.tool-title
+				padding: 15px 20px 10px
+				@include module-title()
+				display: none
+
+			a
+				padding: 15px 20px
+				display: block
+				font-size: 12px
+				color: $dark-grey
+				text-decoration: none !important
+				transition: none
+
+				&.active, &:hover
+					color: $pam-blue
+
+			li:hover
+				background: none
+
+
+		&:hover
+			background: darken(#EDEDED, 5%)
+
+			.sub-nav
+				display: block
+				position: absolute
+				top: 0
+				left: 230px
+				width: 150px
+				box-shadow: none
+
+		.app-title.active
+			+ .sub-nav
+				display: block
+				width: 100%
+				position: relative
+				left: 0
+				box-shadow: inset -4px 0px 0px -2px rgba(0, 0, 0, 0.1)
+
+
+
+		.app-title
+			@include module-title()
 			display: block
-			font-size: 12px
-			color: $dark-grey
+			padding: 15px 10px 15px 47px 
+
+			@mixin main-nav-highlight($name, $highlight)
+				&.#{$name}
+					box-shadow: inset 3px 0 0 0 $highlight
+
+			@include main-nav-highlight(finance, $finance-models)
+			@include main-nav-highlight(registrations, $registrations)
+			@include main-nav-highlight(pacing, $pacing)
+			@include main-nav-highlight(shifts, $shifts)
+			@include main-nav-highlight(quintiles, $quintiles)
+			@include main-nav-highlight(reports, $reports)
+			@include main-nav-highlight(portal-management, $portal-management)
+			@include main-nav-highlight(admin, $admin)
+
+			&.active
+				background-color: white
+
+			i
+				position: absolute
+				left: 15px
+				font-size: 17px
+				text-align: center
+				width: 20px
