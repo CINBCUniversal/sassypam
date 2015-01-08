@@ -47,6 +47,19 @@ Once you've installed the SassyPAM toolkit, use it by calling the main file in y
 3. Push to the branch (`git push origin my-new-feature`)
 4. Create new Pull Request
 
+### Setting up development dependencies
+
+    $ rvm install ruby-2.2.0
+    $ bundle
+    $ npm install
+    $ npm install -g grunt grunt-cli
+
+### Updating styleguide
+
+    $ grunt sass # Only necessary if you change CSS rules
+    $ hologram # Regenerates styleguide when you change hologram comment docs
+    $ open docs/index.html
+
 ## Tagging
 
 In order to allow Bower to install pacakges, we must follow semver tagging rules when pushing updates
