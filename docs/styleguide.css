@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: "Open Sans";
+}
+
+@font-face {
+  font-family: 'sms-glyphs';
+  src: url('./fonts/sms-glyphs.eot');
+  src: url('./fonts/sms-glyphs.woff') format('woff'),
+      url('./fonts/sms-glyphs.ttf') format('truetype'),
+      url('./fonts/sms-glyphs.svg#sms-glyphs') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+body {
+  background: #FAFAFA;
+}
+
+ol {
+  padding-left: 55px;
+}
+
+.logo {
+  text-align: center;
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.06);
+  box-shadow: inset 0 -1px 0 0 rgba(0,0,0, .12);
+  position: relative;
+}
+
+.logo:before {
+  content: 'sassy';
+  display: block;
+  position: absolute;
+  right: 120px;
+  font-size: 49px;
+  font-style: italic;
+  font-weight: lighter;
+  color: rgba(5, 2, 2, 0.26);
+}
+
+.logo:after {
+  content: 'pam';
+  display: block;
+  position: absolute;
+  right: -126px;
+  font-size: 49px;
+  font-style: italic;
+  font-weight: lighter;
+  color: rgba(5, 2, 2, 0.26);
+  top: 2px;
+}
+
+.logo img {
+  max-width: 30px;
+  padding-top: 10px;
+}
+
+.hologram-button {
+  background: #e670a4;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.hologram-button:focus {
+  box-shadow: inset 0 2px 0 0 #e670a4;
+}
+
+hr {
+  border-color: rgba(0, 0, 0, 0.05);
+  margin: 25px;
+}
+
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 3em 0;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.global-header {
+  background-color: #282e39;
+  height: 50px;
+  border-bottom: 1px solid rgba(0,0,0, .1);
+}
+
+.global-header ul {
+  line-height: 50px;
+}
+
+.global-header a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.codeExample {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.codeBlock {
+  margin: 0 0 10px;
+  padding: 20px;
+  background: #F4F4F4;
+}
+
+.exampleOutput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exampleOutput .codeBlock {
+  align-items: left;
+  justify-content: left;
+}
+
+.codeBlock span, .codeBlock pre {
+  font-family: "Source Code Pro";
+}
+
+.codeExample .exampleOutput {
+  padding: 20px;
+  border-bottom: 2px solid rgba(0,0,0, .05);
+}
