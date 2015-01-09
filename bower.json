@@ -1,6 +1,6 @@
 {
   "name": "sassypam",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/CINBCUniversal/sassypam",
   "authors": [
     "Abhi Sharma"
@@ -16,7 +16,7 @@
     "vendor/assets/javascripts/"
   ],
   "moduleType": [
-    "globals",
+    "es6",
     "node"
   ],
   "keywords": [
@@ -25,7 +25,6 @@
     "sassypam"
   ],
   "license": "MIT",
-  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
