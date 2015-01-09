@@ -12,6 +12,11 @@ module.exports = function(grunt) {
         dest: 'build/<%= pkg.name %>.min.js'
       }
     },
+    shell: {
+        hologram: {
+            command: 'hologram'
+        }
+    },
     sass: {
       dist: {
         files: [{
@@ -22,14 +27,23 @@ module.exports = function(grunt) {
           ext: '.css'
         }]
       }
+    },
+    watch: {
+      css: {
+        files: ['./vendor/assets/stylesheets/**/*.sass'],
+        tasks: ['sass', 'shell:hologram']
+      }
     }
   });
 
   // Load plugins
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-shell');
+
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'sass']);
+  grunt.registerTask('default', ['uglify', 'sass', 'watch']);
 
 };
