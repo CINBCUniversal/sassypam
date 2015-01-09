@@ -24,7 +24,7 @@ Or install it yourself as:
 
     $ gem install sassypam
 
-## Node.js Installation
+## Node Installation
 
 You must have Bower installed first:
 
@@ -60,13 +60,18 @@ Once you've installed the SassyPAM toolkit, use it by calling the main file in y
     $ hologram # Regenerates styleguide when you change hologram comment docs
     $ open docs/index.html
 
-## Tagging
+### Updating Bower Registry
 
-In order to allow Bower to install pacakges, we must follow semver tagging rules when pushing updates
-to the toolkit. To see a list of tags:
+Bower requires a semver tagging rules (visit http://bower.io/), when pushing an update. It'll look something like this:
 
-    $ git tag
+    $ bower version patch -m "add reactjs and utilities page"
 
-To create a new tag, it might look something like this:
+### Updating Ruby Gem
 
-    $ git tag -a 0.0.6 -m 'updating to version 0.0.6: adding dropdowns'
+Gem versions are automatically tracked when running bundle update within a ruby app environment. But we'll from time to time
+change the version number when making large updates. 
+
+    $ cd ./lib/sassypam
+    $ mvim version.rb
+
+Then change it to the correct version
