@@ -1853,6 +1853,24 @@ th {
 .sms-glyph-typography:before {
   content: "\f23f"; }
 
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  to {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; } }
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  to {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; } }
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 
