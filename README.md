@@ -64,7 +64,18 @@ Once you've installed the SassyPAM toolkit, use it by calling the main file in y
 
 Bower requires a semver tagging rules (visit http://bower.io/), when pushing an update. It'll look something like this:
 
-    $ bower version patch -m "add reactjs and utilities page"
+# commit your changes
+
+    $ git commit -am "Made some awesome new changes, now its even awesomer"
+
+# tag the commit
+
+    $ git tag -a v 0.0.5 -m "Release version 0.0.5"
+    $ bower version patch -m "Made some awesome new changes, now its even awesomer"
+
+# push to GitHub
+
+    $ git push origin master --tags
 
 ### Updating Ruby Gem
 
