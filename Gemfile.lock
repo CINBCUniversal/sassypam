@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sassypam (0.0.2)
+    sassypam (0.0.5)
 
 GEM
   remote: https://rubygems.org/
