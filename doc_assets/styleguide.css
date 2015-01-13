@@ -5,18 +5,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0;
     vertical-align: baseline;
     background: transparent;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
 }
 
-@font-face {
+i {
   font-family: 'sms-glyphs';
-  src: url('./fonts/sms-glyphs.eot');
-  src: url('./fonts/sms-glyphs.woff') format('woff'),
-      url('./fonts/sms-glyphs.ttf') format('truetype'),
-      url('./fonts/sms-glyphs.svg#sms-glyphs') format('svg');
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
 }
 
 body {
@@ -144,6 +137,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .exampleOutput .codeBlock {

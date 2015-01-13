@@ -1875,6 +1875,69 @@ th {
 .sms-glyph-typography:before {
   content: "\f23f"; }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-BoldItalic-webfont.eot");
+  src: url("../fonts/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-BoldItalic-webfont.svg#Open Sans") format("svg");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold-webfont.eot");
+  src: url("../fonts/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold-webfont.woff") format("woff"), url("../fonts/OpenSans-Bold-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Bold-webfont.svg#Open Sans") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-SemiboldItalic-webfont.eot");
+  src: url("../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-SemiboldItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-SemiboldItalic-webfont.svg#Open Sans") format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Semibold-webfont.eot");
+  src: url("../fonts/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/OpenSans-Semibold-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Semibold-webfont.svg#Open Sans") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Italic-webfont.eot");
+  src: url("../fonts/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Italic-webfont.woff") format("woff"), url("../fonts/OpenSans-Italic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Italic-webfont.svg#Open Sans") format("svg");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Regular-webfont.svg#Open Sans") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-LightItalic-webfont.eot");
+  src: url("../fonts/OpenSans-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-LightItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-LightItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-LightItalic-webfont.svg#Open Sans") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Light-webfont.eot");
+  src: url("../fonts/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light-webfont.woff") format("woff"), url("../fonts/OpenSans-Light-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Light-webfont.svg#Open Sans") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "sms-glyphs";
+  src: url("../fonts/sms-glyphs.eot");
+  src: url("../fonts/sms-glyphs.eot?#iefix") format("embedded-opentype"), url("../fonts/sms-glyphs.woff") format("woff"), url("../fonts/sms-glyphs.ttf") format("truetype"), url("../fonts/sms-glyphs.svg#sms-glyphs") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal; }
 @keyframes fade-out {
   from {
     opacity: 1;
@@ -1893,46 +1956,64 @@ th {
     -webkit-transform: scale(0);
     transform: scale(0);
     opacity: 0; } }
+html {
+  font-family: "Open Sans", sans-serif; }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 
 h1, h2, h3, h4, h6 {
-  font-weight: 100; }
+  font-weight: 400; }
 
-h1 {
-  font-size: 24px;
-  font-size: 1.5rem; }
+h1, .h1 {
+  font-size: 31px; }
 
-h2 {
-  font-size: 21px;
-  font-size: 1.3125rem; }
+h2, .h2 {
+  font-size: 25px; }
 
-h3 {
-  font-size: 18px;
-  font-size: 1.125rem; }
+h3, .h3 {
+  font-size: 20px; }
 
-h4 {
+h4, .h4 {
+  font-size: 18px; }
+
+h5, .h5 {
   font-size: 16px;
-  font-size: 1rem; }
-
-h5 {
-  font-size: 14px;
-  font-size: 0.875rem;
-  font-weight: bold; }
-
-h6 {
-  font-size: 14px;
-  font-size: 0.875rem;
   font-weight: normal; }
 
+h6, .h6 {
+  font-size: 13px; }
+
 p {
-  font-size: 12px;
-  font-size: 0.75rem; }
+  font-size: 16px; }
 
 strong {
   font-size: 14px;
-  font-size: 0.875rem;
   font-weight: 900; }
+
+.em-low {
+  font-weight: 300 !important; }
+
+.em-default {
+  font-weight: 600 !important; }
+
+.em-high {
+  font-weight: 700 !important; }
+
+.em-max {
+  font-weight: 800 !important; }
+
+.em-alt {
+  text-transform: uppercase !important; }
+
+.title {
+  font-size: 42px; }
+
+.type-sm {
+  font-size: 14px; }
+
+.type-xs {
+  font-size: 12px; }
 
 .giga {
   font-size: 36px; }
@@ -2180,13 +2261,16 @@ input {
 .button-group {
   list-style-type: none;
   padding-left: 0px;
-  margin-top: 5px; }
+  margin-top: 5px;
+  margin-left: 0; }
   .button-group li {
     display: inline-block; }
     .button-group li:first-of-type .filter-button {
-      border-radius: 3px 0px 0px 3px; }
+      border-radius: 3px 0px 0px 3px;
+      border-right: 0; }
     .button-group li:last-of-type .filter-button {
-      border-radius: 0px 3px 3px 0px; }
+      border-radius: 0px 3px 3px 0px;
+      border-left: 0; }
   .button-group .filter-button {
     border: 1px solid #DFE3E7;
     border-radius: 0px;
@@ -2412,6 +2496,22 @@ input {
     .hz-timeline .li.rejected .status h4 {
       color: #ce4545; }
 
+.toggle .toggle-item {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding-right: 10px;
+  text-align: center; }
+  .toggle .toggle-item:last-of-type {
+    padding-right: 0; }
+  .toggle .toggle-item i {
+    color: #090909; }
+  .toggle .toggle-item.toggle-active i {
+    color: #009BEF; }
+  .toggle .toggle-item#tile-view-list i {
+    position: relative;
+    top: 3px; }
+
 body.collapsed .main-nav li .app-title.active + .sub-nav {
   display: none; }
 body.collapsed .main-nav li:hover .sub-nav, body.collapsed .main-nav li:hover .app-title.active + .sub-nav {
@@ -2583,7 +2683,7 @@ body.collapsed .collapse-icon {
 .content-border {
   border: 1px solid #D8D8D8; }
 
-.content-title-finance, .content-title-registrations, .content-title-pacing, .content-title-shifts, .content-title-quintiles {
+.content-title-finance, .content-title-registrations, .content-title-pacing, .content-title-shifts, .content-title-quintiles, .content-title-reports {
   background: white;
   position: relative;
   width: 100%;
@@ -2605,6 +2705,9 @@ body.collapsed .collapse-icon {
 .content-title-quintiles {
   box-shadow: 0 -2px 0 0 #461B7E; }
 
+.content-title-reports {
+  box-shadow: 0 -2px 0 0 #282e39; }
+
 .filter-module {
   background: linear-gradient(white, #ECECEC);
   width: 100%;
@@ -2612,9 +2715,10 @@ body.collapsed .collapse-icon {
 
 .filter-module-section {
   border-right: 1px solid #D8D8D8;
-  padding: 1rem 2rem;
+  padding: 1em 2em;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center; }
   .filter-module-section:only-of-type, .filter-module-section.no-border {
     border-right: none; }
 
