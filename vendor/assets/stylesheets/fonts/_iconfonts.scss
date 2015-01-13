@@ -1,14 +1,26 @@
 @mixin declare-font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
-  @font-face {
-    font-family: '#{$font-family}';
-    src: url('/Users/pivotal/workspace/sassypam/docs/fonts/#{$font-filename}.eot');
-    src: url('/Users/pivotal/workspace/sassypam/docs/fonts/#{$font-filename}.woff') format('woff'),
-        url('/Users/pivotal/workspace/sassypam/docs/fonts/#{$font-filename}.ttf') format('truetype'),
-        url('/Users/pivotal/workspace/sassypam/docs/fonts/#{$font-filename}.svg##{$font-family}') format('svg');
-    font-weight: $font-weight;
-    font-style: $font-style;
-    font-stretch: $font-stretch;
-  }
+    @font-face {
+        font-family: '#{$font-family}';
+            src: url("../fonts/#{$font-filename}.eot");
+            src: url("../fonts/#{$font-filename}.eot?#iefix") format('embedded-opentype'),
+            url("../fonts/#{$font-filename}.woff") format('woff'),
+            url("../fonts/#{$font-filename}.ttf") format('truetype'),
+            url("../fonts/#{$font-filename}.svg##{$font-family}") format('svg');
+            font-weight: $font-weight;
+            font-style: $font-style;
+            font-stretch: $font-stretch;
+    }
 }
 
+
+
+@include declare-font-face('Open Sans', 'OpenSans-BoldItalic-webfont', 700, italic);
+@include declare-font-face('Open Sans', 'OpenSans-Bold-webfont', 700);
+@include declare-font-face('Open Sans', 'OpenSans-SemiboldItalic-webfont', 600, italic);
+@include declare-font-face('Open Sans', 'OpenSans-Semibold-webfont', 600);
+@include declare-font-face('Open Sans', 'OpenSans-Italic-webfont', 400, italic);
+@include declare-font-face('Open Sans', 'OpenSans-Regular-webfont', 400);
+@include declare-font-face('Open Sans', 'OpenSans-LightItalic-webfont', 300, italic);
+@include declare-font-face('Open Sans', 'OpenSans-Light-webfont', 300);
+// @include declare-font-face('Droid Mono', 'DroidSansMono-webfont', 300);
 @include declare-font-face('sms-glyphs', 'sms-glyphs', 300);
