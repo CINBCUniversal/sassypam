@@ -12,20 +12,24 @@
   list-style-type: none
   padding-left: 0px
   margin-top: 5px
+  margin-left: 0
   li
     display: inline-block
     &:first-of-type
       .filter-button
         border-radius: 3px 0px 0px 3px
+        border-right: 0
     &:last-of-type
       .filter-button
         border-radius: 0px 3px 3px 0px
+        border-left: 0
   .filter-button
     @extend %button-base
     border: 1px solid $button-filter-border
     border-radius: 0px
     background: white
     color: black
+
   .active
     box-shadow: inset 0px 7px 8px $button-filter-active
     background: #FAFAFA
