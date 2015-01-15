@@ -1,64 +1,65 @@
 //doc
-  ---
-  title: Checkboxes
-  name: checkboxes
-  category: elements
-  ---
-  Checkbox are usually form elements, we've spiced up the browser variant here.
+	---
+	title: Checkboxes
+	name: checkboxes
+	category: elements
+	---
+	Checkbox are usually form elements, we've spiced up the browser variant here.
 
-  ```html_example
-    <div class="checkbox-lg mrm"><input checked="true" id="ae_shift" type="checkbox"><label for="ae_shift"><i class="sms-glyph-icon_check"></i></label></div>
-  ```
+	```html_example
+		<div class="checkbox-lg mrm"><input checked="true" id="ae_shift" type="checkbox"><label for="ae_shift"><i class="sms-glyph-icon_check"></i></label></div>
+	```
 input
-  border: none
-  padding: 0px
-  text-align: right
-  width: 100%
-  &:focus
-    outline: none
+	border: none
+	padding: 0px
+	text-align: right
+	width: 100%
+	font-family: 'Open Sans'
+	&:focus
+		outline: none
 
 .editable-field
-  display: flex
+	display: flex
 .editable-input
-  background-color: inherit
-  border: none
-  height: 1.3em
-  line-height: 1
-  padding: 0px
-  &:focus
-    border: none
+	background-color: inherit
+	border: none
+	height: 1.3em
+	line-height: 1
+	padding: 0px
+	&:focus
+		border: none
 .edit-button
-  cursor: pointer
-  color: $dark-grey
-  font-size: 16px
-  &:hover
-    color: darken($dark-grey, 10%)
+	cursor: pointer
+	color: $dark-grey
+	font-size: 16px
+	&:hover
+		color: darken($dark-grey, 10%)
 
 %checkbox
-  border: 1px solid #D6DCE0
-  input[type=checkbox]
-    display: none
-  input[type=checkbox] + label
-    width: 100%
-    height: 100%
-    background-color: white
-    z-index: 100
-    color: rgba(255,255,255,0)
-    display: flex
-    align-items: center
-    justify-content: center
-    &:hover
-      cursor: pointer
-  input[type=checkbox]:checked + label
-    color: $green
+	border: 1px solid #D6DCE0
+	input[type=checkbox]
+		display: none
+	input[type=checkbox] + label
+		width: 100%
+		height: 100%
+		background-color: white
+		z-index: 100
+		color: rgba(255,255,255,0)
+		display: flex
+		align-items: center
+		justify-content: center
+		&:hover
+			cursor: pointer
+	input[type=checkbox]:checked + label
+		color: $green
 
 @mixin checkbox($name, $size, $icon-size)
-  .checkbox-#{$name}
-    @extend %checkbox
-    width: $size
-    height: $size
-    i
-      font-size: $icon-size
+	.checkbox-#{$name}
+		@extend %checkbox
+		width: $size
+		height: $size
+		i
+			font-size: $icon-size
 
 @include checkbox(sm, 16px, 20px)
 @include checkbox(lg, 25px, 32px)

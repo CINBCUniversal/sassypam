@@ -1,6 +1,40 @@
 .global-header
 	background-color: $dark-blue
 	height: 50px
+	position: fixed
+	top: 0
+	width: 100%
+	z-index: 3
+
+.pam-branding
+	height: 50px
+	background: $dark-blue
+	width: 230px
+	float: left
+	transition: width .2s ease-in-out
+
+	.logo
+		display: block
+		height: 100%
+		color: white
+		padding-left: 55px
+		line-height: 50px
+
+
+		span
+			font-size: 20px
+			letter-spacing: 1px
+			font-weight: lighter
+			opacity: 1
+			transition: opacity .2s ease-in-out
+
+	i
+		position: absolute
+		left: 12px
+		top: 8px
+		&.icon-spin
+			-webkit-animation: 1s linear normal none spin
+			animation: 1s linear normal none spin
 
 .user-management
 	height: 100%
@@ -21,6 +55,7 @@
 	height: 100%
 	width: 50px
 	text-align: center
+	border-left: 1px solid rgba(255, 255, 255, 0.2)
 	border-right: 1px solid rgba(255, 255, 255, 0.2)
 	cursor: pointer
 	transition: all 0.2s ease-in-out

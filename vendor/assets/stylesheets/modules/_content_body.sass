@@ -1,5 +1,16 @@
+// Creating a faux viewport for scrolling the main content div (and not sidebar)
+html,body
+	overflow: hidden
+
 body
 	&.collapsed
+
+		.pam-branding
+			width: 48px
+		
+		.logo span
+			opacity: 0
+
 		.main-content
 			margin-left: 47px
 
@@ -16,6 +27,8 @@ body
 	position: relative
 	z-index: 2
 	transition: margin .2s ease-in-out
+	top: 50px
+	overflow-y: scroll
 
 	.global-header
 		border-left: 1px solid rgba(255, 255, 255, 0.2)
