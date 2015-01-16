@@ -14,6 +14,31 @@
 
   ```html_example
     <button class="button-success button">Create Deal</button>
+  ``` 
+  Small button
+  
+  ```html_example
+    <button class="button-primary button-sm">Create Deal</button>
+  ```
+  Disabled button
+  
+  ```html_example
+    <button class="button-primary button-sm disabled">Create Deal</button>
+  ```
+  All the buttons!
+
+  ```html_example
+    <button class="button">Default</button>
+    <br />
+    <button class="button-primary">Primary</button>
+    <br />
+    <button class="button-success">Success</button>
+    <br />
+    <button class="button-warning">Warning</button>
+    <br />
+    <button class="button-danger">Danger</button>
+    <br />
+    <button class="button-info">Info</button>
   ```
 
 %button-base
@@ -30,6 +55,14 @@
   font-family: "Open Sans"
   font-size: 14px
   letter-spacing: .1em
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] &
+    cursor: not-allowed
+    pointer-events: none
+    opacity: 0.45
+    box-shadow: none
+
   
 @mixin button($name, $background:white, $color:white, $max-width:none)
   @if $name == $false
