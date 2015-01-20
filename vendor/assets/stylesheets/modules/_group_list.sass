@@ -9,9 +9,18 @@
   ```html_example
     <ul class="group-list"><li class="list-item"><div class="list-item--status"><i class="sms-orange sms-glyph-circle" title="Pending SIC"></i></div><div class="list-item--info pam"><div class="list-item--type"><h3 class="heading">Main Header</h3><h4 class="secondary-heading">Secondary Header</h4><h4 class="tertiary-heading">Tertiary Header</h4><ul class="metadata pln"><li>Metadata</li><li>Metadata</li><li>Metadata</li></ul><ul class="actions"><li><a href="#">Delete</a></li><li><a href="#">View</a></li></ul></div><div class="list-item--timestamp mll"><p class="timestamp">Sep 14, 2014 11:41 AM EDT</p><p>Adnan Syed</p></div></div><div class="list-item--values pam"><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div></div></li><li class="list-item"><div class="list-item--status"><i class="sms-orange sms-glyph-circle" title="Pending SIC"></i></div><div class="list-item--info pam"><div class="list-item--type"><h3 class="heading">Main Header</h3><h4 class="secondary-heading">Secondary Header</h4><h4 class="tertiary-heading">Tertiary Header</h4><ul class="metadata pln"><li>Metadata</li><li>Metadata</li><li>Metadata</li></ul><ul class="actions"><li><a href="#">Delete</a></li><li><a href="#">View</a></li></ul></div><div class="list-item--timestamp mll"><p class="timestamp">Sep 14, 2014 11:41 AM EDT</p><p>Adnan Syed</p></div></div><div class="list-item--values pam"><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div></div></li><li class="list-item"><div class="list-item--status"><i class="sms-orange sms-glyph-circle" title="Pending SIC"></i></div><div class="list-item--info pam"><div class="list-item--type"><h3 class="heading">Main Header</h3><h4 class="secondary-heading">Secondary Header</h4><h4 class="tertiary-heading">Tertiary Header</h4><ul class="metadata pln"><li>Metadata</li><li>Metadata</li><li>Metadata</li></ul><ul class="actions"><li><a href="#">Delete</a></li><li><a href="#">View</a></li></ul></div><div class="list-item--timestamp mll"><p class="timestamp">Sep 14, 2014 11:41 AM EDT</p><p>Adnan Syed</p></div></div><div class="list-item--values pam"><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div></div></li></ul>
   ```
+
 .group-list
   margin: 0px
   color: #0A0A0A
+
+.group-list-header
+  background: $pam-purple
+  box-shadow: inset 0 -2px 0 0 rgba($black, .13)
+
+  .group-list-heading
+    color: white
+
 
 .list-item
   border-top: 1px solid $border-grey
@@ -54,6 +63,22 @@
   display: flex
   flex-direction: column
   align-items: flex-end
+  position: relative
+
+  .raw-values
+    position: relative
+
+    &:after
+      content: "\0394"
+      position: absolute
+      left: 0
+      top: -10px
+      background: white
+      font-size: 13px
+      width: 16px
+      text-align: left
+      color: darken($border-grey, 10%)
+
 
 .list-item--type, .list-item--value
   display: flex
@@ -74,11 +99,10 @@
   .metadata
     margin: 0px
     li
-      font-size: 12px
-      font-weight: 300
       display: inline-block
-      text-transform: uppercase
       color: $black
+      @extend .em-alt
+      @extend .type-xs
       &:after
         content: "\2022"
         padding: 0em 0.25em
@@ -106,3 +130,10 @@
     font-size: 12px
     color: $timestamp
     font-weight: 100
+
+.list-item-icon
+  &.delete 
+    color: $lightest-grey
+
+    &:hover
+      color: $light-grey
