@@ -1,3 +1,28 @@
+//flex helpers
+// Simple Flex Grid System
+
+%flex
+	display: flex
+
+.flex, .flex-end, .flex-between, .flex-start, .flex-column, .flex-center
+	@extend %flex
+
+.flex-between
+	justify-content: space-between
+.flex-end
+	justify-content: flex-end
+.flex-start
+	justify-content: flex-start
+.flex-grow
+	flex-grow: 1
+.flex-column
+	flex-direction: column
+.flex-center
+	align-items: center
+.flex-1
+	flex: 1
+
+
 .list-horizontal
 	margin: 0
 	padding: 0

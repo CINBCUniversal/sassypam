@@ -1,0 +1,11 @@
+//Dead simple grid system
+// Made better by Abhi & Matt
+
+$columns: 12
+
+@for $i from 1 through $columns
+	.cols-#{$i}
+		width: (($i/$columns)*100)*1%
+		float: left
+
+
