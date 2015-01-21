@@ -10,17 +10,90 @@
     <ul class="group-list"><li class="list-item"><div class="list-item--status"><i class="sms-orange sms-glyph-circle" title="Pending SIC"></i></div><div class="list-item--info pam"><div class="list-item--type"><h3 class="heading">Main Header</h3><h4 class="secondary-heading">Secondary Header</h4><h4 class="tertiary-heading">Tertiary Header</h4><ul class="metadata pln"><li>Metadata</li><li>Metadata</li><li>Metadata</li></ul><ul class="actions"><li><a href="#">Delete</a></li><li><a href="#">View</a></li></ul></div><div class="list-item--timestamp mll"><p class="timestamp">Sep 14, 2014 11:41 AM EDT</p><p>Adnan Syed</p></div></div><div class="list-item--values pam"><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div></div></li><li class="list-item"><div class="list-item--status"><i class="sms-orange sms-glyph-circle" title="Pending SIC"></i></div><div class="list-item--info pam"><div class="list-item--type"><h3 class="heading">Main Header</h3><h4 class="secondary-heading">Secondary Header</h4><h4 class="tertiary-heading">Tertiary Header</h4><ul class="metadata pln"><li>Metadata</li><li>Metadata</li><li>Metadata</li></ul><ul class="actions"><li><a href="#">Delete</a></li><li><a href="#">View</a></li></ul></div><div class="list-item--timestamp mll"><p class="timestamp">Sep 14, 2014 11:41 AM EDT</p><p>Adnan Syed</p></div></div><div class="list-item--values pam"><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div></div></li><li class="list-item"><div class="list-item--status"><i class="sms-orange sms-glyph-circle" title="Pending SIC"></i></div><div class="list-item--info pam"><div class="list-item--type"><h3 class="heading">Main Header</h3><h4 class="secondary-heading">Secondary Header</h4><h4 class="tertiary-heading">Tertiary Header</h4><ul class="metadata pln"><li>Metadata</li><li>Metadata</li><li>Metadata</li></ul><ul class="actions"><li><a href="#">Delete</a></li><li><a href="#">View</a></li></ul></div><div class="list-item--timestamp mll"><p class="timestamp">Sep 14, 2014 11:41 AM EDT</p><p>Adnan Syed</p></div></div><div class="list-item--values pam"><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div><div class="list-item--value mrm"><h3 class="heading">$1,000,000</h3><span>Agency</span></div></div></li></ul>
   ```
 
+  Group list items can have headers.
+
+  ```html_example
+    <div class="content-border">
+      <div class="group-list-header pal">
+        <h2 class="mrl">USA</h2>
+      </div>
+      <div class="content">
+        <ul class="group-list">
+          <li class="list-item">
+            <div class="list-item--info pal">
+              <div class="list-item--type">
+                <h3 class="heading">14-15 USA Broadcast Upfront: Group M at +10</h3>
+              </div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item--info pal">
+              <div class="list-item--type">
+                <h3 class="heading">14-15 USA Broadcast Upfront: Group M at +10</h3>
+              </div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item--info pal">
+              <div class="list-item--type">
+                <h3 class="heading">14-15 USA Broadcast Upfront: Group M at +10</h3>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  ```
+  Group list alternate header. Make sure to use '.group-list-heading' to make text in this heading white.
+
+  ```html_example
+    <div class="content-border">
+      <div class="group-list-header-alt pal">
+        <h2 class="mrl group-list-heading">USA</h2>
+      </div>
+      <div class="content">
+        <ul class="group-list">
+          <li class="list-item">
+            <div class="list-item--info pal">
+              <div class="list-item--type">
+                <h3 class="heading">14-15 USA Broadcast Upfront: Group M at +10</h3>
+              </div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item--info pal">
+              <div class="list-item--type">
+                <h3 class="heading">14-15 USA Broadcast Upfront: Group M at +10</h3>
+              </div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item--info pal">
+              <div class="list-item--type">
+                <h3 class="heading">14-15 USA Broadcast Upfront: Group M at +10</h3>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  ```
+
 .group-list
   margin: 0px
   color: #0A0A0A
 
 .group-list-header
+  background: $filter-module-grey
+  border-bottom: 1px solid $border-grey
+  width: 100%
+
+.group-list-header-alt
   background: $pam-purple
   box-shadow: inset 0 -2px 0 0 rgba($black, .13)
 
   .group-list-heading
     color: white
-
 
 .list-item
   border-top: 1px solid $border-grey
