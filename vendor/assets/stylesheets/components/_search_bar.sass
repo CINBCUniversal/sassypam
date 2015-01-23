@@ -1,39 +1,62 @@
+//doc
+  ---
+  title: Search bar
+  name: search-bar
+  category: components
+  ---
+
+    If you are using Rails, you can generate pagination automagically by using the Kaminari gem. Just use '.paginate-container'
+     Otherwise, you can use the markup below!
+
+  ```html_example
+    <div class="search-bar">
+      <input class="input-search" placeholder="Search for stuff!" type="text" value="">
+      <button class="button-search" name="button" type="submit"><i class="sms-glyph-icon_search prm"></i>Search</button>
+      <button class="button-clear-search" data-behavior="clear_deal_search" name="button" type="submit">Clear Search</button>
+    </div>
+
+  ```
+
+
 // Remove Chrome-added 1em of margin-bottom to <form> elements
 form
-	margin-bottom: 0 !important
+  margin-bottom: 0 !important
 
 .search-bar
-	.input-search
-		background: white
-		width: 345px
-		text-align: left
-		padding: 0px 14px
-		height: 36px
-		border: 1px solid $border-grey
-		border-radius: 3px 0px 0px 3px
-		vertical-align: top
-		display: inline-block
-		color: $dark-grey
+  .input-search
+    background: white
+    width: 345px
+    text-align: left
+    padding: 0px 14px
+    height: 36px
+    border: 1px solid $border-grey
+    border-radius: 3px 0px 0px 3px
+    vertical-align: top
+    display: inline-block
+    color: $dark-grey
 
-		&::-webkit-input-placeholder 
-			color: $dark-grey
-		
-	.button-search
-		border-radius: 0px 3px 3px 0px
-		padding: 0 16px
-		background: $pam-blue
-		border: 1px solid darken($pam-blue, 5%)
-		height: 36px
+    &::-webkit-input-placeholder
+      color: $dark-grey
 
-	&.shifts-search-bar // Override for Shifts Page
-		.input-search
-			width: 245px
-		.button-search
-			width: 85px
+  .button-search
+    border-radius: 0px 3px 3px 0px
+    padding: 0 16px
+    background: $pam-blue
+    border: 1px solid darken($pam-blue, 5%)
+    height: 36px
+    color: $white
+    text-transform: uppercase
 
+  &.shifts-search-bar
+    // Override for Shifts Page
+           .input-search
+               width: 245px
+           .button-search
+               width: 85px
 
 .button-clear-search
-	background: none
-	border: none
-	color: $pam-blue
+  background: none
+  border: none
+  color: $pam-blue
+  text-transform: uppercase
 
