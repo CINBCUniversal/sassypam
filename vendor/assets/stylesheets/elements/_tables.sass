@@ -34,8 +34,11 @@
   color: $negative !important
 
 table
+  color: $grey
+
   tr
-    border: 1px solid #d6dce0
+    border-top: 1px solid #d6dce0
+    border-bottom: 1px solid #d6dce0
   tr.primary-header
     th
       border-bottom: 1px solid $column-border
@@ -58,25 +61,25 @@ table
         background-color: $selectable
   th,td
     padding: 5px
-    font-size: 12px
   th
     background: $th-gradient
+    text-transform: capitalize
   td
     background: white
-    border: 1px solid $border
+    border-right: 1px solid $border-grey
     max-width: 10rem
     width: 8rem
   td.row-title
     background: #f1f1f1 !important
-    border: 1px solid #D6DCE0
-    border-left: none
-    box-shadow: 0 1px 0 white inset !important
+    border-top: 1px solid #D6DCE0
   td.editable
     padding: 0px
     input
       background-color: $selectable
       padding-right: 5px
       height: 100%
+      font-size: inherit // take this style from parent table
+      color: inherit // take this style from parent table
     input[disabled]
       background-color: $alt-grey
   colgroup.colgroup

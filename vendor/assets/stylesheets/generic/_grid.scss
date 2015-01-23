@@ -18,6 +18,25 @@
 	margin: 0 auto;
 }
 
+/* columns of same height styles */
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display: table;
+    width: 100%;
+}
+.col-xs-height {
+    display: table-cell;
+    float: none !important;
+}
+
+.align-top {
+ vertical-align: top;
+}
+
 .row.no-gutters {
   margin-right: 0;
   margin-left: 0;
