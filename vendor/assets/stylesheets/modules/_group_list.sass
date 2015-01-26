@@ -207,12 +207,42 @@
     color: $timestamp
     font-weight: 100
 
+// Override for children deal activity
+.activity-child
+  background: $alt-grey
+
+.activity-stub
+  min-width: 18px
+
 .activity-child-toggle
   top: 25px
   left: 0
+  cursor: pointer
+  z-index: 10
 
-.activity-timestamp
-  position: relative
+.activity-deal
+  transition: background .2s ease-in-out
+
+  &.deal-acknowledged
+    background: $light-yellow
+
+.timestamp-container
+  top: 0
+  bottom: 0
+  right: -85px
+
+  &:before
+    content: ''
+    width: 20px
+    height: 20px
+    position: absolute
+    background: white
+    box-shadow: 0 0 0 2px #d6dce0
+    border-radius: 50%
+    left: 51%
+    z-index: 1
+    top: 38%
+  
   &:after
     height: 100%
     width: 1px
@@ -221,6 +251,28 @@
     right: 45%
     display: block
     content: ''
+
+  &.deal-child
+    top: 0
+    bottom: 0
+    right: -7px
+    padding-right: 30px
+
+    &:before
+      width: 15px
+      height: 15px
+      box-shadow: 0 0 0 1px #d6dce0
+      top: 41%
+      left: 140px
+
+    &:after
+      height: 100%
+      width: 1px
+      background: $border-grey
+      position: absolute
+      right: 22%
+      display: block
+      content: ''
 
 .list-item-icon
   &.delete
