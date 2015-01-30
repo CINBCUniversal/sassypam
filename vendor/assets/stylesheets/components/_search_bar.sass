@@ -23,14 +23,16 @@ form
   margin-bottom: 0 !important
 
 .search-bar
+  position: relative
+
   .input-search
     background: white
-    width: 345px
+    width: 100%
     text-align: left
     padding: 0px 14px
     height: 36px
     border: 1px solid $border-grey
-    border-radius: 3px 0px 0px 3px
+    border-radius: 10px
     vertical-align: top
     display: inline-block
     color: $dark-grey
@@ -38,21 +40,13 @@ form
     &::-webkit-input-placeholder
       color: $dark-grey
 
-  .button-search
-    border-radius: 0px 3px 3px 0px
-    padding: 0 16px
-    background: $pam-blue
-    border: 1px solid darken($pam-blue, 5%)
-    height: 36px
-    color: $white
-    text-transform: uppercase
-
-  &.shifts-search-bar
-    // Override for Shifts Page
-           .input-search
-               width: 245px
-           .button-search
-               width: 85px
+  .search-button
+    top: 9px
+    right: 18px
+    background: none
+    box-shadow: none
+    outline: 0
+    border: none
 
 .button-clear-search
   background: none
