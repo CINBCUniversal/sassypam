@@ -32,6 +32,9 @@
   .active
     a
       background-color: transparent
+  &.affix
+    position: fixed
+
 
 @mixin side-nav($name, $color:black)
   .side-nav-#{$name}
@@ -43,12 +46,10 @@
 
 @include side-nav(finance, $finance-models)
 
+
+
 //sticky helper for side nav
 
 .sticky
   position: fixed
   top: 90px
-
-//to give spied on element a relative positioning
-.scrollspy
-  position: relative
