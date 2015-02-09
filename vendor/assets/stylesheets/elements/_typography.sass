@@ -1,0 +1,102 @@
+//doc
+  ---
+  title: Typography
+  name: typography
+  category: elements
+  ---
+  Headings: You can use the element tag or the class name
+
+  ```html_example
+    <div class='flex-column flex-center'>
+      <h1 class='h1'>Heading One</h1>
+      <h2 class='h2'>Heading Two</h2>
+      <h3 class='h3'>Heading Three</h3>
+      <h4 class='h4'>Heading Four</h4>
+      <h5 class='h5'>Heading Five</h5>
+      <h6 class='h6'>Heading Six</h6>
+    </div>
+  ```
+  Emphasis
+
+  ```html_example
+    <div class='flex-column flex-center'>
+      <p class='em-low'>Low Emphasis</p>
+      <p class='em-default'>Default Emphasis</p>
+      <p class='em-high'>High Emphasis</p>
+      <p class='em-max'>Max Emphasis</p>
+      <p class='em-italic'>Italic Emphasis</p>
+    </div>
+  ```
+  Type Sizes
+
+  ```html_example
+    <div class='flex-column flex-center'>
+      <p class='title'>Title Type</p>
+      <p class='type-sm'>Small Type</p>
+      <p class='type-xs'>Extra Small Type</p>
+      <p class='type-micro'>Very Small Type (rarely use)</p>
+    </div>
+  ```
+
+html
+  font-family: "Open Sans", sans-serif
+
+h1,h2,h3,h4,h5,h6
+  margin: 0
+
+h1,h2,h3,h4,h6
+  font-weight: 400
+
+$fw-default: normal !default
+
+h1, .h1
+  font-size: 31px
+h2, .h2
+  font-size: 25px
+h3, .h3
+  font-size: 20px
+h4, .h4
+  font-size: 18px
+h5, .h5
+  font-size: 16px
+  font-weight: $fw-default
+h6, .h6
+  font-size: 13px
+
+p
+  font-size: 16px
+
+a
+  text-decoration: none
+  color: $pam-blue
+
+
+.em-low
+  font-weight: 300 !important
+
+.em-default
+  font-weight: 600 !important
+
+.em-high
+  font-weight: 700 !important
+
+.em-max
+  font-weight: 800 !important
+
+.em-alt
+  text-transform: uppercase !important
+
+.em-italic
+  font-style: italic
+
+.title
+  font-size: 42px
+
+.type-sm
+  font-size: 14px
+
+.type-xs
+  font-size: 12px
+
+.type-micro
+  font-size: 10px // USE SPARINGLY, DANGEROUS FOR EYESIGHT
