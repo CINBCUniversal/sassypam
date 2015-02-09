@@ -6,6 +6,7 @@
 InstalledFiles
 _yardoc
 coverage
+docs/
 public/
 lib/bundler/man
 pkg
