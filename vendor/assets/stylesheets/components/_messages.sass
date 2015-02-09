@@ -2,7 +2,7 @@
   ---
   title: Messages
   name: messages
-  category: components
+  category: Components
   ---
   
   Use to communicate instructions, successes, alerts, warnings, or errors.
@@ -11,10 +11,6 @@
     <div class="message-important pal">
       <h3>Important message</h3>
       <p class="mbn">You can use any kind of text in a message. Headings, paragraphs, etc.</p>
-    </div>
-    <br>
-    <div class="message-info">
-      <p class="man">Info message</p>
     </div>
     <br>
     <div class="message-success">
@@ -49,7 +45,6 @@
     background-color: $background
 
 @include message('important', $blue, $blue, $white)
-@include message('info', $light-blue, $light-light-blue)
 @include message('success', $green, $light-green)
 @include message('alert', $yellow, $light-yellow)
 @include message('warning', $orange, $light-orange)

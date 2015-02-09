@@ -15,19 +15,107 @@
   </ol>
 
   ```html_example
-    <table><thead><tr class="primary-header"><th></th><th class="left-align">Table Header</th><th class="right-align">Table Header</th><th class="right-align">Table Header</th><th class="right-align">Table Header</th><th class="right-align">Table Header</th><th class="right-align">Table Header</th></tr></thead><tbody><tr><td class="row-title">Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr><td class="row-title">Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr><td class="row-title">Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr><td class="row-title">Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr><td class="row-title">Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr class="selectable"><td class="row-title">Selectable Row</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr class="row-summary"><td>Row Summary</td><td class="left-align"></td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr class="grand-summary"><td>Grand Row Summary</td><td class="left-align"></td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr></tbody></table>
-  ```
+  <table class="content-border">
+    <thead>
+      <tr class="primary-header">
+        <th></th>
+        <th class="left-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+      </tr>
+    </thead>
 
-  Data Entry &amp; Multiple Headers (Colgroups) <b>MISSING STYLE</b>
+    <tbody>
+      <tr>
+        <td class="row-title">Row Title</td>
+        <td class="left-align">Noneditable Text</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+      </tr>
 
-  ```html_example
-    <table><colgroup><col></colgroup><colgroup class="colgroup"><col><col></colgroup><colgroup class="colgroup"><col><col></colgroup><colgroup class="colgroup"><col><col></colgroup><thead><tr class="primary-header"><th></th><th colspan="2">Primary Header</th><th colspan="2">Primary Header</th><th colspan="2">Primary Header</th></tr><tr class="secondary-header"><th></th><th>Table Header</th><th>Table Header</th><th>Table Header</th><th>Table Header</th><th>Table Header</th><th>Table Header</th></tr></thead><tbody><tr class="editable"><td class="row-title">Editable Row</td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td></tr><tr class="editable"><td class="row-title">Editable Row</td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td></tr><tr class="editable"><td class="row-title">Editable Row</td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td><td class="right-align editable"><input></td></tr><tr class="row-summary"><td class="row-title">Row Summary</td><td class="left-align"></td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr class="grand-summary"><td class="row-title">Grand Row Summary</td><td class="left-align"></td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr></tbody></table>
+      <tr class="selectable">
+        <td class="row-title">Selectable Row</td>
+        <td class="left-align">Noneditable Text</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+      </tr>
+
+      <tr class="row-summary">
+        <td>Row Summary</td>
+        <td class="left-align"></td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+      </tr>
+
+      <tr class="grand-summary">
+        <td>Grand Row Summary</td>
+        <td class="left-align"></td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+      </tr>
+    </tbody>
+  </table>
   ```
 
   Reports Table
 
   ```html_example
-    <table class="report"><thead><tr class="primary-header"><th></th><th class="left-align">Table Header</th><th class="right-align">Table Header</th><th class="right-align">Table Header</th><th class="right-align">Table Header</th><th class="right-align">Table Header</th><th class="right-align">Table Header</th></tr></thead><tbody><tr><td>Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr><td>Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr><td>Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr><td>Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr><td>Row Title</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr class="selectable"><td>Selectable Row</td><td class="left-align">Noneditable Text</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr class="row-summary"><td>Row Summary</td><td class="left-align"></td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr><tr class="grand-summary"><td>Grand Row Summary</td><td class="left-align"></td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td><td class="right-align negative">($123,456,789)</td><td class="right-align">$123,456,789</td></tr></tbody></table>
+  <table class="report content-border">
+    <thead>
+      <tr class="primary-header">
+        <th class="left-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+        <th class="right-align">Table Header</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="left-align">Noneditable Text</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+      </tr>
+
+      <tr>
+        <td class="left-align">Noneditable Text</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+      </tr>
+
+      <tr>
+        <td class="left-align">Noneditable Text</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+        <td class="right-align negative">($123,456,789)</td>
+        <td class="right-align">$123,456,789</td>
+      </tr>
+    </tbody>
+  </table>
   ```
 
 .negative
