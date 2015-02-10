@@ -1,27 +1,31 @@
 //doc
   ---
-  title: Content Title Module
-  name: content-title-module
+  title: Content Title
+  name: content-title
   category: modules
   ---
-  The main page content title goes here with any additional details
+  The main page content title goes here with any additional details. You won't need
+  the border classes if it's wrapped in a content-border class
 
   ```html_example
-    <div class="content-title-finance"><h1>Bravo</h1><h6>Gross Cash P&amp;L</h6></div>
+    <div class="content-title-finance border-right border-left">
+      <h1>Bravo</h1>
+      <h6>Gross Cash Profit</h6>
+    </div>
   ```
 %content-title-base
-	background: white
-	position: relative
-	padding: .75rem
-	border-bottom: 1px solid $border-grey
+  background: white
+  position: relative
+  padding: .75rem
+  border-bottom: 1px solid $border-grey
 
-	h2
-		display: inline-block
+  h2
+    display: inline-block
 
 @mixin content-title($name, $highlight)
-	.content-title-#{$name}
-		@extend %content-title-base
-		box-shadow: 0 -2px 0 0 $highlight
+  .content-title-#{$name}
+    @extend %content-title-base
+    box-shadow: 0 -2px 0 0 $highlight
 
 @include content-title(finance, $finance-models)
 @include content-title(registrations, $registrations)
@@ -37,6 +41,6 @@
 @include content-title(history, $pam-blue)
 
 .content-title-logo img
-	width: 50px
-	height: 75px
-	object-fit: contain
+  width: 50px
+  height: 75px
+  object-fit: contain

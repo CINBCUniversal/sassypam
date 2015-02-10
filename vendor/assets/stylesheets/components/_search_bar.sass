@@ -5,16 +5,21 @@
   category: Components
   ---
 
-    If you are using Rails, you can generate pagination automagically by using the Kaminari gem. Just use '.paginate-container'
-     Otherwise, you can use the markup below!
+  Search bars take up full width with a search icon to the right and a clear search button
+  if needed. Usually put inside of a filter module.
 
   ```html_example
-    <div class="search-bar">
-      <input class="input-search" placeholder="Search for stuff!" type="text" value="">
-      <button class="button-search" name="button" type="submit"><i class="sms-glyph-icon_search prm"></i>Search</button>
-      <button class="button-clear-search" data-behavior="clear_deal_search" name="button" type="submit">Clear Search</button>
+    <div class="search-bar width-100 cf flex-center pal">
+      <div class="col-xs-10">
+        <input class="input-search width-100 h5 em-low" placeholder="Search for stuff!" type="text" value="">
+        <button class="search-button pos-abs" name="button" type="submit">
+          <i class="sms-glyph-icon_search h5 mrs"></i>
+        </button>
+      </div>
+      <div class="col-xs-2">
+        <button class="button-clear-search em-alt h6" name="button" type="submit">Clear Search</button>
+      </div>
     </div>
-
   ```
 
 
@@ -22,7 +27,7 @@
 form
   margin-bottom: 0 !important
 
-.search-bar
+.search-bar, .filter-bar
   position: relative
 
   .input-search
@@ -40,13 +45,16 @@ form
     &::-webkit-input-placeholder
       color: $dark-grey
 
-  .search-button
-    top: 9px
+  .search-button, .filter-icon
     right: 18px
     background: none
     box-shadow: none
     outline: 0
     border: none
+  .search-button
+    top: 5px
+  .filter-icon
+    top: 10px
 
 .button-clear-search
   background: none

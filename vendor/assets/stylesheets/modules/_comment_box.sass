@@ -1,76 +1,113 @@
+//doc
+  ---
+  title: Comments
+  name: comments
+  category: modules
+  ---
+
+  Comment Boxes are an Angular component in PAM. You can still use the styles, but the UX will not work
+  unless you have all the Angular magic hooked up! Refer to the PAM source code for more details.
+
+  ```html_example
+  <div class="comments-wrap">
+    <div class="comment cf" >
+      <div class="comment-log col-xs-3 pvl right-align">
+        <p class="comment-date pvn mvn type-xs">February 10 10:41 AM EST</p>
+        <p class="comment-author pvn mvn type-xs em-default">Brian Klatt</p>
+      </div>
+      <div class="comment-body col-xs-8 pvl mll">
+        <div class="comment-timeline">
+          <div class="comment-timeline-vr"></div>
+          <div class="comment-timeline-circle"></div>
+        </div>
+        <div class="comment-content phl pvm mll">
+          <div class="ng-scope">
+            <div class="pull-right">
+              <i class="sms-glyph-icon_pencil-edit comment-icon-edit mrm"></i>
+              <i class="sms-glyph-icon_trash comment-icon-delete"></i>
+            </div>
+            A really great comment
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  ```
+
+
 .comments-wrap
-	textarea
-		outline: 0
-	.comments-header
-		background: linear-gradient(#fbfbfb, #f3f3f3)
-	.comments-empty
-		height: 100%
-		// box-shadow: inset 0 0 0 10px white
-		min-height: 0
-	
-		i
-			color: $lightest-grey
+  textarea
+    outline: 0
+  .comments-header
+    background: linear-gradient(#fbfbfb, #f3f3f3)
+  .comments-empty
+    height: 100%
+    // box-shadow: inset 0 0 0 10px white
+    min-height: 0
 
-	.comments-list
-		height: 425px
-		overflow-y: scroll
-	.comment-body
-		position: relative
-		border-left: 4px solid $border-grey
-	.comment-content
-		background-color: #ebf8ff
-		box-shadow: inset 2px 0 0 0 $pam-blue
-		word-wrap: break-word
-		
-		&.external
-			min-height: 60px
+    i
+      color: $lightest-grey
 
-		textarea
-			width: 90%
-			display: inline-block
-			padding-right: 10px
-			line-height: 1
-			border: none
-			font-size: inherit
-	.comment-timeline
-		display: inline-block
-		position: absolute
-		top: 15px
-		left: -12px
-		z-index: 99	
-	.comment-timeline-circle
-		border-radius: 10px
-		background-color: white
-		display: block
-		width: 20px
-		height: 20px
-		border: 1px solid #d6dce0
-	.comment-timeline-vr
-		width: 10px
-		height: 1px
-		background-color: #d6dce0
-		position: absolute
-		top: 50%
-		right: 20px
-	.comment-icon-edit, .comment-icon-delete
-		color: $lightest-grey
-		cursor: pointer
+  .comments-list
+    height: 425px
+    overflow-y: scroll
+  .comment-body
+    position: relative
+    border-left: 4px solid $border-grey
+  .comment-content
+    background-color: #ebf8ff
+    box-shadow: inset 2px 0 0 0 $pam-blue
+    word-wrap: break-word
 
-		&:hover
-			color: $lighter-grey
-	.comment-icon-save
-		color: $pam-blue
-		cursor: pointer
-	.comments-form
-		button
-			border-radius: 0px
-			height: 50px
-		textarea
-			height: 50px
-			border-top: 1px solid $border-grey
-			border-bottom: 1px solid $border-grey
-			border-left: 0
-			font-size: inherit
-			border-right: 0
+    &.external
+      min-height: 60px
+
+    textarea
+      width: 90%
+      display: inline-block
+      padding-right: 10px
+      line-height: 1
+      border: none
+      font-size: inherit
+  .comment-timeline
+    display: inline-block
+    position: absolute
+    top: 15px
+    left: -12px
+    z-index: 99
+  .comment-timeline-circle
+    border-radius: 10px
+    background-color: white
+    display: block
+    width: 20px
+    height: 20px
+    border: 1px solid #d6dce0
+  .comment-timeline-vr
+    width: 10px
+    height: 1px
+    background-color: #d6dce0
+    position: absolute
+    top: 50%
+    right: 20px
+  .comment-icon-edit, .comment-icon-delete
+    color: $lightest-grey
+    cursor: pointer
+
+    &:hover
+      color: $lighter-grey
+  .comment-icon-save
+    color: $pam-blue
+    cursor: pointer
+  .comments-form
+    button
+      border-radius: 0px
+      height: 50px
+    textarea
+      height: 50px
+      border-top: 1px solid $border-grey
+      border-bottom: 1px solid $border-grey
+      border-left: 0
+      font-size: inherit
+      border-right: 0
 
 
