@@ -112,6 +112,8 @@ ol {
 h1.styleguide {
   margin-bottom: 5px;
   padding-top: 70px;
+  color: #e670a4;
+  font-weight: 900;
 }
 
 .codeExample {
@@ -169,4 +171,27 @@ h1.styleguide {
 .styleguide-component-wrapper {
   height: 75px;
   width: 100px;
+}
+
+#glyphs i {
+  font-size: 32px;
+  padding: 0.5em;
+  display: inline-block;
+  color: #738890;
+}
+
+._styleGuide__colors .swatch {
+  height: 100px;
+  width: 100px;
+  margin-right: 12px;
+  display: inline-block;
+  border: 5px solid white;
+  box-shadow: 0 0 0 1px #e3e3e3;
+  position: relative;
+  color: white;
+}
+
+._styleGuide__colors .swatch p{
+  text-align: center;
+  padding: 0px;
 }

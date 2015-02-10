@@ -8,21 +8,25 @@
 <link rel="stylesheet" href="./normalize.css">
 <link rel="stylesheet" href="./github.css">
 <link rel="stylesheet" href="./styleguide.css">
+<!-- Latest jQuery -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!-- Styleguide specific JavaScript -->
 <script type="text/javascript" src="./main.js"></script>
 </head>
 <body>
-<nav class="global-header">
+<div class="global-header">
   <div class="sassypam">
     <a href='index.html'><h2 class='center-align pam'>Sassypam</h2></a>
   </div>
-</nav>
+</div>
 
 <aside class="main-nav">
   <ul class="list-vertical-left">
     <% @categories.each do |category, file_name| %>
       <li class='ct-js'>
-        <a class="category-link width-100 phs pvl h3" href="<%= file_name %>"><%= category %></a>
+        <a class="category-link width-100 phl pvl h3" href="<%= file_name %>"><%= category %></a>
         <ul class="list-vertical-left hide pbl">
           <% @blocks.each do |b| %>
             <li><a class="block-link phl pvs type-sm" href="#<%= b[:name] %>"><%= b[:title] %></a></li>
