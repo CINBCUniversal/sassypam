@@ -1,12 +1,5 @@
-//Dead simple grid system
+//Dead simple grid system from Bootstrap
 // Made better by Abhi & Matt
-
-// $columns: 12
-
-// @for $i from 1 through $columns
-// 	.cols-#{$i}
-// 		width: (($i/$columns)*100)*1%
-// 		float: left
 
 .row {
   margin-left: -15px;
@@ -16,6 +9,29 @@
 .center-column {
 	float: none !important;
 	margin: 0 auto;
+}
+
+/* columns of same height styles */
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display: table;
+    width: 100%;
+}
+.col-xs-height {
+    display: table-cell;
+    float: none !important;
+}
+
+.align-top {
+ vertical-align: top;
+}
+
+.align-middle {
+ vertical-align: middle;
 }
 
 .row.no-gutters {

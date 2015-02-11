@@ -1,0 +1,78 @@
+//doc
+  ---
+  title: Sticky Panel
+  name: sticky-panel
+  category: Components
+  ---
+
+  Sticky panels will require adding an include statement to the sticky
+  panel mixin with color of choice.
+
+  You will also need to include whatever javascript to get the panel
+  to fix. See the Quintiles or Finance Model pages for examples.
+
+  ```html_example
+  <div class="ptl sticky-panel-quintiles affix-top" data-affix-nav="">
+    <div class="quintiles-summary-header center-align pvs mrl">
+      <h6 class="group-list-heading em-alt em-default">Summary</h6>
+    </div>
+    <div class="pam content-border mrl">
+      <div class="flex-column mvl ng-scope">
+        <div class="flex-center">
+          <h6 class="em-default ng-binding">Quintile 1</h6>
+          <h6 class="em-default ng-binding">- 2.4%</h6>
+        </div>
+        <div class="flex-center flex-between">
+          <h6 class="ng-binding">$8,687,072</h6>
+          <h6 class="ng-binding">136.2% - 148.5%</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  ```
+
+%sticky-panel
+  list-style-type: none
+  background: white
+  display: flex
+  flex-direction: column
+  padding: 0px
+  li
+    padding: 4px 20px
+  a
+    color: $dark-blue
+    font-size: 14px
+    padding-left: 18px //offset the 2px border
+    &:hover
+      cursor: pointer
+      color: $dark-blue
+    &:visited
+      color: $dark-blue
+  .active
+    a
+      background-color: transparent
+  &.affix
+    position: absolute
+    width: 100%
+
+
+@mixin sticky-panel($name, $color:black)
+  .sticky-panel-#{$name}
+    @extend %sticky-panel
+    .active
+      a
+        border-left: 2px solid $color
+        color: $color
+    .#{$name}-summary-header
+      background: rgba($color, .7)
+      .group-list-heading
+        color: white
+
+@include sticky-panel(quintiles, $quintiles)
+
+
+//sticky helper for side nav
+
+.sticky
+  position: fixed
+  top: 90px

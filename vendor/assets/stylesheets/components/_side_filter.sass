@@ -1,0 +1,63 @@
+//Side Filters currently used in PAM 
+//coincide with Select2 stuff.
+
+.side-filter
+  position: fixed
+  right: 0
+  top: 50px
+  bottom: 0
+  z-index: 9999
+
+  .side-filters-toggle
+    color: white
+    top: 3px
+    font-size: 18px
+
+  .side-filter-options
+    background: #404b59
+    color: white
+    -webkit-font-smoothing: antialiased
+    padding: 10px
+    z-index: 2000
+    width: 350px
+    height: 100%
+    overflow-y: scroll
+
+  fieldset
+    border: 0
+
+  legend
+    border-bottom: 1px solid rgba(255,255,255, .1)
+    width: 100%
+
+  .side-filter-title
+    color: inherit
+
+  .side-filter-option
+    label
+      &.required
+        abbr
+          color: $red
+          border-bottom: 0
+
+    .sorted_select
+      margin-bottom: 10px
+    .select2-container
+      width: 100% !important
+  .side-filter-input
+    input
+      width: auto
+      margin-right: 5px
+    label
+      padding-left: 10px
+  button.add-filter
+    top: -10px
+    right: -13px
+
+  .filter_value
+    width: 100%
+    .select2-choices
+      min-height: 26px
+  .filter_value_wrapper
+    .select2-container-multi .select2-choices
+      height: auto !important

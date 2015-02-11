@@ -1,100 +1,69 @@
-//flex helpers
-// Simple Flex Grid System
+//Set 100% height on html,body so that main-content can overflow. Override this if you don't want this
+html,body
+  height: 100%
 
-%flex
-	display: flex
-
-.flex, .flex-end, .flex-between, .flex-start, .flex-column, .flex-center
-	@extend %flex
-
-.flex-between
-	justify-content: space-between
-.flex-end
-	justify-content: flex-end
-.flex-start
-	justify-content: flex-start
-.flex-grow
-	flex-grow: 1
-.flex-column
-	flex-direction: column
-.flex-center
-	align-items: center
-.flex-1
-	flex: 1
-.flex-justify
-	justify-content: center
-
-
-.list-horizontal
-	margin: 0
-	padding: 0
-	border: 0
-	line-height: 1.35
-
-	li
-		list-style-image: none
-		list-style-type: none
-		margin-left: 0
-		white-space: nowrap
-		float: left
-		padding: 0 0.25em 0 0
-
-		&:first-child
-			padding-left: 0
-
-.list-divider
-	li
-		&:after
-			content: "\2022"
-			color: #d6dce0
-			padding: 5px
-
-		&:last-of-type
-			&:after
-				content: ''
+.ton
+  top: 0 !important
 
 //Visibility
 .hide, .hidden
-	display: none !important
+  display: none !important
 
 .accessibly-hidden
-	position: absolute !important
-	height: 1px
-	width: 1px
-	overflow: hidden
-	clip: rect(1px 1px 1px 1px)
-	clip: rect(1px, 1px, 1px, 1px)
-
+  position: absolute !important
+  height: 1px
+  width: 1px
+  overflow: hidden
+  clip: rect(1px 1px 1px 1px)
+  clip: rect(1px, 1px, 1px, 1px)
 
 //Layout
-.pull-right	
-	float: right !important
+.pull-right
+  float: right !important
+
 .pull-left
-	float: left !important
+  float: left !important
 
 .width-100
-	width: 100%
+  width: 100%
 
-//Borders
-.border-right
-	border-right: 1px solid $border-grey
-.border-left
-	border-left: 1px solid $border-grey
-.border-top
-	border-top: 1px solid $border-grey
-.border-bottom
-	border-bottom: 1px solid $border-grey
+.width-auto
+  width: auto
+
+.inline-block
+  display: inline-block
+
 
 .pos-abs
-	position: absolute
+  position: absolute
+
 .pos-rel
-	position: relative
+  position: relative
+
+.pos-fix
+  position: fixed
+
 .pos-abs-reset
-	left: 0
-	right: 0
-	bottom: 0
-	top: 0    
+  left: 0
+  right: 0
+  bottom: 0
+  top: 0
+
 .width-100
-	width: 100%
+  width: 100%
+
 .height-100
-	height: 100%
+  height: 100%
+
+.gradient-bg
+  background: $th-gradient
+
+.cursor
+  cursor: pointer
+
+// Because we can't make up our minds
+.inherit-bg
+  background: inherit
+
+.table-fixed
+  table-layout: fixed

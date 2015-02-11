@@ -1,31 +1,63 @@
+//doc
+  ---
+  title: Search bar
+  name: search-bar
+  category: Components
+  ---
+
+  Search bars take up full width with a search icon to the right and a clear search button
+  if needed. Usually put inside of a filter module.
+
+  ```html_example
+    <div class="search-bar width-100 cf flex-center pal">
+      <div class="col-xs-10">
+        <input class="input-search width-100 h5 em-low" placeholder="Search for stuff!" type="text" value="">
+        <button class="search-button pos-abs" name="button" type="submit">
+          <i class="sms-glyph-icon_search h5 mrs"></i>
+        </button>
+      </div>
+      <div class="col-xs-2">
+        <button class="button-clear-search em-alt h6" name="button" type="submit">Clear Search</button>
+      </div>
+    </div>
+  ```
+
+
 // Remove Chrome-added 1em of margin-bottom to <form> elements
 form
-	margin-bottom: 0 !important
+  margin-bottom: 0 !important
 
-.search-bar
-	.input-search
-		background: white
-		width: 345px
-		text-align: left
-		padding: 0px 14px
-		height: 36px
-		border: 1px solid $border-grey
-		border-radius: 3px 0px 0px 3px
-		vertical-align: top
-		display: inline-block
-		color: $dark-grey
+.search-bar, .filter-bar
+  position: relative
 
-		&::-webkit-input-placeholder 
-			color: $dark-grey
-		
-	.button-search
-		border-radius: 0px 3px 3px 0px
-		padding: 0 16px
-		background: $pam-blue
-		border: 1px solid darken($pam-blue, 5%)
-		height: 36px
+  .input-search
+    background: white
+    width: 100%
+    text-align: left
+    padding: 0px 14px
+    height: 36px
+    border: 1px solid $border-grey
+    border-radius: 10px
+    vertical-align: top
+    display: inline-block
+    color: $dark-grey
+
+    &::-webkit-input-placeholder
+      color: $dark-grey
+
+  .search-button, .filter-icon
+    right: 18px
+    background: none
+    box-shadow: none
+    outline: 0
+    border: none
+  .search-button
+    top: 5px
+  .filter-icon
+    top: 10px
+
 .button-clear-search
-	background: none
-	border: none
-	color: $pam-blue
-
+  background: none
+  border: none
+  color: $pam-blue
+  text-transform: uppercase

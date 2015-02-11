@@ -6,6 +6,7 @@ $bg-page: #e9ebed
 $dark-blue: #282e39
 $pam-blue: #009BEF
 
+
 $grey: #222
 $dark-grey: darken($grey, 10%)
 $light-grey: lighten($grey, 5%)
@@ -17,9 +18,17 @@ $alt-grey: #F9FAFA
 $pagination-grey: #EEF1F3
 
 $green: #45ce6f
+$light-green: lighten($green, 35%)
+$blue: #04A5F1
+$light-blue: #ebf8ff
+$light-light-blue: lighten($light-blue, 30%)
 $red: #ce4545
+$light-red: lighten($red, 40%)
 $yellow: #F3D124
+$light-yellow: lighten($yellow, 35%)
 $orange: #e67e22
+$light-orange: lighten($orange, 40%)
+
 $black: #000000
 $white: #FFFFFF
 $pam-purple: #6a7487
@@ -48,3 +57,18 @@ $modal-bg: #302E2E
 
 // Shark Sass Overrides for time being
 $blue-grey: #8C93A1
+
+//bg for sassypam
+@mixin color($name, $color)
+  .#{$name}-bg
+    background: $color
+
+@include color(dark-blue, $dark-blue)
+@include color(finance-models, $finance-models)
+@include color(registrations, $registrations)
+@include color(pacing, $pacing)
+@include color(shifts, $shifts)
+@include color(reports, $reports)
+@include color(portal-management, $portal-management)
+@include color(admin, $admin)
+@include color(quintiles, $quintiles)

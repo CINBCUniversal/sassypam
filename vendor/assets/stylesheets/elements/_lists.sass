@@ -33,7 +33,36 @@ ul
 
 @include list(horizontal, 10px, inline-block, middle)
 @include list(horizontal, 10px, inline-block, top)
+@include list(horizontal, 5px, inline-block, top-alt)
 @include list(horizontal, 10px, inline-block, bottom)
 @include list(vertical, 10px, block, left)
 @include list(vertical, 10px, block, center)
 @include list(vertical, 10px, block, right)
+
+.list-horizontal
+  margin: 0
+  padding: 0
+  border: 0
+  line-height: 1.35
+
+  li
+    list-style-image: none
+    list-style-type: none
+    margin-left: 0
+    white-space: nowrap
+    float: left
+    padding: 0 0.25em 0 0
+
+    &:first-child
+      padding-left: 0
+
+.list-divider
+  li
+    &:after
+      content: "\2022"
+      color: #d6dce0
+      padding: 5px
+
+    &:last-of-type
+      &:after
+        content: ''

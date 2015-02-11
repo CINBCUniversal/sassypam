@@ -1,0 +1,45 @@
+//doc
+  ---
+  title: Messages
+  name: messages
+  category: Components
+  ---
+
+  Use to communicate instructions, successes, alerts, warnings, or errors.
+
+  ```html_example
+    <div class="message-success">
+      <p class="man">Success message</p>
+    </div>
+    <br>
+    <div class="message-alert">
+      <p class="man">Alert message</p>
+    </div>
+    <br>
+    <div class="message-warning">
+      <p class="man">Warning message</p>
+    </div>
+    <br>
+    <div class="message-error">
+      <p class="man">Error message</p>
+    </div>
+  ```
+
+%message-base
+  border: none
+  border-left: 2px solid
+  position: relative
+  padding: 7px 10px
+
+@mixin message($name, $border-color:white, $background:white, $color:$grey)
+  .message-#{$name}
+    @extend %message-base
+    color: $color
+    border-color: $border-color
+    background-color: $background
+
+@include message('important', $blue, $blue, $white)
+@include message('success', $green, $light-green)
+@include message('alert', $yellow, $light-yellow)
+@include message('warning', $orange, $light-orange)
+@include message('error', $red, $light-red)

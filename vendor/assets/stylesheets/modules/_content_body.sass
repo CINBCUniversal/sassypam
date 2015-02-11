@@ -1,44 +1,51 @@
 // Creating a faux viewport for scrolling the main content div (and not sidebar)
-html,body
-	overflow: hidden
+html, body
+  overflow: hidden
 
 body
-	&.collapsed
 
-		.pam-branding
-			width: 48px
-		
-		.logo span
-			opacity: 0
+  &.modal-open
+    .main-content
+      z-index: 2
 
-		.main-content
-			margin-left: 47px
+  &.collapsed
 
-		.collapse-icon 
-			background: rgba(0,0,0, .10)
+    .pam-branding
+      width: 48px
 
-			i
-				color: $pam-blue
+    .logo span
+      opacity: 0
+
+    .main-content
+      margin-left: 47px
+
+    .collapse-icon
+      background: rgba(0, 0, 0, .10)
+
+      i
+        color: $pam-blue
 
 .main-content
-	margin-left: 230px
-	background: $white
-	height: 100%
-	position: relative
-	z-index: 1
-	transition: margin .2s ease-in-out
-	top: 50px
-	overflow-y: scroll
-	padding-bottom: 30px // Hack so that bottom of page doesn't get cut off if it scrolls
+  margin-left: 230px
+  background: $white
+  height: 99% //in order to see the bottom of the page since it's a viewport
+  position: relative
+  z-index: 1
+  // transition: margin .2s ease-in-out
+  top: 50px
+  overflow-y: scroll
+  padding-bottom: 30px
+  // Hack so that bottom of page doesn't get cut off if it scrolls
 
-	.global-header
-		border-left: 1px solid rgba(255, 255, 255, 0.2)
+  .global-header
+    border-left: 1px solid rgba(255, 255, 255, 0.2)
 
 .content, .content-body
-	@extend %clearfix
+  @extend %clearfix
 
 .content-body
-	background: white
+  background: white
+
 .content-border
-	border: 1px solid $border-grey
+  border: 1px solid $border-grey
 

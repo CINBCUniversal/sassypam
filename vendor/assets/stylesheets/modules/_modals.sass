@@ -1,13 +1,27 @@
 //doc
   ---
-  title: Modals Module
-  name: modals-module
+  title: Modals
+  name: modals
   category: modules
   ---
   Modals are modules layed on top of the page to allow the user to walk thru a specific action or alert them of something.
 
+  Modals are used with Bootstraps Modal JavaScript, please refer to <a href='https://getbootstrap.com' target='_blank'>Bootstrap</a> on how to use
+
   ```html_example
-    <div class="example-modal"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h3 class="pal">This is a Modal</h3></div><div class="modal-body"><p class="pal">This part could contain some important information for the user</p></div><div class="modal-footer pal"><button class="button-primary" data-target="#modal" data-toggle="modal">Live Demo</button></div></div></div></div>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header pal">
+        <h2 class="modal-title">Alert</h2>
+      </div>
+      <div class="modal-body pal">
+        <p>Quarterly percentages do not add up to 100%, please update</p>
+      </div>
+      <div class="modal-footer pal">
+        <button class="button pull-left" data-dismiss="modal" type="button">Close</button>
+      </div>
+    </div>
+  </div>
   ```
 .modal
   position: fixed
@@ -42,9 +56,11 @@
   background: white
 
 .modal-header
-  border-bottom: 1px solid $alt-grey
+  border-bottom: 1px solid #e5e5e5
 .modal-body
-  border-bottom: 1px solid $alt-grey
+  border-bottom: 1px solid #e5e5e5
+  textarea
+    min-height: 200px
 .modal-footer
   display: flex
   justify-content: flex-end
