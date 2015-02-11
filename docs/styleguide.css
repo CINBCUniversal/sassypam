@@ -111,7 +111,7 @@ ol {
 
 h1.styleguide {
   margin-bottom: 5px;
-  padding-top: 70px;
+  padding-top: 40px;
   color: #e670a4;
   font-weight: 900;
 }
@@ -199,4 +199,24 @@ h1.styleguide {
 .force-up {
   margin-top: -70px;
 }
+.logo-container {
+  background: #282e39;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  right: 20px;
+  position: relative;
+  top: 5px;
+  transition: .5s ease-in-out all;
+}
 
+.logo-container:hover {
+  background: white;
+}
+
+.logo-container img {
+  width: 40px;
+  vertical-align: middle;
+  height: 40px;
+  object-fit: contain;
+}

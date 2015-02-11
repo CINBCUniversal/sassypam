@@ -5,6 +5,10 @@ $(document).ready(function() {
     getCategory = $category[localStorage.getItem('activeCategoryIndex')];
     $(getCategory).find('.list-vertical-left').removeClass('hide');
     $(getCategory).find('.category-link').addClass('active');
+    if (/home/.test(self.location.href) || /index/.test(self.location.href) ) {
+      $(getCategory).find('.list-vertical-left').addClass('hide');
+    }
+
 
   }
 
