@@ -5,14 +5,15 @@
   category: Components
   ---
 
-  Filter bars take up full width with a filter icon to the right. Usually put inside of a filter module.
+  Filter bars take up full width with a filter icon to the right. Filter icons are absolutely
+  positioned, it might look a little low here, but it perks up in the app.
 
   ```html_example
-    <div class="filter-bar width-100 cf flex-center pal">
+    <div class="filter-bar flex-center cf width-100">
       <div class="col-xs-12">
         <input class="input-search width-100 h5 em-low" placeholder="Filter for stuff!" type="text" value="">
         <div class="filter-icon pos-abs" name="button" type="submit">
-          <i class="sms-glyph-filter h5 mrs pos-abs"></i>
+          <i class="sms-glyph-filter h5 mrs"></i>
         </div>
       </div>
     </div>
