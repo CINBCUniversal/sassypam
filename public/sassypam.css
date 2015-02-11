@@ -541,10 +541,16 @@ th {
   margin-left: auto !important; }
 
 .pvvl {
-  padding: 40px !important; }
+  padding: 50px !important; }
 
 .mvvl {
-  margin: 40px !important; }
+  margin: 50px !important; }
+
+.mtvl {
+  margin-top: 50px !important; }
+
+.mbvl {
+  margin-bottom: 50px !important; }
 
 .ars {
   right: 5px; }
@@ -3031,6 +3037,11 @@ ul {
 .list-divider li:last-of-type:after {
   content: ""; }
 
+.ul-disc {
+  list-style-type: disc;
+  margin-left: 1em;
+  padding-left: 1em; }
+
 input {
   border: none;
   padding: 0px;
@@ -3311,7 +3322,7 @@ form {
     outline: 0;
     border: none; }
   .search-bar .search-button, .filter-bar .search-button {
-    top: 5px; }
+    top: 9px; }
   .search-bar .filter-icon, .filter-bar .filter-icon {
     top: 10px; }
 
