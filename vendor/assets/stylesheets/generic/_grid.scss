@@ -1,12 +1,5 @@
-//Dead simple grid system
+//Dead simple grid system from Bootstrap
 // Made better by Abhi & Matt
-
-// $columns: 12
-
-// @for $i from 1 through $columns
-// 	.cols-#{$i}
-// 		width: (($i/$columns)*100)*1%
-// 		float: left
 
 .row {
   margin-left: -15px;

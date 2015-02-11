@@ -1,93 +1,9 @@
-//doc
-  ---
-  title: Borders
-  name: borders
-  category: utilities
-  ---
-
-  Border helpers can be used on any element
-
-  ```html_example
-  <span class='content-border pam mal'>A border on all sides</span>
-  <span class='border-top mal pam'>A border top</span>
-  <span class='border-bottom mal pam'>A border bottom</span>
-  <span class='border-right mal pam'>A border right</span>
-  <span class='border-left mal pam'>A border left</span>
-  ```
-
-
-//flex helpers
-// Simple Flex Grid System
-
-%flex
-  display: flex
-
-.flex, .flex-end, .flex-between, .flex-start, .flex-column, .flex-center
-  @extend %flex
-
-.flex-none
-  flex: 0 !important
-  display: block !important
-
-.flex-between
-  justify-content: space-between
-
-.flex-align-end
-  align-items: flex-end
-
-.flex-end
-  justify-content: flex-end
-
-.flex-start
-  justify-content: flex-start
-
-.flex-grow
-  flex-grow: 1
-
-.flex-column
-  flex-direction: column
-.flex-center
-  align-items: center
-
-.flex-1
-  flex: 1
-
-.flex-2
-  flex: 2
-
-.flex-justify
-  justify-content: center
+//Set 100% height on html,body so that main-content can overflow. Override this if you don't want this
+html,body
+  height: 100%
 
 .ton
   top: 0 !important
-
-.list-horizontal
-  margin: 0
-  padding: 0
-  border: 0
-  line-height: 1.35
-
-  li
-    list-style-image: none
-    list-style-type: none
-    margin-left: 0
-    white-space: nowrap
-    float: left
-    padding: 0 0.25em 0 0
-
-    &:first-child
-      padding-left: 0
-
-.list-divider
-  li
-    &:after
-      content: "\2022"
-      color: #d6dce0
-      padding: 5px
-
-    &:last-of-type
-      &:after
-        content: ''
 
 //Visibility
 .hide, .hidden
@@ -117,21 +33,6 @@
 .inline-block
   display: inline-block
 
-//Borders
-.border-right
-  border-right: 1px solid $border-grey
-
-.border-left
-  border-left: 1px solid $border-grey
-
-.border-top
-  border-top: 1px solid $border-grey
-
-.border-bottom
-  border-bottom: 1px solid $border-grey
-
-.border-none
-  border: none !important
 
 .pos-abs
   position: absolute
