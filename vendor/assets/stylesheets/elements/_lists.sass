@@ -1,8 +1,125 @@
+//doc
+  ---
+  title: Lists
+  name: lists
+  category: elements
+  ---
+
+  <span class="em-high">Note: </span>For suped up list styles, check out Group Lists in Modules.
+
+
+  Vertical lists.
+  Unordered lists are vertical and unstyled by default.
+
+  ```html_example
+  <div class="flex">
+    <div class="flex-1">
+      <p>I am a default unordered list.</p>
+      <ul>
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Grapes</li>
+        <li>Bananas</li>
+      </ul>
+    </div>
+    <div class="flex-1">
+      <p>I am a bulleted list.</p>
+      <ul class="ul-disc">
+        <li>Tacos</li>
+        <li>Enchiladas</li>
+        <li>Burritos</li>
+        <li>Chimichangas</li>
+      </ul>
+    </div> 
+  </div>
+
+  ```
+  Basic horizontal list. Use whitespace classes as needed.
+  
+  ```html_example
+  <div class="flex">
+    <div class="flex-1">
+      <p>I am a horizontal list.</p>
+      <ul class="list-horizontal">
+        <li>Trout</li>
+        <li class="plm">Salmon</li>
+        <li class="plm">Flounder</li>
+        <li class="plm">Bass</li>
+      </ul>
+    </div>
+
+    <div class="flex-1">
+      <p>I am a horizontal list with dividers.</p>
+      <ul class="list-horizontal list-divider">
+        <li>Bears</li>
+        <li>Beets</li>
+        <li>Battlestar Galactica</li>
+      </ul>
+    </div>
+  </div>
+  ```
+
+  Lists with alignment.
+
+  <table class='width-100 content-border mvl'>
+    <thead>
+      <tr>
+        <th>Horizontal</th>
+        <th>Vertical</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>.horizontal-list-top</td>
+        <td>.vertical-list-left</td>
+      </tr>
+      <tr>
+        <td>.horizontal-list-middle</td>
+        <td>.vertical-list-center</td>
+      </tr>
+      <tr>
+        <td>.horizontal-list-bottom</td>
+        <td>.vertical-list-right</td>
+      </tr>
+    </tbody>
+  </table>
+
+  
+  ```html_example
+  <div class="flex">
+    <div class="flex-1">
+      <p>I am a horizontal list aligned top.</p>
+      <ul class="horizontal-list-top">
+        <li>Cheddar</li>
+        <li class="plm">Havarti</li>
+        <li class="plm">Brie</li>
+        <li class="plm">Swiss</li>
+      </ul>
+    </div>
+
+    <div class="flex-1">
+      <p>I am a vertical list aligned right.</p>
+      <ul class="vertical-list-right">
+        <li>Stout</li>
+        <li>IPA</li>
+        <li>Lager</li>
+        <li>Wheat</li>
+      </ul>
+    </div>
+  </div>
+  ```
+
+
+
 ul
   list-style-type: none
   margin: 0
   padding: 0
 
+.ul-disc
+  list-style-type: disc
+  margin-left: 1em
+  padding-left: 1em
 
 %list-base
   list-style-type: none
@@ -66,8 +183,3 @@ ul
     &:last-of-type
       &:after
         content: ''
-
-.ul-disc
-  list-style-type: disc
-  margin-left: 1em
-  padding-left: 1em
