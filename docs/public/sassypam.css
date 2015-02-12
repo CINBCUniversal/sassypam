@@ -1343,6 +1343,9 @@ html, body {
 .border-none {
   border: none !important; }
 
+.content-border {
+  border: 1px solid #D8D8D8; }
+
 .flex, .flex-end, .flex-between, .flex-start, .flex-column, .flex-center {
   display: flex; }
 
@@ -2953,6 +2956,11 @@ ul {
   margin: 0;
   padding: 0; }
 
+.ul-disc {
+  list-style-type: disc;
+  margin-left: 1em;
+  padding-left: 1em; }
+
 .horizontal-list-middle, .horizontal-list-top, .horizontal-list-top-alt, .horizontal-list-bottom, .vertical-list-left, .vertical-list-center, .vertical-list-right {
   list-style-type: none;
   margin: 0px; }
@@ -3039,11 +3047,6 @@ ul {
   padding: 5px; }
 .list-divider li:last-of-type:after {
   content: ""; }
-
-.ul-disc {
-  list-style-type: disc;
-  margin-left: 1em;
-  padding-left: 1em; }
 
 input {
   border: none;
@@ -3672,9 +3675,6 @@ body.collapsed .collapse-icon {
 
 .content-body {
   background: white; }
-
-.content-border {
-  border: 1px solid #D8D8D8; }
 
 .content-title-finance, .content-title-registrations, .content-title-pacing, .content-title-shifts, .content-title-portal-management, .content-title-quintiles, .content-title-reports, .content-title-deals, .content-title-approvals, .content-title-resquared, .content-title-activity, .content-title-history {
   background: white;
