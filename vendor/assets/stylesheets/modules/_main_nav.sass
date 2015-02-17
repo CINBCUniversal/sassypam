@@ -1,117 +1,118 @@
 @mixin module-title()
-	color: $grey
-	font-size: 13px
-	letter-spacing: 0.05em
-	text-transform: uppercase
-	font-weight: 600
+  color: $grey
+  font-size: 13px
+  letter-spacing: 0.05em
+  text-transform: uppercase
+  font-weight: 600
 
 // Subnavigation styling when body is collapsed
 body.collapsed
-	.main-nav
-		li
-			.app-title.active
-				+ .sub-nav
-					display: none
+  .main-nav
+    li
+      .app-title.active
+        + .sub-nav
+          display: none
 
-		li:hover
-			.sub-nav, .app-title.active + .sub-nav
-				display: block
-				position: absolute
-				left: 46px
-				top: 0
-				box-shadow: none
+    li:hover
+      .sub-nav, .app-title.active + .sub-nav
+        display: block
+        position: absolute
+        left: 46px
+        top: 0
+        box-shadow: none
 
-			.sub-nav .tool-title
-				display: block
+      .sub-nav .tool-title
+        display: block
 
 
 .main-nav
-	position: absolute
-	left: 0
-	top: 50px
-	height: 100%
-	background: #EDEDED
-	width: 230px
-	box-shadow: inset -4px 0px 0px -2px rgba(0, 0, 0, 0.1)
+  position: absolute
+  left: 0
+  top: 50px
+  height: 100%
+  background: #EDEDED
+  width: 230px
+  box-shadow: inset -4px 0px 0px -2px rgba(0, 0, 0, 0.1)
 
-	ul
-		margin: 0px
+  ul
+    margin: 0px
 
-	li
-		position: relative
+  li
+    position: relative
 
-		.sub-nav
-			background: darken(#EDEDED, 5%)
-			box-shadow: inset -4px 0px 0px -2px rgba(0, 0, 0, 0.1)
-			display: none
-			z-index: 2
-			width: 100%
-
-
-			.tool-title
-				padding: 15px 20px 10px
-				@include module-title()
-				display: none
-
-			a
-				padding: 15px 20px
-				display: block
-				color: $dark-grey
-				text-decoration: none !important
-				transition: none
-
-				&.active, &:hover
-					color: $pam-blue
-
-			li:hover
-				background: none
+    .sub-nav
+      background: darken(#EDEDED, 5%)
+      box-shadow: inset -4px 0px 0px -2px rgba(0, 0, 0, 0.1)
+      display: none
+      z-index: 2
+      width: 100%
 
 
-		&:hover
-			background: darken(#EDEDED, 5%)
+      .tool-title
+        padding: 15px 20px 10px
+        @include module-title()
+        display: none
 
-			.sub-nav
-				display: block
-				position: absolute
-				top: 0
-				left: 230px
-				width: 150px
-				box-shadow: none
+      a
+        padding: 15px 20px
+        display: block
+        color: $dark-grey
+        text-decoration: none !important
+        transition: none
 
-		.app-title.active
-			+ .sub-nav
-				display: block
-				width: 100%
-				position: relative
-				left: 0
-				box-shadow: inset -4px 0px 0px -2px rgba(0, 0, 0, 0.1)
+        &.active, &:hover
+          color: $pam-blue
 
+      li:hover
+        background: none
 
 
-		.app-title
-			@include module-title()
-			display: block
-			padding: 15px 10px 15px 47px 
+    &:hover
+      background: darken(#EDEDED, 5%)
 
-			@mixin main-nav-highlight($name, $highlight)
-				&.#{$name}
-					box-shadow: inset 3px 0 0 0 $highlight
+      .sub-nav
+        display: block
+        position: absolute
+        top: 0
+        left: 230px
+        width: 150px
+        box-shadow: none
 
-			@include main-nav-highlight(finance, $finance-models)
-			@include main-nav-highlight(registrations, $registrations)
-			@include main-nav-highlight(pacing, $pacing)
-			@include main-nav-highlight(shifts, $shifts)
-			@include main-nav-highlight(quintiles, $quintiles)
-			@include main-nav-highlight(reports, $reports)
-			@include main-nav-highlight(portal-management, $portal-management)
-			@include main-nav-highlight(admin, $admin)
+    .app-title.active
+      + .sub-nav
+        display: block
+        width: 100%
+        position: relative
+        left: 0
+        box-shadow: inset -4px 0px 0px -2px rgba(0, 0, 0, 0.1)
 
-			&.active
-				background-color: white
 
-			i
-				position: absolute
-				left: 15px
-				font-size: 17px
-				text-align: center
-				width: 20px
+
+    .app-title
+      @include module-title()
+      display: block
+      padding: 15px 10px 15px 47px 
+
+      @mixin main-nav-highlight($name, $highlight)
+        &.#{$name}
+          box-shadow: inset 3px 0 0 0 $highlight
+
+      @include main-nav-highlight(finance, $finance-models)
+      @include main-nav-highlight(registrations, $registrations)
+      @include main-nav-highlight(pacing, $pacing)
+      @include main-nav-highlight(shifts, $shifts)
+      @include main-nav-highlight(quintiles, $quintiles)
+      @include main-nav-highlight(reports, $reports)
+      @include main-nav-highlight(portal-management, $portal-management)
+      @include main-nav-highlight(admin, $admin)
+      @include main-nav-highlight(client-performance, $client-performance)
+
+      &.active
+        background-color: white
+
+      i
+        position: absolute
+        left: 15px
+        font-size: 17px
+        text-align: center
+        width: 20px

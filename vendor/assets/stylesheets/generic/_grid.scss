@@ -1,14 +1,21 @@
-//Dead simple grid system from Bootstrap
-// Made better by Abhi & Matt
+/* doc
+  ---
+  title: Grid
+  name: grid
+  category: layout
+  ---
 
+
+
+*/
 .row {
   margin-left: -15px;
   margin-right: -15px;
 }
 
 .center-column {
-	float: none !important;
-	margin: 0 auto;
+  float: none !important;
+  margin: 0 auto;
 }
 
 /* columns of same height styles */
@@ -26,13 +33,6 @@
     float: none !important;
 }
 
-.align-top {
- vertical-align: top;
-}
-
-.align-middle {
- vertical-align: middle;
-}
 
 .row.no-gutters {
   margin-right: 0;

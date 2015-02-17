@@ -180,6 +180,7 @@
   -webkit-flex-wrap: wrap
   flex-wrap: wrap
   padding: 5px
+  line-height: 1.5
 
   &.tile-list
     border-left: none
@@ -195,23 +196,25 @@
       display: block
       width: auto
       min-height: 70px
-      padding: 23px 12px 45px
+      padding: 20px 20px 60px
 
     .tile-body
       display: none
 
     .tile-templates
-      float: right
+      float: left
+      margin-top: 10px
 
     .tile-content
       float: left
+      width: 100%
 
   .tile
     width: calc(25% - 10px)
     margin: 5px
     display: flex
     flex-direction: column
-    padding: 20px 20px 60px
+    padding: 45px 20px 60px 20px
     flex: none
     justify-content: space-between
     min-height: 200px
@@ -220,10 +223,6 @@
 
 
     .tile-meta
-      width: 100%
-      display: block
-      height: 25px
-
       .tile-tag
         position: absolute
         background-color: #f1f1f1
