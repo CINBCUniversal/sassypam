@@ -41,7 +41,22 @@
     </div>
   </div>
 
-  For All Other Colors, Please Use PAM As A Guide
+  For all other colors, please look at the color variables file in the settings folder of Sassypam.
+
+//bg for sassypam
+@mixin color($name, $color)
+  .#{$name}-bg
+    background: $color
+
+@include color(dark-blue, $dark-blue)
+@include color(finance-models, $finance-models)
+@include color(registrations, $registrations)
+@include color(pacing, $pacing)
+@include color(shifts, $shifts)
+@include color(reports, $reports)
+@include color(portal-management, $portal-management)
+@include color(admin, $admin)
+@include color(quintiles, $quintiles)
 
 //doc
   ---
