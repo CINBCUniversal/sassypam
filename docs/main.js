@@ -8,10 +8,7 @@ $(document).ready(function() {
     if (/home/.test(self.location.href) || /index/.test(self.location.href) ) {
       $(getCategory).find('.list-vertical-left').addClass('hide');
     }
-
-
   }
-
 
   $category.each(function() {
     $(this).click(function() {
