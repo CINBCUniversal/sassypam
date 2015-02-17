@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+<head>
+<title>SassyPam styleguide - utilities</title>
+
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="./public/sassypam.css">
+<link rel="stylesheet" href="./normalize.css">
+<link rel="stylesheet" href="./github.css">
+<link rel="stylesheet" href="./styleguide.css">
+<!-- Latest jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!-- Styleguide specific JavaScript -->
+<script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+<div class="global-header">
+  <div class="sassypam flex">
+    <div class='logo-container pull-left'>
+      <img src='./img/sassy_pam.png' />
+    </div>
+    <h2 class='em-low em-italic pll ptm pull-left'>Sassypam</h2>
+  </div>
+</div>
+
+<aside class="main-nav">
+  <ul class="list-vertical-left">
+    
+      <li class='ct-js'>
+        <a class="category-link width-100 phl pvl h3" href="home.html">home</a>
+        <ul class="list-vertical-left hide pbl">
+          
+            <li><a class="block-link phl pvs type-sm" href="#animations">Animations</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#bg-colors">Background Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#borders">Borders</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#icons">Icons</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#text-indent">Text Indent</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#type-colors">Type Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#whitespace">Whitespace</a></li>
+          
+        </ul>
+      </li>
+    
+      <li class='ct-js'>
+        <a class="category-link width-100 phl pvl h3" href="utilities.html">utilities</a>
+        <ul class="list-vertical-left hide pbl">
+          
+            <li><a class="block-link phl pvs type-sm" href="#animations">Animations</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#bg-colors">Background Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#borders">Borders</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#icons">Icons</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#text-indent">Text Indent</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#type-colors">Type Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#whitespace">Whitespace</a></li>
+          
+        </ul>
+      </li>
+    
+      <li class='ct-js'>
+        <a class="category-link width-100 phl pvl h3" href="elements.html">elements</a>
+        <ul class="list-vertical-left hide pbl">
+          
+            <li><a class="block-link phl pvs type-sm" href="#animations">Animations</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#bg-colors">Background Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#borders">Borders</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#icons">Icons</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#text-indent">Text Indent</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#type-colors">Type Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#whitespace">Whitespace</a></li>
+          
+        </ul>
+      </li>
+    
+      <li class='ct-js'>
+        <a class="category-link width-100 phl pvl h3" href="components.html">Components</a>
+        <ul class="list-vertical-left hide pbl">
+          
+            <li><a class="block-link phl pvs type-sm" href="#animations">Animations</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#bg-colors">Background Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#borders">Borders</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#icons">Icons</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#text-indent">Text Indent</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#type-colors">Type Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#whitespace">Whitespace</a></li>
+          
+        </ul>
+      </li>
+    
+      <li class='ct-js'>
+        <a class="category-link width-100 phl pvl h3" href="modules.html">modules</a>
+        <ul class="list-vertical-left hide pbl">
+          
+            <li><a class="block-link phl pvs type-sm" href="#animations">Animations</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#bg-colors">Background Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#borders">Borders</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#icons">Icons</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#text-indent">Text Indent</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#type-colors">Type Colors</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#whitespace">Whitespace</a></li>
+          
+        </ul>
+      </li>
+    
+  </ul>
+</aside>
+<div class='main-content'>
+  <div class='mal'>
+<h1 id="animations" class="styleguide">Animations</h1>
+<p class="styleguide">Spin Animation (used to spin the sharknado)</p><div class="codeExample">
+  <div class="exampleOutput">
+      <i class="sms-glyph-sharknado icon-spin h1"></i>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"sms-glyph-sharknado icon-spin h1"</span><span class="nt">&gt;&lt;/i&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="bg-colors" class="styleguide">Background Colors</h1>
+
+<div class="_styleGuide__colors">
+  <h3 class="mbl">Application Colors</h3>
+  <div class="reports-bg swatch">
+    <p class="type-sm">Reports</p>
+    <p>#282E39</p>
+  </div>
+  <div class="finance-models-bg swatch">
+    <p class="type-sm">Finance</p>
+    <p>#0479b8</p>
+  </div>
+  <div class="registrations-bg swatch">
+    <p class="type-sm">Registrations</p>
+    <p>#009bef</p>
+  </div>
+  <div class="pacing-bg swatch">
+    <p class="type-sm">Pacing</p>
+    <p>#73d7e4</p>
+  </div>
+  <div class="shifts-bg swatch">
+    <p class="type-sm">Shifts</p>
+    <p>#f1b13b</p>
+  </div>
+  <div class="portal-management-bg swatch">
+    <p class="type-sm">Portal Mgmt</p>
+    <p>#cc004c</p>
+  </div>
+  <div class="admin-bg swatch">
+    <p class="type-sm">Admin</p>
+    <p>#f37021</p>
+  </div>
+  <div class="quintiles-bg swatch">
+    <p class="type-sm">Quintiles</p>
+    <p>#3c3670</p>
+  </div>
+</div>
+<p class="styleguide">For All Other Colors, Please Use PAM As A Guide</p>
+<h1 id="borders" class="styleguide">Borders</h1>
+<p class="styleguide">Border helpers can be used on any element</p><div class="codeExample">
+  <div class="exampleOutput">
+    <span class='content-border pam mal'>A border on all sides</span>
+<span class='border-top mal pam'>A border top</span>
+<span class='border-bottom mal pam'>A border bottom</span>
+<span class='border-right mal pam'>A border right</span>
+<span class='border-left mal pam'>A border left</span>
+<span class='border-none mal pam'>No border</span>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'content-border pam mal'</span><span class="nt">&gt;</span>A border on all sides<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'border-top mal pam'</span><span class="nt">&gt;</span>A border top<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'border-bottom mal pam'</span><span class="nt">&gt;</span>A border bottom<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'border-right mal pam'</span><span class="nt">&gt;</span>A border right<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'border-left mal pam'</span><span class="nt">&gt;</span>A border left<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'border-none mal pam'</span><span class="nt">&gt;</span>No border<span class="nt">&lt;/span&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="icons" class="styleguide">Icons</h1>
+<p class="styleguide">All The Icons</p>
+<div class="mal" id="glyphs">
+<i class=
+"sms-glyph-arrow_carrot-2down_alt2"></i><i class=
+"sms-glyph-arrow_carrot-2dwnn_alt"></i><i class=
+"sms-glyph-arrow_carrot-2left"></i><i class=
+"sms-glyph-arrow_carrot-2left_alt"></i><i class=
+"sms-glyph-arrow_carrot-2left_alt2"></i><i class=
+"sms-glyph-arrow_carrot-2right"></i><i class=
+"sms-glyph-arrow_carrot-2right_alt"></i><i class=
+"sms-glyph-arrow_carrot-2right_alt2"></i><i class=
+"sms-glyph-arrow_carrot-2up"></i><i class=
+"sms-glyph-arrow_carrot-2up_alt"></i><i class=
+"sms-glyph-arrow_carrot-2up_alt2"></i><i class=
+"sms-glyph-arrow_carrot-down"></i><i class=
+"sms-glyph-arrow_carrot-down_alt"></i><i class=
+"sms-glyph-arrow_carrot-down_alt2"></i><i class=
+"sms-glyph-arrow_carrot-left"></i><i class=
+"sms-glyph-arrow_carrot-left_alt"></i><i class=
+"sms-glyph-arrow_carrot-left_alt2"></i><i class=
+"sms-glyph-arrow_carrot-right"></i><i class=
+"sms-glyph-arrow_carrot-right_alt"></i><i class=
+"sms-glyph-arrow_carrot-right_alt2"></i><i class=
+"sms-glyph-arrow_carrot-up"></i><i class=
+"sms-glyph-arrow_carrot-up_alt2"></i><i class=
+"sms-glyph-arrow_carrot_up_alt"></i><i class=
+"sms-glyph-arrow_condense"></i><i class=
+"sms-glyph-arrow_condense_alt"></i><i class=
+"sms-glyph-arrow_down"></i><i class="sms-glyph-arrow_down_alt"></i><i class=
+"sms-glyph-arrow_expand"></i><i class=
+"sms-glyph-arrow_expand_alt"></i><i class=
+"sms-glyph-arrow_expand_alt2"></i><i class=
+"sms-glyph-arrow_expand_alt3"></i><i class=
+"sms-glyph-arrow_left-down"></i><i class=
+"sms-glyph-arrow_left-down_alt"></i><i class=
+"sms-glyph-arrow_left-right"></i><i class=
+"sms-glyph-arrow_left-right_alt"></i><i class=
+"sms-glyph-arrow_left-up"></i><i class=
+"sms-glyph-arrow_left-up_alt"></i><i class=
+"sms-glyph-arrow_left"></i><i class="sms-glyph-arrow_left_alt"></i><i class=
+"sms-glyph-arrow_move"></i><i class=
+"sms-glyph-arrow_right-down"></i><i class="sms-glyph-arrow_right-down_alt"></i><i class="sms-glyph-arrow_right-up"></i><i class="sms-glyph-arrow_right-up_alt"></i><i class="sms-glyph-arrow_right"></i><i class="sms-glyph-arrow_right_alt"></i><i class="sms-glyph-arrow_triangle-down"></i><i class="sms-glyph-arrow_triangle-down_alt"></i><i class="sms-glyph-arrow_triangle-down_alt2"></i><i class="sms-glyph-arrow_triangle-left"></i><i class="sms-glyph-arrow_triangle-left_alt"></i><i class="sms-glyph-arrow_triangle-left_alt2"></i><i class="sms-glyph-arrow_triangle-right"></i><i class="sms-glyph-arrow_triangle-right_alt"></i><i class="sms-glyph-arrow_triangle-right_alt2"></i><i class="sms-glyph-arrow_triangle-up"></i><i class="sms-glyph-arrow_triangle-up_alt"></i><i class="sms-glyph-arrow_triangle-up_alt2"></i><i class="sms-glyph-arrow_up-down_alt"></i><i class="sms-glyph-arrow_up"></i><i class="sms-glyph-arrow_up_alt"></i><i class="sms-glyph-handshake"></i><i class="sms-glyph-icon_adjust-horiz"></i><i class="sms-glyph-icon_adjust-vert"></i><i class="sms-glyph-icon_archive"></i><i class="sms-glyph-icon_archive_alt"></i><i class="sms-glyph-icon_bag"></i><i class="sms-glyph-icon_bag_alt"></i><i class="sms-glyph-icon_blocked"></i><i class="sms-glyph-icon_book"></i><i class="sms-glyph-icon_book_alt"></i><i class="sms-glyph-icon_box-checked"></i><i class="sms-glyph-icon_box-empty"></i><i class="sms-glyph-icon_box-selected"></i><i class="sms-glyph-icon_calendar"></i><i class="sms-glyph-icon_camera"></i><i class="sms-glyph-icon_camera_alt"></i><i class="sms-glyph-icon_cart"></i><i class="sms-glyph-icon_cart_alt"></i><i class="sms-glyph-icon_chat"></i><i class="sms-glyph-icon_chat_alt"></i><i class="sms-glyph-icon_check"></i><i class="sms-glyph-icon_check_alt"></i><i class="sms-glyph-icon_check_alt2"></i><i class="sms-glyph-icon_circle-empty"></i><i class="sms-glyph-icon_circle-slelected"></i><i class="sms-glyph-icon_clock"></i><i class="sms-glyph-icon_clock_alt"></i><i class="sms-glyph-icon_close"></i><i class="sms-glyph-icon_close_alt"></i><i class="sms-glyph-icon_close_alt2"></i><i class="sms-glyph-icon_cloud-download"></i><i class="sms-glyph-icon_cloud-download_alt"></i><i class="sms-glyph-icon_cloud-upload"></i><i class="sms-glyph-icon_cloud-upload_alt"></i><i class="sms-glyph-icon_cloud"></i><i class="sms-glyph-icon_cloud_alt"></i><i class="sms-glyph-icon_cog"></i><i class="sms-glyph-icon_cogs"></i><i class="sms-glyph-icon_comment"></i><i class="sms-glyph-icon_comment_alt"></i><i class="sms-glyph-icon_compass"></i><i class="sms-glyph-icon_compass_alt"></i><i class="sms-glyph-icon_cone"></i><i class="sms-glyph-icon_cone_alt"></i><i class="sms-glyph-icon_contacts"></i><i class="sms-glyph-icon_contacts_alt"></i><i class="sms-glyph-icon_creditcard"></i><i class="sms-glyph-icon_cursor"></i><i class="sms-glyph-icon_cursor_alt"></i><i class="sms-glyph-icon_desktop"></i><i class="sms-glyph-icon_document"></i><i class="sms-glyph-icon_document_alt"></i><i class="sms-glyph-icon_documents"></i><i class="sms-glyph-icon_documents_alt"></i><i class="sms-glyph-icon_download"></i><i class="sms-glyph-icon_drawer"></i><i class="sms-glyph-icon_drawer_alt"></i><i class="sms-glyph-icon_error-circle"></i><i class="sms-glyph-icon_error-circle_alt"></i><i class="sms-glyph-icon_error-oct"></i><i class="sms-glyph-icon_error-oct_alt"></i><i class="sms-glyph-icon_error-triangle"></i><i class="sms-glyph-icon_error-triangle_alt"></i><i class="sms-glyph-icon_film"></i><i class="sms-glyph-icon_folder-add"></i><i class="sms-glyph-icon_folder-add_alt"></i><i class="sms-glyph-icon_folder-alt"></i><i class="sms-glyph-icon_folder-open"></i><i class="sms-glyph-icon_folder-open_alt"></i><i class="sms-glyph-icon_folder"></i><i class="sms-glyph-icon_folder_download"></i><i class="sms-glyph-icon_folder_upload"></i><i class="sms-glyph-icon_genius"></i><i class="sms-glyph-icon_gift"></i><i class="sms-glyph-icon_gift_alt"></i><i class="sms-glyph-icon_grid-2x2"></i><i class="sms-glyph-icon_grid-3x3"></i><i class="sms-glyph-icon_group"></i><i class="sms-glyph-icon_headphones"></i><i class="sms-glyph-icon_heart"></i><i class="sms-glyph-icon_heart_alt"></i><i class="sms-glyph-icon_house"></i><i class="sms-glyph-icon_house_alt"></i><i class="sms-glyph-icon_image"></i><i class="sms-glyph-icon_images"></i><i class="sms-glyph-icon_info"></i><i class="sms-glyph-icon_info_alt"></i><i class="sms-glyph-icon_key"></i><i class="sms-glyph-icon_key_alt"></i><i class="sms-glyph-icon_laptop"></i><i class="sms-glyph-icon_lifesaver"></i><i class="sms-glyph-icon_lightbulb"></i><i class="sms-glyph-icon_lightbulb_alt"></i><i class="sms-glyph-icon_link"></i><i class="sms-glyph-icon_link_alt"></i><i class="sms-glyph-icon_loading"></i><i class="sms-glyph-icon_lock-open"></i><i class="sms-glyph-icon_lock-open_alt"></i><i class="sms-glyph-icon_lock"></i><i class="sms-glyph-icon_lock_alt"></i><i class="sms-glyph-icon_mail"></i><i class="sms-glyph-icon_mail_alt"></i><i class="sms-glyph-icon_map"></i><i class="sms-glyph-icon_map_alt"></i><i class="sms-glyph-icon_menu-circle_alt"></i><i class="sms-glyph-icon_menu-circle_alt2"></i><i class="sms-glyph-icon_menu-square_alt"></i><i class="sms-glyph-icon_menu-square_alt2"></i><i class="sms-glyph-icon_menu"></i><i class="sms-glyph-icon_mic"></i><i class="sms-glyph-icon_mic_alt"></i><i class="sms-glyph-icon_minus-06"></i><i class="sms-glyph-icon_minus-box"></i><i class="sms-glyph-icon_minus_alt"></i><i class="sms-glyph-icon_minus_alt2"></i><i class="sms-glyph-icon_mobile"></i><i class="sms-glyph-icon_music"></i><i class="sms-glyph-icon_ol"></i><i class="sms-glyph-icon_paperclip"></i><i class="sms-glyph-icon_pause"></i><i class="sms-glyph-icon_pause_alt"></i><i class="sms-glyph-icon_pause_alt2"></i><i class="sms-glyph-icon_pencil-edit"></i><i class="sms-glyph-icon_pencil-edit_alt"></i><i class="sms-glyph-icon_pencil"></i><i class="sms-glyph-icon_pencil_alt"></i><i class="sms-glyph-icon_phone"></i><i class="sms-glyph-icon_piechart"></i><i class="sms-glyph-icon_pin"></i><i class="sms-glyph-icon_pin_alt"></i><i class="sms-glyph-icon_plus-box"></i><i class="sms-glyph-icon_plus"></i><i class="sms-glyph-icon_plus_alt"></i><i class="sms-glyph-icon_plus_alt2"></i><i class="sms-glyph-icon_profile"></i><i class="sms-glyph-icon_pushpin"></i><i class="sms-glyph-icon_pushpin_alt"></i><i class="sms-glyph-icon_question"></i><i class="sms-glyph-icon_question_alt"></i><i class="sms-glyph-icon_question_alt2"></i><i class="sms-glyph-icon_quotations"></i><i class="sms-glyph-icon_quotations_alt"></i><i class="sms-glyph-icon_quotations_alt2"></i><i class="sms-glyph-icon_refresh"></i><i class="sms-glyph-icon_ribbon"></i><i class="sms-glyph-icon_ribbon_alt"></i><i class="sms-glyph-icon_search"></i><i class="sms-glyph-icon_star-half"></i><i class="sms-glyph-icon_star-half_alt"></i><i class="sms-glyph-icon_star"></i><i class="sms-glyph-icon_star_alt"></i><i class="sms-glyph-icon_stop"></i><i class="sms-glyph-icon_stop_alt"></i><i class="sms-glyph-icon_stop_alt2"></i><i class="sms-glyph-icon_table"></i><i class="sms-glyph-icon_tablet"></i><i class="sms-glyph-icon_tag"></i><i class="sms-glyph-icon_tag_alt"></i><i class="sms-glyph-icon_tags"></i><i class="sms-glyph-icon_tags_alt"></i><i class="sms-glyph-icon_tool"></i><i class="sms-glyph-icon_toolbox"></i><i class="sms-glyph-icon_toolbox_alt"></i><i class="sms-glyph-icon_tools"></i><i class="sms-glyph-icon_trash"></i><i class="sms-glyph-icon_trash_alt"></i><i class="sms-glyph-icon_ul"></i><i class="sms-glyph-icon_upload"></i><i class="sms-glyph-icon_vol-mute"></i><i class="sms-glyph-icon_vol-mute_alt"></i><i class="sms-glyph-icon_volume-high"></i><i class="sms-glyph-icon_volume-high_alt"></i><i class="sms-glyph-icon_volume-low"></i><i class="sms-glyph-icon_volume-low_alt"></i><i class="sms-glyph-icon_zoom-in"></i><i class="sms-glyph-icon_zoom-in_alt"></i><i class="sms-glyph-icon_zoom-out"></i><i class="sms-glyph-icon_zoom-out_alt"></i><i class="sms-glyph-sharknado"></i><i class="sms-glyph-reports"></i><i class="sms-glyph-filter"></i><i class="sms-glyph-circle"></i><i class="sms-glyph-copy"></i><i class="sms-glyph-paste"></i>
+</div>
+
+<h1 id="text-indent" class="styleguide">Text Indent</h1>
+ 
+<p class="styleguide">Mix and match these to get your desired effect. You can put them on any element.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <div class='tis'>I'm indented 5px</div>
+<div class='tim'>I'm indented 10px</div>
+<div class='til'>I'm indented 15px</div>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'tis'</span><span class="nt">&gt;</span>I'm indented 5px<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'tim'</span><span class="nt">&gt;</span>I'm indented 10px<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'til'</span><span class="nt">&gt;</span>I'm indented 15px<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="type-colors" class="styleguide">Type Colors</h1>
+<p class="styleguide">Type Colors</p><div class="codeExample">
+  <div class="exampleOutput">
+    <p class="green">Green type<p>
+<p class="red">Red type<p>
+<p class="yellow">Yellow type<p>
+<p class="orange">Orange type<p>
+<p class="sassypam-pink">Sassypam pink type<p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"green"</span><span class="nt">&gt;</span>Green type<span class="nt">&lt;p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"red"</span><span class="nt">&gt;</span>Red type<span class="nt">&lt;p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"yellow"</span><span class="nt">&gt;</span>Yellow type<span class="nt">&lt;p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"orange"</span><span class="nt">&gt;</span>Orange type<span class="nt">&lt;p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"sassypam-pink"</span><span class="nt">&gt;</span>Sassypam pink type<span class="nt">&lt;p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="whitespace" class="styleguide">Whitespace</h1>
+
+<table class='width-100 content-border mtl'>
+  <thead>
+    <tr>
+      <th>Letter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>p,m</td>
+      <td>padding, margin</td>
+    </tr>
+    <tr>
+      <td>a,t,r,b,l</td>
+      <td>all, top, right, bottom, left</td>
+    </tr>
+    <tr>
+      <td>n,s,m,ml,l,vl</td>
+      <td>none (0px), small (5px), medium (10px), medium-large (15px), large(20px), very large (50px)</td>
+    </tr>
+  </tbody>
+</table>
+<p class="styleguide">Mix and match these to get your desired effect. You can put them on any element.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <div class='content-border pan'>I have 0 padding</div>
+<div class='content-border pal'>I have lots of padding!</div>
+<div class='content-border man'>I have 0 margin</div>
+<div class='content-border mal'>I have lots of margin!</div>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'content-border pan'</span><span class="nt">&gt;</span>I have 0 padding<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'content-border pal'</span><span class="nt">&gt;</span>I have lots of padding!<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'content-border man'</span><span class="nt">&gt;</span>I have 0 margin<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'content-border mal'</span><span class="nt">&gt;</span>I have lots of margin!<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </body>
+</html>
