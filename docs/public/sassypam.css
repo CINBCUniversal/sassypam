@@ -351,33 +351,6 @@ td,
 th {
   padding: 0; }
 
-.dark-blue-bg {
-  background: #282e39; }
-
-.finance-models-bg {
-  background: #0479B8; }
-
-.registrations-bg {
-  background: #009BEF; }
-
-.pacing-bg {
-  background: #73D7E4; }
-
-.shifts-bg {
-  background: #F1B13B; }
-
-.reports-bg {
-  background: #282e39; }
-
-.portal-management-bg {
-  background: #CC004C; }
-
-.admin-bg {
-  background: #F37021; }
-
-.quintiles-bg {
-  background: #3C3670; }
-
 .left-align {
   text-align: left !important; }
 
@@ -2547,6 +2520,33 @@ html, body {
 
 .content-border {
   border: 1px solid #D8D8D8; }
+
+.dark-blue-bg {
+  background: #282e39; }
+
+.finance-models-bg {
+  background: #0479B8; }
+
+.registrations-bg {
+  background: #009BEF; }
+
+.pacing-bg {
+  background: #73D7E4; }
+
+.shifts-bg {
+  background: #F1B13B; }
+
+.reports-bg {
+  background: #282e39; }
+
+.portal-management-bg {
+  background: #CC004C; }
+
+.admin-bg {
+  background: #F37021; }
+
+.quintiles-bg {
+  background: #3C3670; }
 
 .green {
   color: #45ce6f !important; }
