@@ -22,8 +22,8 @@
         <td>all, top, right, bottom, left</td>
       </tr>
       <tr>
-        <td>n,s,m,l</td>
-        <td>none (0px), small (5px), medium (10px), large(20px)</td>
+        <td>n,s,m,ml,l,vl</td>
+        <td>none (0px), small (5px), medium (10px), medium-large (15px), large(20px), very large (50px)</td>
       </tr>
     </tbody>
   </table>
@@ -36,7 +36,6 @@
   <div class='content-border man'>I have 0 margin</div>
   <div class='content-border mal'>I have lots of margin!</div>
   ```
-
 
 //Box sizing hack!
 *
@@ -64,6 +63,9 @@
 .ptml, .pvml, .paml
   padding-top: 15px !important
 
+.ptvl, .pvvl, .pavl
+  padding-top: 50px !important
+
 .prn, .phn, .pan
   padding-right: 0px !important
 
@@ -75,6 +77,9 @@
 
 .prml, .phml, .paml
   padding-right: 15px !important
+
+.prvl, .phvl, .pavl
+  padding-right: 50px !important
 
 .prl, .phl, .pal
   padding-right: 20px !important
@@ -91,6 +96,9 @@
 .pbml, .pvml, .paml
   padding-bottom: 15px !important
 
+.pbvl, .pvvl, .pavl
+  padding-bottom: 50px !important
+
 .pbl, .pvl, .pal
   padding-bottom: 20px !important
 
@@ -105,6 +113,9 @@
 
 .plml, .phml, .paml
   padding-left: 15px !important
+
+.plvl, .phvl, .pavl
+  padding-left: 50px !important
 
 .pll, .phl, .pal
   padding-left: 20px !important
@@ -121,6 +132,9 @@
 .mtml, .mvml, .maml
   margin-top: 15px !important
 
+.mtvl, .mvvl, .mavl
+  margin-top: 50px !important
+
 .mtl, .mvl, .mal
   margin-top: 20px !important
 
@@ -136,11 +150,11 @@
 .mrml, .mhml, .maml
   margin-right: 15px !important
 
+.mrvl, .mhvl, .mavl
+  margin-right: 50px !important
+
 .mrl, .mhl, .mal
   margin-right: 20px !important
-
-.mrvl
-  margin-right: 40px !important
 
 .mbn, .mvn, .man
   margin-bottom: 0px !important
@@ -153,6 +167,9 @@
 
 .mbml, .mvml, .maml
   margin-bottom: 15px !important
+
+.mbvl, .mvvl, .mavl
+  margin-bottom: 50px !important
 
 .mbl, .mvl, .mal
   margin-bottom: 20px !important
@@ -169,6 +186,9 @@
 .mlml, .mhml, .maml
   margin-left: 15px !important
 
+.mlvl, .mhvl, .mavl
+  margin-left: 50px !important
+
 .mll, .mhl, .mal
   margin-left: 20px !important
 
@@ -178,16 +198,7 @@
 .mla, .mha
   margin-left: auto !important
 
-.pvvl
-  padding: 50px !important
-
-.mvvl
-  margin: 50px !important
-
-.mtvl
-  margin-top: 50px !important
-.mbvl
-  margin-bottom: 50px !important
+//absolute positioned elements
 
 .ars
   right: 5px
@@ -200,13 +211,3 @@
 
 .ats
   top: 5px
-
-
-//text indent helpers
-
-.tis
-  text-indent: 5px !important
-.tim
-  text-indent: 10px !important
-.til
-  text-indent: 15px !important
