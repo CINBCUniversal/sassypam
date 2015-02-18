@@ -32,6 +32,10 @@
         <a class="category-link width-100 phl pvl h3" href="home.html">home</a>
         <ul class="list-vertical-left hide pbl">
           
+            <li><a class="block-link phl pvs type-sm" href="#flex">Flex</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
+          
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#visibility">Visibility</a></li>
@@ -42,6 +46,10 @@
       <li class='ct-js'>
         <a class="category-link width-100 phl pvl h3" href="utilities.html">utilities</a>
         <ul class="list-vertical-left hide pbl">
+          
+            <li><a class="block-link phl pvs type-sm" href="#flex">Flex</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
@@ -54,6 +62,10 @@
         <a class="category-link width-100 phl pvl h3" href="elements.html">elements</a>
         <ul class="list-vertical-left hide pbl">
           
+            <li><a class="block-link phl pvs type-sm" href="#flex">Flex</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
+          
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#visibility">Visibility</a></li>
@@ -64,6 +76,10 @@
       <li class='ct-js'>
         <a class="category-link width-100 phl pvl h3" href="components.html">Components</a>
         <ul class="list-vertical-left hide pbl">
+          
+            <li><a class="block-link phl pvs type-sm" href="#flex">Flex</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
@@ -76,6 +92,10 @@
         <a class="category-link width-100 phl pvl h3" href="modules.html">modules</a>
         <ul class="list-vertical-left hide pbl">
           
+            <li><a class="block-link phl pvs type-sm" href="#flex">Flex</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
+          
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#visibility">Visibility</a></li>
@@ -86,6 +106,10 @@
       <li class='ct-js'>
         <a class="category-link width-100 phl pvl h3" href="layout.html">layout</a>
         <ul class="list-vertical-left hide pbl">
+          
+            <li><a class="block-link phl pvs type-sm" href="#flex">Flex</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
@@ -98,6 +122,86 @@
 </aside>
 <div class='main-content'>
   <div class='mal'>
+<h1 id="flex" class="styleguide">Flex</h1>
+<p class="styleguide">When a grid system feels like too much, you can use <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes" target="_blank">Flexbox</a> instead to align elements.</p><p class="styleguide">These are some of the most common ways to use flexbox.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <div class="flex pal mas">
+  <div class="flex-1 content-border pas mas"> I am one unit wide and as tall as the tallest.</div>
+  <div class="flex-1 content-border pas mas"> I am one unit wide and as tall as the tallest..</div>
+  <div class="flex-1 content-border pavl mas"> I am one unit wide and I am the tallest.</div>
+</div>
+<div class="flex pal mas">
+  <div class="flex-1 content-border pas mas"> I am one unit wide.</div>
+  <div class="flex-2 content-border pas mas"> I am two units wide.</div>
+  <div class="flex-1 content-border pas mas"> I am one unit wide.</div>
+</div>
+<div class="flex-between pal mas">
+  <div class="content-border pas mas"> We are evenly spaced. </div>
+  <div class="content-border pas mas"> We are evenly spaced. </div>
+  <div class="content-border pas mas"> We are evenly spaced. </div>
+</div>
+<div class="flex-column pal mas">
+  <div class="content-border pas mas"> We are evenly spaced. </div>
+  <div class="content-border pas mas"> We are evenly spaced. </div>
+  <div class="content-border pas mas"> We are evenly spaced. </div>
+</div> 
+<div class="flex-end pal mas">
+  <div class="content-border pas mas"> I'm all the way at the end! </div>
+</div>
+<div class="flex-start pal mas">
+  <div class="content-border pas mas"> I'm all the way at the start! </div>
+</div>
+<div class="flex-center pal mas">
+  <div class="flex-1 content-border pas mas"> We keep our own heights but share the same center line. </div>
+  <div class="flex-1 content-border pam mas"> We keep our own heights but share the same center line. </div>
+  <div class="flex-1 content-border pal mas"> We keep our own heights but share the same center line. </div>
+  <div class="flex-1 content-border pavl mas"> We keep our own heights but share the same center line. </div>
+</div>
+
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex pal mas"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-1 content-border pas mas"</span><span class="nt">&gt;</span> I am one unit wide and as tall as the tallest.<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-1 content-border pas mas"</span><span class="nt">&gt;</span> I am one unit wide and as tall as the tallest..<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-1 content-border pavl mas"</span><span class="nt">&gt;</span> I am one unit wide and I am the tallest.<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex pal mas"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-1 content-border pas mas"</span><span class="nt">&gt;</span> I am one unit wide.<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-2 content-border pas mas"</span><span class="nt">&gt;</span> I am two units wide.<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-1 content-border pas mas"</span><span class="nt">&gt;</span> I am one unit wide.<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-between pal mas"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border pas mas"</span><span class="nt">&gt;</span> We are evenly spaced. <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border pas mas"</span><span class="nt">&gt;</span> We are evenly spaced. <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border pas mas"</span><span class="nt">&gt;</span> We are evenly spaced. <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-column pal mas"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border pas mas"</span><span class="nt">&gt;</span> We are evenly spaced. <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border pas mas"</span><span class="nt">&gt;</span> We are evenly spaced. <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border pas mas"</span><span class="nt">&gt;</span> We are evenly spaced. <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span> 
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-end pal mas"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border pas mas"</span><span class="nt">&gt;</span> I'm all the way at the end! <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-start pal mas"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border pas mas"</span><span class="nt">&gt;</span> I'm all the way at the start! <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-center pal mas"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-1 content-border pas mas"</span><span class="nt">&gt;</span> We keep our own heights but share the same center line. <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-1 content-border pam mas"</span><span class="nt">&gt;</span> We keep our own heights but share the same center line. <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-1 content-border pal mas"</span><span class="nt">&gt;</span> We keep our own heights but share the same center line. <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-1 content-border pavl mas"</span><span class="nt">&gt;</span> We keep our own heights but share the same center line. <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="grid" class="styleguide">Grid</h1>
+
+<div>Sassypam includes the Bootstrap grid system. <a href="http://getbootstrap.com/css/#grid" target="_blank">Visit the site</a> to read their documentation.</div>
+
 <h1 id="positioning" class="styleguide">Positioning</h1>
 
 <table class='width-100 content-border mtl'>
