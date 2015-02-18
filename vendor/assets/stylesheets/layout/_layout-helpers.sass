@@ -1,4 +1,46 @@
-//Layout
+//doc
+  ---
+  title: Layout Helpers
+  name: layout-helpers
+  category: layout
+  ---
+
+  Clearfix, pull-right, and pull-left
+
+  ```html_example
+
+  <div class="cf content-border pal">
+    <div class="content-border mbl pal">No floats</div>
+    <div class="pull-right content-border pal">Right floated</div>
+    <div class="pull-left content-border pal">Left floated</div>
+  </div>
+
+  ```
+
+  Full width and auto width
+
+  ```html_example
+
+  <div class="content-border pal">
+    <input class="width-100 content-border pas mbl" placeholder="Full width input">
+    <input class="width-auto content-border pas mbl" placeholder="Just wide enough!">
+  </div>
+
+  ```
+
+  Inline block
+
+  ```html_example
+
+  <ul class="inline-block">
+    <li class="content-border pas inline-block">Apples</li>
+    <li class=" content-border pas mhl inline-block">Oranges</li>
+  </ul>
+
+  ```
+
+
+
 .pull-right
   float: right !important
 
@@ -13,9 +55,6 @@
 
 .inline-block
   display: inline-block
-
-.width-100
-  width: 100%
 
 .height-100
   height: 100%

@@ -36,6 +36,8 @@
           
             <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
           
+            <li><a class="block-link phl pvs type-sm" href="#layout-helpers">Layout Helpers</a></li>
+          
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#visibility">Visibility</a></li>
@@ -50,6 +52,8 @@
             <li><a class="block-link phl pvs type-sm" href="#flex">Flex</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#layout-helpers">Layout Helpers</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
@@ -66,6 +70,8 @@
           
             <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
           
+            <li><a class="block-link phl pvs type-sm" href="#layout-helpers">Layout Helpers</a></li>
+          
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#visibility">Visibility</a></li>
@@ -80,6 +86,8 @@
             <li><a class="block-link phl pvs type-sm" href="#flex">Flex</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#layout-helpers">Layout Helpers</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
@@ -96,6 +104,8 @@
           
             <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
           
+            <li><a class="block-link phl pvs type-sm" href="#layout-helpers">Layout Helpers</a></li>
+          
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#visibility">Visibility</a></li>
@@ -110,6 +120,8 @@
             <li><a class="block-link phl pvs type-sm" href="#flex">Flex</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#grid">Grid</a></li>
+          
+            <li><a class="block-link phl pvs type-sm" href="#layout-helpers">Layout Helpers</a></li>
           
             <li><a class="block-link phl pvs type-sm" href="#positioning">Positioning</a></li>
           
@@ -201,6 +213,67 @@
 <h1 id="grid" class="styleguide">Grid</h1>
 
 <div>Sassypam includes the Bootstrap grid system. <a href="http://getbootstrap.com/css/#grid" target="_blank">Visit the site</a> to read their documentation.</div>
+
+<h1 id="layout-helpers" class="styleguide">Layout Helpers</h1>
+<p class="styleguide">Clearfix, pull-right, and pull-left</p><div class="codeExample">
+  <div class="exampleOutput">
+    
+<div class="cf content-border pal">
+  <div class="content-border mbl pal">No floats</div>
+  <div class="pull-right content-border pal">Right floated</div>
+  <div class="pull-left content-border pal">Left floated</div>
+</div>
+
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cf content-border pal"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border mbl pal"</span><span class="nt">&gt;</span>No floats<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"pull-right content-border pal"</span><span class="nt">&gt;</span>Right floated<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"pull-left content-border pal"</span><span class="nt">&gt;</span>Left floated<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+<p class="styleguide">Full width and auto width</p><div class="codeExample">
+  <div class="exampleOutput">
+    
+<div class="content-border pal">
+  <input class="width-100 content-border pas mbl" placeholder="Full width input">
+  <input class="width-auto content-border pas mbl" placeholder="Just wide enough!">
+</div>
+
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-border pal"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"width-100 content-border pas mbl"</span> <span class="na">placeholder=</span><span class="s">"Full width input"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"width-auto content-border pas mbl"</span> <span class="na">placeholder=</span><span class="s">"Just wide enough!"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+<p class="styleguide">Inline block</p><div class="codeExample">
+  <div class="exampleOutput">
+    
+<ul class="inline-block">
+  <li class="content-border pas inline-block">Apples</li>
+  <li class=" content-border pas mhl inline-block">Oranges</li>
+</ul>
+
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"inline-block"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"content-border pas inline-block"</span><span class="nt">&gt;</span>Apples<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">" content-border pas mhl inline-block"</span><span class="nt">&gt;</span>Oranges<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></pre>
+    </div>
+  </div>
+</div>
 
 <h1 id="positioning" class="styleguide">Positioning</h1>
 
