@@ -2824,7 +2824,7 @@ a {
 .type-micro {
   font-size: 10px; }
 
-.button, .button-primary, .button-success, .button-warning, .button-danger, .button-info, .button-icon, .button-transparent, .button-group .filter-button, .dropdown-toggle {
+.button, .button-primary, .button-success, .button-warning, .button-danger, .button-transparent, .button-group .filter-button, .dropdown-toggle {
   border-radius: 3px;
   height: inherit;
   padding: 10px 16px;
@@ -2837,7 +2837,7 @@ a {
   font-family: "Open Sans";
   font-size: 14px;
   text-transform: uppercase; }
-  .disabled.button, .disabled.button-primary, .disabled.button-success, .disabled.button-warning, .disabled.button-danger, .disabled.button-info, .disabled.button-icon, .disabled.button-transparent, .button-group .disabled.filter-button, .disabled.dropdown-toggle, [disabled].button, [disabled].button-primary, [disabled].button-success, [disabled].button-warning, [disabled].button-danger, [disabled].button-info, [disabled].button-icon, [disabled].button-transparent, .button-group [disabled].filter-button, [disabled].dropdown-toggle, fieldset[disabled] .button, fieldset[disabled] .button-primary, fieldset[disabled] .button-success, fieldset[disabled] .button-warning, fieldset[disabled] .button-danger, fieldset[disabled] .button-info, fieldset[disabled] .button-icon, fieldset[disabled] .button-transparent, fieldset[disabled] .button-group .filter-button, .button-group fieldset[disabled] .filter-button, fieldset[disabled] .dropdown-toggle {
+  .disabled.button, .disabled.button-primary, .disabled.button-success, .disabled.button-warning, .disabled.button-danger, .disabled.button-transparent, .button-group .disabled.filter-button, .disabled.dropdown-toggle, [disabled].button, [disabled].button-primary, [disabled].button-success, [disabled].button-warning, [disabled].button-danger, [disabled].button-transparent, .button-group [disabled].filter-button, [disabled].dropdown-toggle, fieldset[disabled] .button, fieldset[disabled] .button-primary, fieldset[disabled] .button-success, fieldset[disabled] .button-warning, fieldset[disabled] .button-danger, fieldset[disabled] .button-transparent, fieldset[disabled] .button-group .filter-button, .button-group fieldset[disabled] .filter-button, fieldset[disabled] .dropdown-toggle {
     cursor: not-allowed;
     pointer-events: none;
     opacity: 0.45;
@@ -2874,18 +2874,6 @@ a {
   background: #ce4545;
   border: 1px solid #ce4545;
   color: white;
-  max-width: none; }
-
-.button-info {
-  background: #ebf8ff;
-  border: 1px solid #ebf8ff;
-  color: white;
-  max-width: none; }
-
-.button-icon {
-  background: white;
-  border: 1px solid white;
-  color: #222;
   max-width: none; }
 
 .button-transparent {
