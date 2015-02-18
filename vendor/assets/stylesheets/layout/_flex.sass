@@ -1,0 +1,86 @@
+//doc
+  ---
+  title: Flex
+  name: flex
+  category: layout
+  ---
+
+  When a grid system feels like too much, you can use <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes" target="_blank">Flexbox</a> instead to align elements.
+
+  These are some of the most common ways to use flexbox.
+
+  ```html_example
+  <div class="flex pal mas">
+    <div class="flex-1 content-border pas mas"> I am one unit wide and as tall as the tallest.</div>
+    <div class="flex-1 content-border pas mas"> I am one unit wide and as tall as the tallest..</div>
+    <div class="flex-1 content-border pavl mas"> I am one unit wide and I am the tallest.</div>
+  </div>
+  <div class="flex pal mas">
+    <div class="flex-1 content-border pas mas"> I am one unit wide.</div>
+    <div class="flex-2 content-border pas mas"> I am two units wide.</div>
+    <div class="flex-1 content-border pas mas"> I am one unit wide.</div>
+  </div>
+  <div class="flex-between pal mas">
+    <div class="content-border pas mas"> We are evenly spaced. </div>
+    <div class="content-border pas mas"> We are evenly spaced. </div>
+    <div class="content-border pas mas"> We are evenly spaced. </div>
+  </div>
+  <div class="flex-column pal mas">
+    <div class="content-border pas mas"> We are evenly spaced. </div>
+    <div class="content-border pas mas"> We are evenly spaced. </div>
+    <div class="content-border pas mas"> We are evenly spaced. </div>
+  </div> 
+  <div class="flex-end pal mas">
+    <div class="content-border pas mas"> I'm all the way at the end! </div>
+  </div>
+  <div class="flex-start pal mas">
+    <div class="content-border pas mas"> I'm all the way at the start! </div>
+  </div>
+  <div class="flex-center pal mas">
+    <div class="flex-1 content-border pas mas"> We keep our own heights but share the same center line. </div>
+    <div class="flex-1 content-border pam mas"> We keep our own heights but share the same center line. </div>
+    <div class="flex-1 content-border pal mas"> We keep our own heights but share the same center line. </div>
+    <div class="flex-1 content-border pavl mas"> We keep our own heights but share the same center line. </div>
+  </div>
+
+  ```
+
+%flex
+  display: flex
+
+.flex, .flex-end, .flex-between, .flex-start, .flex-column, .flex-center
+  @extend %flex
+
+.flex-none
+  flex: 0 !important
+  display: block !important
+
+.flex-between
+  justify-content: space-between
+
+.flex-align-end
+  align-items: flex-end
+
+.flex-end
+  justify-content: flex-end
+
+.flex-start
+  justify-content: flex-start
+
+.flex-grow
+  flex-grow: 1
+
+.flex-column
+  flex-direction: column
+.flex-center
+  align-items: center
+
+.flex-1
+  flex: 1
+
+.flex-2
+  flex: 2
+
+.flex-justify
+  justify-content: center
+

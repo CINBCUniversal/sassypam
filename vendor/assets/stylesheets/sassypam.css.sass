@@ -5,15 +5,18 @@
 @import 'settings/settings'
 
 //Get some very generic helpers defined
-@import 'generic/alignment'
-@import 'generic/clearfix'
-@import 'generic/colors'
-@import 'generic/grid'
 @import 'generic/helpers'
-@import 'generic/flex'
 @import 'fonts/fontcustom'
 
+//Get layout in correct order
+@import 'layout/grid'
+@import 'layout/layout-helpers'
+@import 'layout/flex'
+@import 'layout/positioning'
+@import 'layout/visibility'
+
 //Get utilities in correct order
+@import 'utilities/alignment'
 @import 'utilities/animations'
 @import 'utilities/borders'
 @import 'utilities/colors'
