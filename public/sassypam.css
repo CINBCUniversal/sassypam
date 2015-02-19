@@ -3445,10 +3445,9 @@ form {
       display: none; }
     .tiles.tile-list .tile-templates {
       float: left;
-      margin-top: 10px; }
+      margin-left: 20px; }
     .tiles.tile-list .tile-content {
-      float: left;
-      width: 100%; }
+      float: left; }
   .tiles .tile {
     width: calc(25% - 10px);
     margin: 5px;
