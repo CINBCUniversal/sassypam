@@ -144,9 +144,13 @@ table
   tr.row-summary
     td
       background: $summary !important
+    input:not([type]):disabled
+      background: inherit
   tr.grand-summary
     td
       background: $grand-summary !important
+    input:not([type]):disabled
+      background: inherit
   tr.selectable
     &:hover
       td
