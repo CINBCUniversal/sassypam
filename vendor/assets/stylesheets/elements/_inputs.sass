@@ -49,6 +49,9 @@ input[type="text"]
   display: inline-block
   width: 100%
   color: $dark-grey
+
+input:not([type]):disabled  //overriding user agent stylesheet
+  background: white
   
 .editable-field
   display: flex
