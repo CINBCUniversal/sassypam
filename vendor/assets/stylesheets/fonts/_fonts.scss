@@ -1,0 +1,36 @@
+@function sassypam-font-path($path) {
+  @return font-url($path);
+}
+
+@function sassypam-image-path($path) {
+  @return image-url($path);
+}
+
+$font-path: "sassypam/vendor/assets/fonts/" !default;
+
+
+@mixin declare-font-face($folder-name, $font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.eot');
+    src: sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.eot?#iefix') format('embedded-opentype'),
+         sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.woff') format('woff'),
+         sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.ttf') format('truetype'),
+         sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.svg') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
+
+@include declare-font-face('open-sans', 'Open Sans', 'OpenSans-BoldItalic-webfont', 700, italic);
+@include declare-font-face('open-sans','Open Sans', 'OpenSans-Bold-webfont', 700);
+@include declare-font-face('open-sans','Open Sans', 'OpenSans-SemiboldItalic-webfont', 600, italic);
+@include declare-font-face('open-sans','Open Sans', 'OpenSans-Semibold-webfont', 600);
+@include declare-font-face('open-sans','Open Sans', 'OpenSans-Italic-webfont', 400, italic);
+@include declare-font-face('open-sans','Open Sans', 'OpenSans-Regular-webfont', 400);
+@include declare-font-face('open-sans','Open Sans', 'OpenSans-LightItalic-webfont', 300, italic);
+@include declare-font-face('open-sans','Open Sans', 'OpenSans-Light-webfont', 300);
+@include declare-font-face('sms-glyphs','sms-glyphs', 'sms-glyphs', 300);
+
+
