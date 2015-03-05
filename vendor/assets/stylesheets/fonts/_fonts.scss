@@ -2,27 +2,24 @@
   @return font-url($path);
 }
 
-@function sassypam-image-path($path) {
-  @return image-url($path);
-}
-
-$font-path: "sassypam/vendor/assets/fonts/" !default;
+$font-path: "/assets/" !default;
 
 
 @mixin declare-font-face($folder-name, $font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
   @font-face {
     font-family: '#{$font-family}';
-    src: sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.eot');
-    src: sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.eot?#iefix') format('embedded-opentype'),
-         sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.woff') format('woff'),
-         sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.ttf') format('truetype'),
-         sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.svg') format('svg');
+    src: url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.eot'));
+    src: url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.eot?#iefix')) format('embedded-opentype'),
+         url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.woff')) format('woff'),
+         url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.ttf')) format('truetype'),
+         url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.svg')) format('svg');
     font-weight: $font-weight;
     font-style: $font-style;
     font-stretch: $font-stretch;
   }
 }
 
+//Open Sans
 @include declare-font-face('open-sans', 'Open Sans', 'OpenSans-BoldItalic-webfont', 700, italic);
 @include declare-font-face('open-sans','Open Sans', 'OpenSans-Bold-webfont', 700);
 @include declare-font-face('open-sans','Open Sans', 'OpenSans-SemiboldItalic-webfont', 600, italic);
@@ -31,6 +28,31 @@ $font-path: "sassypam/vendor/assets/fonts/" !default;
 @include declare-font-face('open-sans','Open Sans', 'OpenSans-Regular-webfont', 400);
 @include declare-font-face('open-sans','Open Sans', 'OpenSans-LightItalic-webfont', 300, italic);
 @include declare-font-face('open-sans','Open Sans', 'OpenSans-Light-webfont', 300);
-@include declare-font-face('sms-glyphs','sms-glyphs', 'sms-glyphs', 300);
 
+//Flexo
+@include declare-font-face('flexo','Flexo', 'Durotype-Flexo-Light', 300);
+@include declare-font-face('flexo','Flexo', 'Durotype-Flexo-Regular', 500);
+
+//Helvetica Neue
+@include declare-font-face('helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Bold-Italic', 700, italic);
+@include declare-font-face('helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Bold', 700);
+@include declare-font-face('helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Italic', 500, italic);
+@include declare-font-face('helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Light-Italic', 300, italic);
+@include declare-font-face('helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Light', 300);
+@include declare-font-face('helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Medium', 500);
+@include declare-font-face('helvetica-neue','Helvetica Neue', 'Helvetica-Neue-UltraLight', 100);
+@include declare-font-face('helvetica-neue','Helvetica Neue', 'Helvetica-Neue', 400);
+
+//PAM Icons (Elegant Icons + custom stuff through IcoMoon)
+@mixin declare-inline-font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url(font-path('#{$font-filename}.woff')) format('woff');
+    src: url(font-path('#{$font-filename}.ttf')) format('truetype'), url(font-path('#{$font-filename}.svg')) format('svg'), url(font-path('#{$font-filename}.eot')) format('embedded-opentype');
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
+@include declare-inline-font-face('sms-glyphs', 'sms-glyphs', 300);
 
