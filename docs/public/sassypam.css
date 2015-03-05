@@ -348,6 +348,7 @@ td,
 th {
   padding: 0; }
 
+<<<<<<< HEAD
 @font-face {
   font-family: "Open Sans";
   src: url(font-url("/assets/open-sans/OpenSans-BoldItalic-webfont.eot"));
@@ -481,6 +482,23 @@ th {
   font-weight: 300;
   font-style: normal;
   font-stretch: normal; }
+=======
+html, body {
+  height: 100%; }
+
+.gradient-bg {
+  background: linear-gradient(#fbfbfb, #f3f3f3); }
+
+.cursor {
+  cursor: pointer; }
+
+.inherit-bg {
+  background: inherit; }
+
+/*
+ * Font Custom: bare CSS
+ */
+>>>>>>> 52941522a4236787523c80dd127c6f9212fb710c
 .sms-glyph-arrow-up-down:before,
 .sms-glyph-arrow_back:before,
 .sms-glyph-arrow_carrot-2down:before,
@@ -3596,8 +3614,12 @@ form {
       .tiles.tile-list .tile-templates select {
         width: 200px; }
     .tiles.tile-list .tile-content {
+<<<<<<< HEAD
       float: left;
       width: 225px; }
+=======
+      float: left; }
+>>>>>>> 52941522a4236787523c80dd127c6f9212fb710c
   .tiles .tile {
     width: calc(25% - 10px);
     margin: 5px;
