@@ -1,0 +1,4 @@
+@function sassypam-image-path($path) {
+  @return image-url($path);
+}
+
