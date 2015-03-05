@@ -56,6 +56,13 @@ Once you've installed the SassyPAM toolkit, use it by calling the main file in y
 
 ### Updating Styleguide
 
+Make sure you can run git hooks, once you push, we'll interactively take you to through the steps of pushing to gh-pages
+
+    $ chmod +x .git/hooks/pre-push
+
+
+//Old steps, will take out once script is fully complete
+
     $ grunt sass # Only necessary if you change CSS rules
     $ hologram # Regenerates styleguide when you change hologram comment docs
     $ open docs/index.html

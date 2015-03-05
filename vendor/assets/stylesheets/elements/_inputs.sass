@@ -9,7 +9,7 @@
   ```html_example
     <input type="text" placeholder="This is what a text input looks like">
   ```
-  
+
   Large Checkbox
 
   ```html_example
@@ -28,15 +28,15 @@
     </div>
   ```
 
-
-
+textarea,input
+  font-family: 'Open Sans'
 
 input
+  background-color: transparent
   border: none
   padding: 0px
   text-align: right
   width: 100%
-  font-family: 'Open Sans'
   &:focus
     outline: none
 
@@ -50,6 +50,9 @@ input[type="text"]
   display: inline-block
   width: 100%
   color: $dark-grey
+
+input:not([type]):disabled  //overriding user agent stylesheet
+  background: white
   
 .editable-field
   display: flex
