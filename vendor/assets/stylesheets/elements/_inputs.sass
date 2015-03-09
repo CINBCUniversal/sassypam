@@ -51,9 +51,12 @@ input[type="text"]
   width: 100%
   color: $dark-grey
 
+input[type="search"]
+  background: white
+
 input:not([type]):disabled  //overriding user agent stylesheet
   background: white
-  
+
 .editable-field
   display: flex
 .editable-input
@@ -90,7 +93,7 @@ input:not([type]):disabled  //overriding user agent stylesheet
     color: $green
 
 @mixin checkbox($name, $size, $icon-size)
-  .checkbox-#{$name}
+  .checkbox-#$name}
     @extend %checkbox
     width: $size
     height: $size
