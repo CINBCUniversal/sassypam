@@ -348,157 +348,139 @@ td,
 th {
   padding: 0; }
 
-<<<<<<< HEAD
 @font-face {
   font-family: "Open Sans";
-  src: url(font-url("/assets/open-sans/OpenSans-BoldItalic-webfont.eot"));
-  src: url(font-url("/assets/open-sans/OpenSans-BoldItalic-webfont.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/open-sans/OpenSans-BoldItalic-webfont.woff")) format("woff"), url(font-url("/assets/open-sans/OpenSans-BoldItalic-webfont.ttf")) format("truetype"), url(font-url("/assets/open-sans/OpenSans-BoldItalic-webfont.svg")) format("svg");
+  src: url(font-path("open-sans/OpenSans-BoldItalic-webfont.eot"));
+  src: url(font-path("open-sans/OpenSans-BoldItalic-webfont.eot?#iefix")) format("embedded-opentype"), url(font-path("open-sans/OpenSans-BoldItalic-webfont.woff")) format("woff"), url(font-path("open-sans/OpenSans-BoldItalic-webfont.ttf")) format("truetype"), url(font-path("open-sans/OpenSans-BoldItalic-webfont.svg")) format("svg");
   font-weight: 700;
   font-style: italic;
   font-stretch: normal; }
 @font-face {
   font-family: "Open Sans";
-  src: url(font-url("/assets/open-sans/OpenSans-Bold-webfont.eot"));
-  src: url(font-url("/assets/open-sans/OpenSans-Bold-webfont.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/open-sans/OpenSans-Bold-webfont.woff")) format("woff"), url(font-url("/assets/open-sans/OpenSans-Bold-webfont.ttf")) format("truetype"), url(font-url("/assets/open-sans/OpenSans-Bold-webfont.svg")) format("svg");
+  src: url(font-path("open-sans/OpenSans-Bold-webfont.eot"));
+  src: url(font-path("open-sans/OpenSans-Bold-webfont.eot?#iefix")) format("embedded-opentype"), url(font-path("open-sans/OpenSans-Bold-webfont.woff")) format("woff"), url(font-path("open-sans/OpenSans-Bold-webfont.ttf")) format("truetype"), url(font-path("open-sans/OpenSans-Bold-webfont.svg")) format("svg");
   font-weight: 700;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Open Sans";
-  src: url(font-url("/assets/open-sans/OpenSans-SemiboldItalic-webfont.eot"));
-  src: url(font-url("/assets/open-sans/OpenSans-SemiboldItalic-webfont.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/open-sans/OpenSans-SemiboldItalic-webfont.woff")) format("woff"), url(font-url("/assets/open-sans/OpenSans-SemiboldItalic-webfont.ttf")) format("truetype"), url(font-url("/assets/open-sans/OpenSans-SemiboldItalic-webfont.svg")) format("svg");
+  src: url(font-path("open-sans/OpenSans-SemiboldItalic-webfont.eot"));
+  src: url(font-path("open-sans/OpenSans-SemiboldItalic-webfont.eot?#iefix")) format("embedded-opentype"), url(font-path("open-sans/OpenSans-SemiboldItalic-webfont.woff")) format("woff"), url(font-path("open-sans/OpenSans-SemiboldItalic-webfont.ttf")) format("truetype"), url(font-path("open-sans/OpenSans-SemiboldItalic-webfont.svg")) format("svg");
   font-weight: 600;
   font-style: italic;
   font-stretch: normal; }
 @font-face {
   font-family: "Open Sans";
-  src: url(font-url("/assets/open-sans/OpenSans-Semibold-webfont.eot"));
-  src: url(font-url("/assets/open-sans/OpenSans-Semibold-webfont.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/open-sans/OpenSans-Semibold-webfont.woff")) format("woff"), url(font-url("/assets/open-sans/OpenSans-Semibold-webfont.ttf")) format("truetype"), url(font-url("/assets/open-sans/OpenSans-Semibold-webfont.svg")) format("svg");
+  src: url(font-path("open-sans/OpenSans-Semibold-webfont.eot"));
+  src: url(font-path("open-sans/OpenSans-Semibold-webfont.eot?#iefix")) format("embedded-opentype"), url(font-path("open-sans/OpenSans-Semibold-webfont.woff")) format("woff"), url(font-path("open-sans/OpenSans-Semibold-webfont.ttf")) format("truetype"), url(font-path("open-sans/OpenSans-Semibold-webfont.svg")) format("svg");
   font-weight: 600;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Open Sans";
-  src: url(font-url("/assets/open-sans/OpenSans-Italic-webfont.eot"));
-  src: url(font-url("/assets/open-sans/OpenSans-Italic-webfont.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/open-sans/OpenSans-Italic-webfont.woff")) format("woff"), url(font-url("/assets/open-sans/OpenSans-Italic-webfont.ttf")) format("truetype"), url(font-url("/assets/open-sans/OpenSans-Italic-webfont.svg")) format("svg");
+  src: url(font-path("open-sans/OpenSans-Italic-webfont.eot"));
+  src: url(font-path("open-sans/OpenSans-Italic-webfont.eot?#iefix")) format("embedded-opentype"), url(font-path("open-sans/OpenSans-Italic-webfont.woff")) format("woff"), url(font-path("open-sans/OpenSans-Italic-webfont.ttf")) format("truetype"), url(font-path("open-sans/OpenSans-Italic-webfont.svg")) format("svg");
   font-weight: 400;
   font-style: italic;
   font-stretch: normal; }
 @font-face {
   font-family: "Open Sans";
-  src: url(font-url("/assets/open-sans/OpenSans-Regular-webfont.eot"));
-  src: url(font-url("/assets/open-sans/OpenSans-Regular-webfont.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/open-sans/OpenSans-Regular-webfont.woff")) format("woff"), url(font-url("/assets/open-sans/OpenSans-Regular-webfont.ttf")) format("truetype"), url(font-url("/assets/open-sans/OpenSans-Regular-webfont.svg")) format("svg");
+  src: url(font-path("open-sans/OpenSans-Regular-webfont.eot"));
+  src: url(font-path("open-sans/OpenSans-Regular-webfont.eot?#iefix")) format("embedded-opentype"), url(font-path("open-sans/OpenSans-Regular-webfont.woff")) format("woff"), url(font-path("open-sans/OpenSans-Regular-webfont.ttf")) format("truetype"), url(font-path("open-sans/OpenSans-Regular-webfont.svg")) format("svg");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Open Sans";
-  src: url(font-url("/assets/open-sans/OpenSans-LightItalic-webfont.eot"));
-  src: url(font-url("/assets/open-sans/OpenSans-LightItalic-webfont.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/open-sans/OpenSans-LightItalic-webfont.woff")) format("woff"), url(font-url("/assets/open-sans/OpenSans-LightItalic-webfont.ttf")) format("truetype"), url(font-url("/assets/open-sans/OpenSans-LightItalic-webfont.svg")) format("svg");
+  src: url(font-path("open-sans/OpenSans-LightItalic-webfont.eot"));
+  src: url(font-path("open-sans/OpenSans-LightItalic-webfont.eot?#iefix")) format("embedded-opentype"), url(font-path("open-sans/OpenSans-LightItalic-webfont.woff")) format("woff"), url(font-path("open-sans/OpenSans-LightItalic-webfont.ttf")) format("truetype"), url(font-path("open-sans/OpenSans-LightItalic-webfont.svg")) format("svg");
   font-weight: 300;
   font-style: italic;
   font-stretch: normal; }
 @font-face {
   font-family: "Open Sans";
-  src: url(font-url("/assets/open-sans/OpenSans-Light-webfont.eot"));
-  src: url(font-url("/assets/open-sans/OpenSans-Light-webfont.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/open-sans/OpenSans-Light-webfont.woff")) format("woff"), url(font-url("/assets/open-sans/OpenSans-Light-webfont.ttf")) format("truetype"), url(font-url("/assets/open-sans/OpenSans-Light-webfont.svg")) format("svg");
+  src: url(font-path("open-sans/OpenSans-Light-webfont.eot"));
+  src: url(font-path("open-sans/OpenSans-Light-webfont.eot?#iefix")) format("embedded-opentype"), url(font-path("open-sans/OpenSans-Light-webfont.woff")) format("woff"), url(font-path("open-sans/OpenSans-Light-webfont.ttf")) format("truetype"), url(font-path("open-sans/OpenSans-Light-webfont.svg")) format("svg");
   font-weight: 300;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Flexo";
-  src: url(font-url("/assets/flexo/Durotype-Flexo-Light.eot"));
-  src: url(font-url("/assets/flexo/Durotype-Flexo-Light.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/flexo/Durotype-Flexo-Light.woff")) format("woff"), url(font-url("/assets/flexo/Durotype-Flexo-Light.ttf")) format("truetype"), url(font-url("/assets/flexo/Durotype-Flexo-Light.svg")) format("svg");
+  src: url(font-path("flexo/Durotype-Flexo-Light.eot"));
+  src: url(font-path("flexo/Durotype-Flexo-Light.eot?#iefix")) format("embedded-opentype"), url(font-path("flexo/Durotype-Flexo-Light.woff")) format("woff"), url(font-path("flexo/Durotype-Flexo-Light.ttf")) format("truetype"), url(font-path("flexo/Durotype-Flexo-Light.svg")) format("svg");
   font-weight: 300;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Flexo";
-  src: url(font-url("/assets/flexo/Durotype-Flexo-Regular.eot"));
-  src: url(font-url("/assets/flexo/Durotype-Flexo-Regular.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/flexo/Durotype-Flexo-Regular.woff")) format("woff"), url(font-url("/assets/flexo/Durotype-Flexo-Regular.ttf")) format("truetype"), url(font-url("/assets/flexo/Durotype-Flexo-Regular.svg")) format("svg");
+  src: url(font-path("flexo/Durotype-Flexo-Regular.eot"));
+  src: url(font-path("flexo/Durotype-Flexo-Regular.eot?#iefix")) format("embedded-opentype"), url(font-path("flexo/Durotype-Flexo-Regular.woff")) format("woff"), url(font-path("flexo/Durotype-Flexo-Regular.ttf")) format("truetype"), url(font-path("flexo/Durotype-Flexo-Regular.svg")) format("svg");
   font-weight: 500;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold-Italic.eot"));
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold-Italic.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold-Italic.woff")) format("woff"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold-Italic.ttf")) format("truetype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold-Italic.svg")) format("svg");
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Bold-Italic.eot"));
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Bold-Italic.eot?#iefix")) format("embedded-opentype"), url(font-path("helvetica-neue/Helvetica-Neue-Bold-Italic.woff")) format("woff"), url(font-path("helvetica-neue/Helvetica-Neue-Bold-Italic.ttf")) format("truetype"), url(font-path("helvetica-neue/Helvetica-Neue-Bold-Italic.svg")) format("svg");
   font-weight: 700;
   font-style: italic;
   font-stretch: normal; }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold.eot"));
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold.woff")) format("woff"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold.ttf")) format("truetype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Bold.svg")) format("svg");
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Bold.eot"));
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Bold.eot?#iefix")) format("embedded-opentype"), url(font-path("helvetica-neue/Helvetica-Neue-Bold.woff")) format("woff"), url(font-path("helvetica-neue/Helvetica-Neue-Bold.ttf")) format("truetype"), url(font-path("helvetica-neue/Helvetica-Neue-Bold.svg")) format("svg");
   font-weight: 700;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Italic.eot"));
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Italic.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Italic.woff")) format("woff"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Italic.ttf")) format("truetype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Italic.svg")) format("svg");
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Italic.eot"));
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Italic.eot?#iefix")) format("embedded-opentype"), url(font-path("helvetica-neue/Helvetica-Neue-Italic.woff")) format("woff"), url(font-path("helvetica-neue/Helvetica-Neue-Italic.ttf")) format("truetype"), url(font-path("helvetica-neue/Helvetica-Neue-Italic.svg")) format("svg");
   font-weight: 500;
   font-style: italic;
   font-stretch: normal; }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light-Italic.eot"));
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light-Italic.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light-Italic.woff")) format("woff"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light-Italic.ttf")) format("truetype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light-Italic.svg")) format("svg");
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Light-Italic.eot"));
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Light-Italic.eot?#iefix")) format("embedded-opentype"), url(font-path("helvetica-neue/Helvetica-Neue-Light-Italic.woff")) format("woff"), url(font-path("helvetica-neue/Helvetica-Neue-Light-Italic.ttf")) format("truetype"), url(font-path("helvetica-neue/Helvetica-Neue-Light-Italic.svg")) format("svg");
   font-weight: 300;
   font-style: italic;
   font-stretch: normal; }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light.eot"));
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light.woff")) format("woff"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light.ttf")) format("truetype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Light.svg")) format("svg");
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Light.eot"));
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Light.eot?#iefix")) format("embedded-opentype"), url(font-path("helvetica-neue/Helvetica-Neue-Light.woff")) format("woff"), url(font-path("helvetica-neue/Helvetica-Neue-Light.ttf")) format("truetype"), url(font-path("helvetica-neue/Helvetica-Neue-Light.svg")) format("svg");
   font-weight: 300;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Medium.eot"));
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-Medium.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Medium.woff")) format("woff"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Medium.ttf")) format("truetype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-Medium.svg")) format("svg");
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Medium.eot"));
+  src: url(font-path("helvetica-neue/Helvetica-Neue-Medium.eot?#iefix")) format("embedded-opentype"), url(font-path("helvetica-neue/Helvetica-Neue-Medium.woff")) format("woff"), url(font-path("helvetica-neue/Helvetica-Neue-Medium.ttf")) format("truetype"), url(font-path("helvetica-neue/Helvetica-Neue-Medium.svg")) format("svg");
   font-weight: 500;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-UltraLight.eot"));
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue-UltraLight.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-UltraLight.woff")) format("woff"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-UltraLight.ttf")) format("truetype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue-UltraLight.svg")) format("svg");
+  src: url(font-path("helvetica-neue/Helvetica-Neue-UltraLight.eot"));
+  src: url(font-path("helvetica-neue/Helvetica-Neue-UltraLight.eot?#iefix")) format("embedded-opentype"), url(font-path("helvetica-neue/Helvetica-Neue-UltraLight.woff")) format("woff"), url(font-path("helvetica-neue/Helvetica-Neue-UltraLight.ttf")) format("truetype"), url(font-path("helvetica-neue/Helvetica-Neue-UltraLight.svg")) format("svg");
   font-weight: 100;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue.eot"));
-  src: url(font-url("/assets/helvetica-neue/Helvetica-Neue.eot?#iefix")) format("embedded-opentype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue.woff")) format("woff"), url(font-url("/assets/helvetica-neue/Helvetica-Neue.ttf")) format("truetype"), url(font-url("/assets/helvetica-neue/Helvetica-Neue.svg")) format("svg");
+  src: url(font-path("helvetica-neue/Helvetica-Neue.eot"));
+  src: url(font-path("helvetica-neue/Helvetica-Neue.eot?#iefix")) format("embedded-opentype"), url(font-path("helvetica-neue/Helvetica-Neue.woff")) format("woff"), url(font-path("helvetica-neue/Helvetica-Neue.ttf")) format("truetype"), url(font-path("helvetica-neue/Helvetica-Neue.svg")) format("svg");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal; }
 @font-face {
   font-family: "sms-glyphs";
-  src: url(font-path("sms-glyphs.woff")) format("woff");
-  src: url(font-path("sms-glyphs.ttf")) format("truetype"), url(font-path("sms-glyphs.svg")) format("svg"), url(font-path("sms-glyphs.eot")) format("embedded-opentype");
+  src: url(font-path("sms-glyphs/sms-glyphs.eot"));
+  src: url(font-path("sms-glyphs/sms-glyphs.eot?#iefix")) format("embedded-opentype"), url(font-path("sms-glyphs/sms-glyphs.woff")) format("woff"), url(font-path("sms-glyphs/sms-glyphs.ttf")) format("truetype"), url(font-path("sms-glyphs/sms-glyphs.svg")) format("svg");
   font-weight: 300;
   font-style: normal;
   font-stretch: normal; }
-=======
-html, body {
-  height: 100%; }
-
-.gradient-bg {
-  background: linear-gradient(#fbfbfb, #f3f3f3); }
-
-.cursor {
-  cursor: pointer; }
-
-.inherit-bg {
-  background: inherit; }
-
-/*
- * Font Custom: bare CSS
- */
->>>>>>> 52941522a4236787523c80dd127c6f9212fb710c
 .sms-glyph-arrow-up-down:before,
 .sms-glyph-arrow_back:before,
 .sms-glyph-arrow_carrot-2down:before,
@@ -3614,12 +3596,8 @@ form {
       .tiles.tile-list .tile-templates select {
         width: 200px; }
     .tiles.tile-list .tile-content {
-<<<<<<< HEAD
       float: left;
       width: 225px; }
-=======
-      float: left; }
->>>>>>> 52941522a4236787523c80dd127c6f9212fb710c
   .tiles .tile {
     width: calc(25% - 10px);
     margin: 5px;
