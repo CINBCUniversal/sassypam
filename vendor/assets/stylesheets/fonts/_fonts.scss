@@ -1,18 +1,14 @@
-@function sassypam-font-path($path) {
-  @return font-url($path);
-}
-
 $font-path: "/assets/" !default;
 
 
 @mixin declare-font-face($folder-name, $font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
   @font-face {
     font-family: '#{$font-family}';
-    src: url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.eot'));
-    src: url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.eot?#iefix')) format('embedded-opentype'),
-         url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.woff')) format('woff'),
-         url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.ttf')) format('truetype'),
-         url(sassypam-font-path('#{$font-path}#{$folder-name}/#{$font-filename}.svg')) format('svg');
+    src: url(font-path('#{$folder-name}/#{$font-filename}.eot'));
+    src: url(font-path('#{$folder-name}/#{$font-filename}.eot?#iefix')) format('embedded-opentype'),
+         url(font-path('#{$folder-name}/#{$font-filename}.woff')) format('woff'),
+         url(font-path('#{$folder-name}/#{$font-filename}.ttf')) format('truetype'),
+         url(font-path('#{$folder-name}/#{$font-filename}.svg')) format('svg');
     font-weight: $font-weight;
     font-style: $font-style;
     font-stretch: $font-stretch;
@@ -44,15 +40,5 @@ $font-path: "/assets/" !default;
 @include declare-font-face('helvetica-neue','Helvetica Neue', 'Helvetica-Neue', 400);
 
 //PAM Icons (Elegant Icons + custom stuff through IcoMoon)
-@mixin declare-inline-font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
-  @font-face {
-    font-family: '#{$font-family}';
-    src: url(font-path('#{$font-filename}.woff')) format('woff');
-    src: url(font-path('#{$font-filename}.ttf')) format('truetype'), url(font-path('#{$font-filename}.svg')) format('svg'), url(font-path('#{$font-filename}.eot')) format('embedded-opentype');
-    font-weight: $font-weight;
-    font-style: $font-style;
-    font-stretch: $font-stretch;
-  }
-}
-@include declare-inline-font-face('sms-glyphs', 'sms-glyphs', 300);
+@include declare-font-face('sms-glyphs', 'sms-glyphs', 'sms-glyphs', 300);
 
