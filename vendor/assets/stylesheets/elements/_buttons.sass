@@ -141,13 +141,22 @@
 
 .button-menu-label
   display: inline-block
-  &:before
-    @extend .sms-glyph-arrow_triangle-down
   &:after
-    //
     display: inline-block
     padding-left: 0.4em
     position: relative
+
+.button-menu-label:after
+  content: "\f10e"
+  font-family: "sms-glyphs"
+  font-style: normal
+  font-weight: normal
+  font-variant: normal
+  text-transform: none
+  line-height: 1
+  -webkit-font-smoothing: antialiased
+  display: inline-block
+  text-decoration: inherit
 
 
 .button-menu-content
