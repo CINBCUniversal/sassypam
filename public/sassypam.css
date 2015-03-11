@@ -481,326 +481,7 @@ th {
   font-weight: 300;
   font-style: normal;
   font-stretch: normal; }
-.sms-glyph-arrow-up-down:before,
-.sms-glyph-arrow_back:before,
-.sms-glyph-arrow_carrot-2down:before,
-.sms-glyph-arrow_carrot-2down_alt2:before,
-.sms-glyph-arrow_carrot-2dwnn_alt:before,
-.sms-glyph-arrow_carrot-2left:before,
-.sms-glyph-arrow_carrot-2left_alt:before,
-.sms-glyph-arrow_carrot-2left_alt2:before,
-.sms-glyph-arrow_carrot-2right:before,
-.sms-glyph-arrow_carrot-2right_alt:before,
-.sms-glyph-arrow_carrot-2right_alt2:before,
-.sms-glyph-arrow_carrot-2up:before,
-.sms-glyph-arrow_carrot-2up_alt:before,
-.sms-glyph-arrow_carrot-2up_alt2:before,
-.sms-glyph-arrow_carrot-down:before,
-.sms-glyph-arrow_carrot-down_alt:before,
-.sms-glyph-arrow_carrot-down_alt2:before,
-.sms-glyph-arrow_carrot-left:before,
-.sms-glyph-arrow_carrot-left_alt:before,
-.sms-glyph-arrow_carrot-left_alt2:before,
-.sms-glyph-arrow_carrot-right:before,
-.sms-glyph-arrow_carrot-right_alt:before,
-.sms-glyph-arrow_carrot-right_alt2:before,
-.sms-glyph-arrow_carrot-up:before,
-.sms-glyph-arrow_carrot-up_alt2:before,
-.sms-glyph-arrow_carrot_up_alt:before,
-.sms-glyph-arrow_condense:before,
-.sms-glyph-arrow_condense_alt:before,
-.sms-glyph-arrow_down:before,
-.sms-glyph-arrow_down_alt:before,
-.sms-glyph-arrow_expand:before,
-.sms-glyph-arrow_expand_alt:before,
-.sms-glyph-arrow_expand_alt2:before,
-.sms-glyph-arrow_expand_alt3:before,
-.sms-glyph-arrow_left-down:before,
-.sms-glyph-arrow_left-down_alt:before,
-.sms-glyph-arrow_left-right:before,
-.sms-glyph-arrow_left-right_alt:before,
-.sms-glyph-arrow_left-up:before,
-.sms-glyph-arrow_left-up_alt:before,
-.sms-glyph-arrow_left:before,
-.sms-glyph-arrow_left_alt:before,
-.sms-glyph-arrow_move:before,
-.sms-glyph-arrow_right-down:before,
-.sms-glyph-arrow_right-down_alt:before,
-.sms-glyph-arrow_right-up:before,
-.sms-glyph-arrow_right-up_alt:before,
-.sms-glyph-arrow_right:before,
-.sms-glyph-arrow_right_alt:before,
-.sms-glyph-arrow_triangle-down:before,
-.sms-glyph-arrow_triangle-down_alt:before,
-.sms-glyph-arrow_triangle-down_alt2:before,
-.sms-glyph-arrow_triangle-left:before,
-.sms-glyph-arrow_triangle-left_alt:before,
-.sms-glyph-arrow_triangle-left_alt2:before,
-.sms-glyph-arrow_triangle-right:before,
-.sms-glyph-arrow_triangle-right_alt:before,
-.sms-glyph-arrow_triangle-right_alt2:before,
-.sms-glyph-arrow_triangle-up:before,
-.sms-glyph-arrow_triangle-up_alt:before,
-.sms-glyph-arrow_triangle-up_alt2:before,
-.sms-glyph-arrow_up-down_alt:before,
-.sms-glyph-arrow_up:before,
-.sms-glyph-arrow_up_alt:before,
-.sms-glyph-circle:before,
-.sms-glyph-colors:before,
-.sms-glyph-copy:before,
-.sms-glyph-filter:before,
-.sms-glyph-handshake:before,
-.sms-glyph-icon:before,
-.sms-glyph-icon_adjust-horiz:before,
-.sms-glyph-icon_adjust-vert:before,
-.sms-glyph-icon_archive:before,
-.sms-glyph-icon_archive_alt:before,
-.sms-glyph-icon_bag:before,
-.sms-glyph-icon_bag_alt:before,
-.sms-glyph-icon_blocked:before,
-.sms-glyph-icon_book:before,
-.sms-glyph-icon_book_alt:before,
-.sms-glyph-icon_box-checked:before,
-.sms-glyph-icon_box-empty:before,
-.sms-glyph-icon_box-selected:before,
-.sms-glyph-icon_calendar:before,
-.sms-glyph-icon_camera:before,
-.sms-glyph-icon_camera_alt:before,
-.sms-glyph-icon_cart:before,
-.sms-glyph-icon_cart_alt:before,
-.sms-glyph-icon_chat:before,
-.sms-glyph-icon_chat_alt:before,
-.sms-glyph-icon_check:before,
-.sms-glyph-icon_check_alt:before,
-.sms-glyph-icon_check_alt2:before,
-.sms-glyph-icon_circle-empty:before,
-.sms-glyph-icon_circle-slelected:before,
-.sms-glyph-icon_clock:before,
-.sms-glyph-icon_clock_alt:before,
-.sms-glyph-icon_close:before,
-.sms-glyph-icon_close_alt:before,
-.sms-glyph-icon_close_alt2:before,
-.sms-glyph-icon_cloud-download:before,
-.sms-glyph-icon_cloud-download_alt:before,
-.sms-glyph-icon_cloud-upload:before,
-.sms-glyph-icon_cloud-upload_alt:before,
-.sms-glyph-icon_cloud:before,
-.sms-glyph-icon_cloud_alt:before,
-.sms-glyph-icon_cog:before,
-.sms-glyph-icon_cogs:before,
-.sms-glyph-icon_comment:before,
-.sms-glyph-icon_comment_alt:before,
-.sms-glyph-icon_compass:before,
-.sms-glyph-icon_compass_alt:before,
-.sms-glyph-icon_cone:before,
-.sms-glyph-icon_cone_alt:before,
-.sms-glyph-icon_contacts:before,
-.sms-glyph-icon_contacts_alt:before,
-.sms-glyph-icon_creditcard:before,
-.sms-glyph-icon_cursor:before,
-.sms-glyph-icon_cursor_alt:before,
-.sms-glyph-icon_desktop:before,
-.sms-glyph-icon_document:before,
-.sms-glyph-icon_document_alt:before,
-.sms-glyph-icon_documents:before,
-.sms-glyph-icon_documents_alt:before,
-.sms-glyph-icon_download:before,
-.sms-glyph-icon_drawer:before,
-.sms-glyph-icon_drawer_alt:before,
-.sms-glyph-icon_error-circle:before,
-.sms-glyph-icon_error-circle_alt:before,
-.sms-glyph-icon_error-oct:before,
-.sms-glyph-icon_error-oct_alt:before,
-.sms-glyph-icon_error-triangle:before,
-.sms-glyph-icon_error-triangle_alt:before,
-.sms-glyph-icon_film:before,
-.sms-glyph-icon_folder-add:before,
-.sms-glyph-icon_folder-add_alt:before,
-.sms-glyph-icon_folder-alt:before,
-.sms-glyph-icon_folder-open:before,
-.sms-glyph-icon_folder-open_alt:before,
-.sms-glyph-icon_folder:before,
-.sms-glyph-icon_folder_download:before,
-.sms-glyph-icon_folder_upload:before,
-.sms-glyph-icon_genius:before,
-.sms-glyph-icon_gift:before,
-.sms-glyph-icon_gift_alt:before,
-.sms-glyph-icon_grid-2x2:before,
-.sms-glyph-icon_grid-3x3:before,
-.sms-glyph-icon_group:before,
-.sms-glyph-icon_headphones:before,
-.sms-glyph-icon_heart:before,
-.sms-glyph-icon_heart_alt:before,
-.sms-glyph-icon_house:before,
-.sms-glyph-icon_house_alt:before,
-.sms-glyph-icon_image:before,
-.sms-glyph-icon_images:before,
-.sms-glyph-icon_info:before,
-.sms-glyph-icon_info_alt:before,
-.sms-glyph-icon_key:before,
-.sms-glyph-icon_key_alt:before,
-.sms-glyph-icon_laptop:before,
-.sms-glyph-icon_lifesaver:before,
-.sms-glyph-icon_lightbulb:before,
-.sms-glyph-icon_lightbulb_alt:before,
-.sms-glyph-icon_link:before,
-.sms-glyph-icon_link_alt:before,
-.sms-glyph-icon_loading:before,
-.sms-glyph-icon_lock-open:before,
-.sms-glyph-icon_lock-open_alt:before,
-.sms-glyph-icon_lock:before,
-.sms-glyph-icon_lock_alt:before,
-.sms-glyph-icon_mail:before,
-.sms-glyph-icon_mail_alt:before,
-.sms-glyph-icon_map:before,
-.sms-glyph-icon_map_alt:before,
-.sms-glyph-icon_menu-circle_alt:before,
-.sms-glyph-icon_menu-circle_alt2:before,
-.sms-glyph-icon_menu-square_alt:before,
-.sms-glyph-icon_menu-square_alt2:before,
-.sms-glyph-icon_menu:before,
-.sms-glyph-icon_mic:before,
-.sms-glyph-icon_mic_alt:before,
-.sms-glyph-icon_minus-06:before,
-.sms-glyph-icon_minus-box:before,
-.sms-glyph-icon_minus_alt:before,
-.sms-glyph-icon_minus_alt2:before,
-.sms-glyph-icon_mobile:before,
-.sms-glyph-icon_music:before,
-.sms-glyph-icon_ol:before,
-.sms-glyph-icon_paperclip:before,
-.sms-glyph-icon_pause:before,
-.sms-glyph-icon_pause_alt:before,
-.sms-glyph-icon_pause_alt2:before,
-.sms-glyph-icon_pencil-edit:before,
-.sms-glyph-icon_pencil-edit_alt:before,
-.sms-glyph-icon_pencil:before,
-.sms-glyph-icon_pencil_alt:before,
-.sms-glyph-icon_phone:before,
-.sms-glyph-icon_piechart:before,
-.sms-glyph-icon_pin:before,
-.sms-glyph-icon_pin_alt:before,
-.sms-glyph-icon_plus-box:before,
-.sms-glyph-icon_plus:before,
-.sms-glyph-icon_plus_alt:before,
-.sms-glyph-icon_plus_alt2:before,
-.sms-glyph-icon_profile:before,
-.sms-glyph-icon_pushpin:before,
-.sms-glyph-icon_pushpin_alt:before,
-.sms-glyph-icon_question:before,
-.sms-glyph-icon_question_alt:before,
-.sms-glyph-icon_question_alt2:before,
-.sms-glyph-icon_quotations:before,
-.sms-glyph-icon_quotations_alt:before,
-.sms-glyph-icon_quotations_alt2:before,
-.sms-glyph-icon_refresh:before,
-.sms-glyph-icon_ribbon:before,
-.sms-glyph-icon_ribbon_alt:before,
-.sms-glyph-icon_search:before,
-.sms-glyph-icon_star-half:before,
-.sms-glyph-icon_star-half_alt:before,
-.sms-glyph-icon_star:before,
-.sms-glyph-icon_star_alt:before,
-.sms-glyph-icon_stop:before,
-.sms-glyph-icon_stop_alt:before,
-.sms-glyph-icon_stop_alt2:before,
-.sms-glyph-icon_table:before,
-.sms-glyph-icon_tablet:before,
-.sms-glyph-icon_tag:before,
-.sms-glyph-icon_tag_alt:before,
-.sms-glyph-icon_tags:before,
-.sms-glyph-icon_tags_alt:before,
-.sms-glyph-icon_tool:before,
-.sms-glyph-icon_toolbox:before,
-.sms-glyph-icon_toolbox_alt:before,
-.sms-glyph-icon_tools:before,
-.sms-glyph-icon_trash:before,
-.sms-glyph-icon_trash_alt:before,
-.sms-glyph-icon_ul:before,
-.sms-glyph-icon_upload:before,
-.sms-glyph-icon_vol-mute:before,
-.sms-glyph-icon_vol-mute_alt:before,
-.sms-glyph-icon_volume-high:before,
-.sms-glyph-icon_volume-high_alt:before,
-.sms-glyph-icon_volume-low:before,
-.sms-glyph-icon_volume-low_alt:before,
-.sms-glyph-icon_zoom-in:before,
-.sms-glyph-icon_zoom-in_alt:before,
-.sms-glyph-icon_zoom-out:before,
-.sms-glyph-icon_zoom-out_alt:before,
-.sms-glyph-paste:before,
-.sms-glyph-reports:before,
-.sms-glyph-sharknado:before,
-.sms-glyph-social_blogger:before,
-.sms-glyph-social_blogger_circle:before,
-.sms-glyph-social_blogger_square:before,
-.sms-glyph-social_delicious:before,
-.sms-glyph-social_delicious_circle:before,
-.sms-glyph-social_delicious_square:before,
-.sms-glyph-social_deviantart:before,
-.sms-glyph-social_deviantart_circle:before,
-.sms-glyph-social_deviantart_square:before,
-.sms-glyph-social_dribbble:before,
-.sms-glyph-social_dribbble_circle:before,
-.sms-glyph-social_dribbble_square:before,
-.sms-glyph-social_facebook:before,
-.sms-glyph-social_facebook_circle:before,
-.sms-glyph-social_facebook_square:before,
-.sms-glyph-social_flickr:before,
-.sms-glyph-social_flickr_circle:before,
-.sms-glyph-social_flickr_square:before,
-.sms-glyph-social_googledrive:before,
-.sms-glyph-social_googledrive_alt2:before,
-.sms-glyph-social_googledrive_square:before,
-.sms-glyph-social_googleplus:before,
-.sms-glyph-social_googleplus_circle:before,
-.sms-glyph-social_googleplus_square:before,
-.sms-glyph-social_instagram:before,
-.sms-glyph-social_instagram_circle:before,
-.sms-glyph-social_instagram_square:before,
-.sms-glyph-social_linkedin:before,
-.sms-glyph-social_linkedin_circle:before,
-.sms-glyph-social_linkedin_square:before,
-.sms-glyph-social_myspace:before,
-.sms-glyph-social_myspace_circle:before,
-.sms-glyph-social_myspace_square:before,
-.sms-glyph-social_picassa:before,
-.sms-glyph-social_picassa_circle:before,
-.sms-glyph-social_picassa_square:before,
-.sms-glyph-social_pinterest:before,
-.sms-glyph-social_pinterest_circle:before,
-.sms-glyph-social_pinterest_square:before,
-.sms-glyph-social_rss:before,
-.sms-glyph-social_rss_circle:before,
-.sms-glyph-social_rss_square:before,
-.sms-glyph-social_share:before,
-.sms-glyph-social_share_circle:before,
-.sms-glyph-social_share_square:before,
-.sms-glyph-social_skype:before,
-.sms-glyph-social_skype_circle:before,
-.sms-glyph-social_skype_square:before,
-.sms-glyph-social_spotify:before,
-.sms-glyph-social_spotify_circle:before,
-.sms-glyph-social_spotify_square:before,
-.sms-glyph-social_stumbleupon_circle:before,
-.sms-glyph-social_stumbleupon_square:before,
-.sms-glyph-social_tumbleupon:before,
-.sms-glyph-social_tumblr:before,
-.sms-glyph-social_tumblr_circle:before,
-.sms-glyph-social_tumblr_square:before,
-.sms-glyph-social_twitter:before,
-.sms-glyph-social_twitter_circle:before,
-.sms-glyph-social_twitter_square:before,
-.sms-glyph-social_vimeo:before,
-.sms-glyph-social_vimeo_circle:before,
-.sms-glyph-social_vimeo_square:before,
-.sms-glyph-social_wordpress:before,
-.sms-glyph-social_wordpress_circle:before,
-.sms-glyph-social_wordpress_square:before,
-.sms-glyph-social_youtube:before,
-.sms-glyph-social_youtube_circle:before,
-.sms-glyph-social_youtube_square:before,
-.sms-glyph-typography:before {
+.sms-glyph-arrow-up-down:before, .sms-glyph-arrow_back:before, .sms-glyph-arrow_carrot-2down:before, .sms-glyph-arrow_carrot-2down_alt2:before, .sms-glyph-arrow_carrot-2dwnn_alt:before, .sms-glyph-arrow_carrot-2left:before, .sms-glyph-arrow_carrot-2left_alt:before, .sms-glyph-arrow_carrot-2left_alt2:before, .sms-glyph-arrow_carrot-2right:before, .sms-glyph-arrow_carrot-2right_alt:before, .sms-glyph-arrow_carrot-2right_alt2:before, .sms-glyph-arrow_carrot-2up:before, .sms-glyph-arrow_carrot-2up_alt:before, .sms-glyph-arrow_carrot-2up_alt2:before, .sms-glyph-arrow_carrot-down:before, .sms-glyph-arrow_carrot-down_alt:before, .sms-glyph-arrow_carrot-down_alt2:before, .sms-glyph-arrow_carrot-left:before, .sms-glyph-arrow_carrot-left_alt:before, .sms-glyph-arrow_carrot-left_alt2:before, .sms-glyph-arrow_carrot-right:before, .sms-glyph-arrow_carrot-right_alt:before, .sms-glyph-arrow_carrot-right_alt2:before, .sms-glyph-arrow_carrot-up:before, .sms-glyph-arrow_carrot-up_alt2:before, .sms-glyph-arrow_carrot_up_alt:before, .sms-glyph-arrow_condense:before, .sms-glyph-arrow_condense_alt:before, .sms-glyph-arrow_down:before, .sms-glyph-arrow_down_alt:before, .sms-glyph-arrow_expand:before, .sms-glyph-arrow_expand_alt:before, .sms-glyph-arrow_expand_alt2:before, .sms-glyph-arrow_expand_alt3:before, .sms-glyph-arrow_left-down:before, .sms-glyph-arrow_left-down_alt:before, .sms-glyph-arrow_left-right:before, .sms-glyph-arrow_left-right_alt:before, .sms-glyph-arrow_left-up:before, .sms-glyph-arrow_left-up_alt:before, .sms-glyph-arrow_left:before, .sms-glyph-arrow_left_alt:before, .sms-glyph-arrow_move:before, .sms-glyph-arrow_right-down:before, .sms-glyph-arrow_right-down_alt:before, .sms-glyph-arrow_right-up:before, .sms-glyph-arrow_right-up_alt:before, .sms-glyph-arrow_right:before, .sms-glyph-arrow_right_alt:before, .sms-glyph-arrow_triangle-down:before, .sms-glyph-arrow_triangle-down_alt:before, .sms-glyph-arrow_triangle-down_alt2:before, .sms-glyph-arrow_triangle-left:before, .sms-glyph-arrow_triangle-left_alt:before, .sms-glyph-arrow_triangle-left_alt2:before, .sms-glyph-arrow_triangle-right:before, .sms-glyph-arrow_triangle-right_alt:before, .sms-glyph-arrow_triangle-right_alt2:before, .sms-glyph-arrow_triangle-up:before, .sms-glyph-arrow_triangle-up_alt:before, .sms-glyph-arrow_triangle-up_alt2:before, .sms-glyph-arrow_up-down_alt:before, .sms-glyph-arrow_up:before, .sms-glyph-arrow_up_alt:before, .sms-glyph-circle:before, .sms-glyph-colors:before, .sms-glyph-copy:before, .sms-glyph-filter:before, .sms-glyph-handshake:before, .sms-glyph-icon:before, .sms-glyph-icon_adjust-horiz:before, .sms-glyph-icon_adjust-vert:before, .sms-glyph-icon_archive:before, .sms-glyph-icon_archive_alt:before, .sms-glyph-icon_bag:before, .sms-glyph-icon_bag_alt:before, .sms-glyph-icon_blocked:before, .sms-glyph-icon_book:before, .sms-glyph-icon_book_alt:before, .sms-glyph-icon_box-checked:before, .sms-glyph-icon_box-empty:before, .sms-glyph-icon_box-selected:before, .sms-glyph-icon_calendar:before, .sms-glyph-icon_camera:before, .sms-glyph-icon_camera_alt:before, .sms-glyph-icon_cart:before, .sms-glyph-icon_cart_alt:before, .sms-glyph-icon_chat:before, .sms-glyph-icon_chat_alt:before, .sms-glyph-icon_check:before, .sms-glyph-icon_check_alt:before, .sms-glyph-icon_check_alt2:before, .sms-glyph-icon_circle-empty:before, .sms-glyph-icon_circle-slelected:before, .sms-glyph-icon_clock:before, .sms-glyph-icon_clock_alt:before, .sms-glyph-icon_close:before, .sms-glyph-icon_close_alt:before, .sms-glyph-icon_close_alt2:before, .sms-glyph-icon_cloud-download:before, .sms-glyph-icon_cloud-download_alt:before, .sms-glyph-icon_cloud-upload:before, .sms-glyph-icon_cloud-upload_alt:before, .sms-glyph-icon_cloud:before, .sms-glyph-icon_cloud_alt:before, .sms-glyph-icon_cog:before, .sms-glyph-icon_cogs:before, .sms-glyph-icon_comment:before, .sms-glyph-icon_comment_alt:before, .sms-glyph-icon_compass:before, .sms-glyph-icon_compass_alt:before, .sms-glyph-icon_cone:before, .sms-glyph-icon_cone_alt:before, .sms-glyph-icon_contacts:before, .sms-glyph-icon_contacts_alt:before, .sms-glyph-icon_creditcard:before, .sms-glyph-icon_cursor:before, .sms-glyph-icon_cursor_alt:before, .sms-glyph-icon_desktop:before, .sms-glyph-icon_document:before, .sms-glyph-icon_document_alt:before, .sms-glyph-icon_documents:before, .sms-glyph-icon_documents_alt:before, .sms-glyph-icon_download:before, .sms-glyph-icon_drawer:before, .sms-glyph-icon_drawer_alt:before, .sms-glyph-icon_error-circle:before, .sms-glyph-icon_error-circle_alt:before, .sms-glyph-icon_error-oct:before, .sms-glyph-icon_error-oct_alt:before, .sms-glyph-icon_error-triangle:before, .sms-glyph-icon_error-triangle_alt:before, .sms-glyph-icon_film:before, .sms-glyph-icon_folder-add:before, .sms-glyph-icon_folder-add_alt:before, .sms-glyph-icon_folder-alt:before, .sms-glyph-icon_folder-open:before, .sms-glyph-icon_folder-open_alt:before, .sms-glyph-icon_folder:before, .sms-glyph-icon_folder_download:before, .sms-glyph-icon_folder_upload:before, .sms-glyph-icon_genius:before, .sms-glyph-icon_gift:before, .sms-glyph-icon_gift_alt:before, .sms-glyph-icon_grid-2x2:before, .sms-glyph-icon_grid-3x3:before, .sms-glyph-icon_group:before, .sms-glyph-icon_headphones:before, .sms-glyph-icon_heart:before, .sms-glyph-icon_heart_alt:before, .sms-glyph-icon_house:before, .sms-glyph-icon_house_alt:before, .sms-glyph-icon_image:before, .sms-glyph-icon_images:before, .sms-glyph-icon_info:before, .sms-glyph-icon_info_alt:before, .sms-glyph-icon_key:before, .sms-glyph-icon_key_alt:before, .sms-glyph-icon_laptop:before, .sms-glyph-icon_lifesaver:before, .sms-glyph-icon_lightbulb:before, .sms-glyph-icon_lightbulb_alt:before, .sms-glyph-icon_link:before, .sms-glyph-icon_link_alt:before, .sms-glyph-icon_loading:before, .sms-glyph-icon_lock-open:before, .sms-glyph-icon_lock-open_alt:before, .sms-glyph-icon_lock:before, .sms-glyph-icon_lock_alt:before, .sms-glyph-icon_mail:before, .sms-glyph-icon_mail_alt:before, .sms-glyph-icon_map:before, .sms-glyph-icon_map_alt:before, .sms-glyph-icon_menu-circle_alt:before, .sms-glyph-icon_menu-circle_alt2:before, .sms-glyph-icon_menu-square_alt:before, .sms-glyph-icon_menu-square_alt2:before, .sms-glyph-icon_menu:before, .sms-glyph-icon_mic:before, .sms-glyph-icon_mic_alt:before, .sms-glyph-icon_minus-06:before, .sms-glyph-icon_minus-box:before, .sms-glyph-icon_minus_alt:before, .sms-glyph-icon_minus_alt2:before, .sms-glyph-icon_mobile:before, .sms-glyph-icon_music:before, .sms-glyph-icon_ol:before, .sms-glyph-icon_paperclip:before, .sms-glyph-icon_pause:before, .sms-glyph-icon_pause_alt:before, .sms-glyph-icon_pause_alt2:before, .sms-glyph-icon_pencil-edit:before, .sms-glyph-icon_pencil-edit_alt:before, .sms-glyph-icon_pencil:before, .sms-glyph-icon_pencil_alt:before, .sms-glyph-icon_phone:before, .sms-glyph-icon_piechart:before, .sms-glyph-icon_pin:before, .sms-glyph-icon_pin_alt:before, .sms-glyph-icon_plus-box:before, .sms-glyph-icon_plus:before, .sms-glyph-icon_plus_alt:before, .sms-glyph-icon_plus_alt2:before, .sms-glyph-icon_profile:before, .sms-glyph-icon_pushpin:before, .sms-glyph-icon_pushpin_alt:before, .sms-glyph-icon_question:before, .sms-glyph-icon_question_alt:before, .sms-glyph-icon_question_alt2:before, .sms-glyph-icon_quotations:before, .sms-glyph-icon_quotations_alt:before, .sms-glyph-icon_quotations_alt2:before, .sms-glyph-icon_refresh:before, .sms-glyph-icon_ribbon:before, .sms-glyph-icon_ribbon_alt:before, .sms-glyph-icon_search:before, .sms-glyph-icon_star-half:before, .sms-glyph-icon_star-half_alt:before, .sms-glyph-icon_star:before, .sms-glyph-icon_star_alt:before, .sms-glyph-icon_stop:before, .sms-glyph-icon_stop_alt:before, .sms-glyph-icon_stop_alt2:before, .sms-glyph-icon_table:before, .sms-glyph-icon_tablet:before, .sms-glyph-icon_tag:before, .sms-glyph-icon_tag_alt:before, .sms-glyph-icon_tags:before, .sms-glyph-icon_tags_alt:before, .sms-glyph-icon_tool:before, .sms-glyph-icon_toolbox:before, .sms-glyph-icon_toolbox_alt:before, .sms-glyph-icon_tools:before, .sms-glyph-icon_trash:before, .sms-glyph-icon_trash_alt:before, .sms-glyph-icon_ul:before, .sms-glyph-icon_upload:before, .sms-glyph-icon_vol-mute:before, .sms-glyph-icon_vol-mute_alt:before, .sms-glyph-icon_volume-high:before, .sms-glyph-icon_volume-high_alt:before, .sms-glyph-icon_volume-low:before, .sms-glyph-icon_volume-low_alt:before, .sms-glyph-icon_zoom-in:before, .sms-glyph-icon_zoom-in_alt:before, .sms-glyph-icon_zoom-out:before, .sms-glyph-icon_zoom-out_alt:before, .sms-glyph-paste:before, .sms-glyph-reports:before, .sms-glyph-sharknado:before, .button-loader:before, .sms-glyph-social_blogger:before, .sms-glyph-social_blogger_circle:before, .sms-glyph-social_blogger_square:before, .sms-glyph-social_delicious:before, .sms-glyph-social_delicious_circle:before, .sms-glyph-social_delicious_square:before, .sms-glyph-social_deviantart:before, .sms-glyph-social_deviantart_circle:before, .sms-glyph-social_deviantart_square:before, .sms-glyph-social_dribbble:before, .sms-glyph-social_dribbble_circle:before, .sms-glyph-social_dribbble_square:before, .sms-glyph-social_facebook:before, .sms-glyph-social_facebook_circle:before, .sms-glyph-social_facebook_square:before, .sms-glyph-social_flickr:before, .sms-glyph-social_flickr_circle:before, .sms-glyph-social_flickr_square:before, .sms-glyph-social_googledrive:before, .sms-glyph-social_googledrive_alt2:before, .sms-glyph-social_googledrive_square:before, .sms-glyph-social_googleplus:before, .sms-glyph-social_googleplus_circle:before, .sms-glyph-social_googleplus_square:before, .sms-glyph-social_instagram:before, .sms-glyph-social_instagram_circle:before, .sms-glyph-social_instagram_square:before, .sms-glyph-social_linkedin:before, .sms-glyph-social_linkedin_circle:before, .sms-glyph-social_linkedin_square:before, .sms-glyph-social_myspace:before, .sms-glyph-social_myspace_circle:before, .sms-glyph-social_myspace_square:before, .sms-glyph-social_picassa:before, .sms-glyph-social_picassa_circle:before, .sms-glyph-social_picassa_square:before, .sms-glyph-social_pinterest:before, .sms-glyph-social_pinterest_circle:before, .sms-glyph-social_pinterest_square:before, .sms-glyph-social_rss:before, .sms-glyph-social_rss_circle:before, .sms-glyph-social_rss_square:before, .sms-glyph-social_share:before, .sms-glyph-social_share_circle:before, .sms-glyph-social_share_square:before, .sms-glyph-social_skype:before, .sms-glyph-social_skype_circle:before, .sms-glyph-social_skype_square:before, .sms-glyph-social_spotify:before, .sms-glyph-social_spotify_circle:before, .sms-glyph-social_spotify_square:before, .sms-glyph-social_stumbleupon_circle:before, .sms-glyph-social_stumbleupon_square:before, .sms-glyph-social_tumbleupon:before, .sms-glyph-social_tumblr:before, .sms-glyph-social_tumblr_circle:before, .sms-glyph-social_tumblr_square:before, .sms-glyph-social_twitter:before, .sms-glyph-social_twitter_circle:before, .sms-glyph-social_twitter_square:before, .sms-glyph-social_vimeo:before, .sms-glyph-social_vimeo_circle:before, .sms-glyph-social_vimeo_square:before, .sms-glyph-social_wordpress:before, .sms-glyph-social_wordpress_circle:before, .sms-glyph-social_wordpress_square:before, .sms-glyph-social_youtube:before, .sms-glyph-social_youtube_circle:before, .sms-glyph-social_youtube_square:before, .sms-glyph-typography:before {
   font-family: "sms-glyphs";
   font-style: normal;
   font-weight: normal;
@@ -1558,7 +1239,7 @@ th {
 .sms-glyph-reports:before {
   content: "\f1f8"; }
 
-.sms-glyph-sharknado:before {
+.sms-glyph-sharknado:before, .button-loader:before {
   content: "\f1f9"; }
 
 .sms-glyph-social_blogger:before {
@@ -2605,7 +2286,7 @@ category: layout
     transform: rotateY(0deg); }
   100% {
     transform: rotateY(359deg); } }
-.icon-spin {
+.icon-spin, .button-loader.loading:before {
   -webkit-animation: 2s linear 0s normal none infinite spin;
   animation: 2s linear 0s normal none infinite spin; }
 
@@ -2674,6 +2355,9 @@ category: layout
 
 .quintiles-bg {
   background: #3C3670; }
+
+.grey-bg {
+  background: #fafafa; }
 
 .green {
   color: #45ce6f !important; }
@@ -3013,6 +2697,85 @@ a {
 .button-sm {
   padding: 5px 10px !important; }
 
+.button-loader {
+  display: inline-block;
+  position: relative; }
+
+.button-loader.loading:before {
+  position: absolute;
+  top: 0.15em;
+  left: 50%;
+  margin-left: -12px;
+  font-size: 25px; }
+
+.button-menu {
+  display: inline-block;
+  position: relative; }
+
+.button-menu:hover {
+  cursor: pointer; }
+  .button-menu:hover .button-menu-label {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; }
+  .button-menu:hover .button-menu-content {
+    display: block; }
+
+.button-menu-label {
+  display: inline-block; }
+  .button-menu-label:after {
+    display: inline-block;
+    padding-left: 0.4em;
+    position: relative; }
+
+.button-menu-label:after {
+  content: "";
+  font-family: "sms-glyphs";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit; }
+
+.button-menu-content {
+  background: #D8D8D8;
+  display: none;
+  left: 0;
+  margin-top: -1px;
+  overflow: hidden;
+  padding: 1px;
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  width: 13.5em;
+  z-index: 10; }
+
+.button-menu-content li:first-child {
+  border-top: 0; }
+.button-menu-content li:last-child a {
+  border: 0; }
+.button-menu-content li a {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  color: #2f2f2f;
+  display: block;
+  padding: 8px 15px; }
+  .button-menu-content li a:hover {
+    background-color: #D8D8D8; }
+
+.button-menu-item {
+  background-color: #fff;
+  background-image: none;
+  border: 0;
+  display: block;
+  padding: 0.6em 1em; }
+
+.button-menu-item:hover {
+  background: #04A5F1;
+  color: #fff; }
+
 .negative {
   color: red !important; }
 
@@ -3210,6 +2973,9 @@ input[type="text"] {
   width: 100%;
   color: #090909; }
 
+input[type="search"] {
+  background: white; }
+
 input:not([type]):disabled {
   background: white; }
 
@@ -3261,6 +3027,26 @@ input:not([type]):disabled {
   .checkbox-lg i {
     font-size: 32px; }
 
+.input-dollar:after, .input-percentage:after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 2; }
+
+.input-dollar:after {
+  content: "$";
+  left: 5px; }
+
+.input-percentage:after {
+  content: "%";
+  right: 5px; }
+
+input.input-m {
+  width: 5em; }
+
+input.input-l {
+  width: 10em; }
+
 select {
   display: block;
   width: 100%;
@@ -3284,6 +3070,10 @@ select {
   color: white;
   width: auto;
   letter-spacing: 0.1em; }
+
+.card {
+  width: 20%;
+  background: white; }
 
 .empty-state {
   width: 100%;
@@ -3910,7 +3700,7 @@ body.collapsed .collapse-icon {
     position: absolute;
     left: 12px;
     top: 8px; }
-    .pam-branding i.icon-spin {
+    .pam-branding i.icon-spin, .pam-branding i.button-loader.loading:before {
       -webkit-animation: 1s linear normal none spin;
       animation: 1s linear normal none spin; }
 

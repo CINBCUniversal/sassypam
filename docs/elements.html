@@ -190,7 +190,7 @@
 <h1 id="button" class="styleguide">Buttons</h1>
 <p class="styleguide">Buttons that live on white backgrounds should have a light grey border, and always include an inline icon that reinforces the action described in the label.</p><div class="codeExample">
   <div class="exampleOutput">
-      <button class="button"><i class="sms-glyph-icon_plus"></i>Add Deal</button>
+    <button class="button"><i class="sms-glyph-icon_plus"></i>Add Deal</button>
 
   </div>
   <div class="codeBlock">
@@ -201,7 +201,7 @@
 </div>
 <p class="styleguide">Buttons that live on the blue Content Action Bar should never have icons, and feature both a transparent border and a colored background (the color corresponding to the &quot;weight&quot; of the action within the given screen)</p><div class="codeExample">
   <div class="exampleOutput">
-      <button class="button-success button">Create Deal</button>
+    <button class="button-success button">Create Deal</button>
 
   </div>
   <div class="codeBlock">
@@ -212,7 +212,7 @@
 </div>
 <p class="styleguide">Small button</p><div class="codeExample">
   <div class="exampleOutput">
-      <button class="button-primary button-sm">Create Deal</button>
+    <button class="button-primary button-sm">Create Deal</button>
 
   </div>
   <div class="codeBlock">
@@ -223,7 +223,7 @@
 </div>
 <p class="styleguide">Disabled button</p><div class="codeExample">
   <div class="exampleOutput">
-      <button class="button-primary button-sm disabled">Create Deal</button>
+    <button class="button-primary button-sm disabled">Create Deal</button>
 
   </div>
   <div class="codeBlock">
@@ -232,26 +232,74 @@
     </div>
   </div>
 </div>
+<p class="styleguide">Loading button</p><div class="codeExample">
+  <div class="exampleOutput">
+    <div class="button-loader loading">
+  <button class="button-primary disabled">Create Deal</button>
+</div>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"button-loader loading"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-primary disabled"</span><span class="nt">&gt;</span>Create Deal<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
 <p class="styleguide">All the buttons!</p><div class="codeExample">
   <div class="exampleOutput">
-      <div class="flex-between">
-    <button class="button">Default</button>
-    <button class="button-primary">Primary</button>
-    <button class="button-success">Success</button>
-    <button class="button-warning">Warning</button>
-    <button class="button-danger">Danger</button>
-  </div>
+    <div class="flex-between">
+  <button class="button">Default</button>
+  <button class="button-primary">Primary</button>
+  <button class="button-success">Success</button>
+  <button class="button-warning">Warning</button>
+  <button class="button-danger">Danger</button>
+</div>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"flex-between"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/button&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
-  <span class="nt">&lt;/div&gt;</span></pre>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+<p class="styleguide">Button menu</p><div class="codeExample">
+  <div class="exampleOutput">
+    <div class="button-menu mrm">
+  <div class="button button-menu-label">
+    Update
+  </div>
+  <div class="button-menu-content">
+    <ul>
+      <li>
+        <a href="">Mar 3, 2015</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"button-menu mrm"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"button button-menu-label"</span><span class="nt">&gt;</span>
+    Update
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"button-menu-content"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;ul&gt;</span>
+      <span class="nt">&lt;li&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Mar 3, 2015<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
     </div>
   </div>
 </div>
@@ -259,7 +307,7 @@
 <h1 id="inputs" class="styleguide">Inputs</h1>
 <p class="styleguide">Full width text input</p><div class="codeExample">
   <div class="exampleOutput">
-      <input type="text" placeholder="This is what a text input looks like">
+    <input type="text" placeholder="This is what a text input looks like">
 
   </div>
   <div class="codeBlock">
@@ -270,35 +318,56 @@
 </div>
 <p class="styleguide">Large Checkbox</p><div class="codeExample">
   <div class="exampleOutput">
-      <div class="checkbox-lg mrm">
-    <input checked="true" id="lg-checkbox" type="checkbox">
-    <label for="lg-checkbox"><i class="sms-glyph-icon_check"></i></label>
-  </div>
+    <div class="checkbox-lg mrm">
+  <input checked="true" id="lg-checkbox" type="checkbox">
+  <label for="lg-checkbox"><i class="sms-glyph-icon_check"></i></label>
+</div>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"checkbox-lg mrm"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;input</span> <span class="na">checked=</span><span class="s">"true"</span> <span class="na">id=</span><span class="s">"lg-checkbox"</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"lg-checkbox"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"sms-glyph-icon_check"</span><span class="nt">&gt;&lt;/i&gt;&lt;/label&gt;</span>
-  <span class="nt">&lt;/div&gt;</span></pre>
+  <span class="nt">&lt;input</span> <span class="na">checked=</span><span class="s">"true"</span> <span class="na">id=</span><span class="s">"lg-checkbox"</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"lg-checkbox"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"sms-glyph-icon_check"</span><span class="nt">&gt;&lt;/i&gt;&lt;/label&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
     </div>
   </div>
 </div>
 <p class="styleguide">Small Checkbox</p><div class="codeExample">
   <div class="exampleOutput">
-      <div class="checkbox-sm mrm">
-    <input checked="true" id="sm-checkbox" type="checkbox">
-    <label for="sm-checkbox"><i class="sms-glyph-icon_check"></i></label>
-  </div>
+    <div class="checkbox-sm mrm">
+  <input checked="true" id="sm-checkbox" type="checkbox">
+  <label for="sm-checkbox"><i class="sms-glyph-icon_check"></i></label>
+</div>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"checkbox-sm mrm"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;input</span> <span class="na">checked=</span><span class="s">"true"</span> <span class="na">id=</span><span class="s">"sm-checkbox"</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"sm-checkbox"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"sms-glyph-icon_check"</span><span class="nt">&gt;&lt;/i&gt;&lt;/label&gt;</span>
-  <span class="nt">&lt;/div&gt;</span></pre>
+  <span class="nt">&lt;input</span> <span class="na">checked=</span><span class="s">"true"</span> <span class="na">id=</span><span class="s">"sm-checkbox"</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"sm-checkbox"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"sms-glyph-icon_check"</span><span class="nt">&gt;&lt;/i&gt;&lt;/label&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+<p class="styleguide">Percent &amp; Dollar Sign Inputs</p><div class="codeExample">
+  <div class="exampleOutput">
+    <div class="input-percentage pos-rel inline-block">
+  <input class="right-align prl input-m" type="text" value="14">
+</div>
+<div class="input-dollar pos-rel mtm">
+  <input class="right-align input-l" type="text" value="15,400">
+</div>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-percentage pos-rel inline-block"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"right-align prl input-m"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">value=</span><span class="s">"14"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-dollar pos-rel mtm"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"right-align input-l"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">value=</span><span class="s">"15,400"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
     </div>
   </div>
 </div>
@@ -798,6 +867,7 @@ Unordered lists are vertical and unstyled by default.</p><div class="codeExample
     <p class='em-high'>High Emphasis</p>
     <p class='em-max'>Max Emphasis</p>
     <p class='em-italic'>Italic Emphasis</p>
+    <p class='em-alt'>Alternative Emphasis</p>
   </div>
 
   </div>
@@ -809,6 +879,7 @@ Unordered lists are vertical and unstyled by default.</p><div class="codeExample
     <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">'em-high'</span><span class="nt">&gt;</span>High Emphasis<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">'em-max'</span><span class="nt">&gt;</span>Max Emphasis<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">'em-italic'</span><span class="nt">&gt;</span>Italic Emphasis<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">'em-alt'</span><span class="nt">&gt;</span>Alternative Emphasis<span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;/div&gt;</span></pre>
     </div>
   </div>

@@ -7,34 +7,57 @@
   Buttons that live on white backgrounds should have a light grey border, and always include an inline icon that reinforces the action described in the label.
 
   ```html_example
-    <button class="button"><i class="sms-glyph-icon_plus"></i>Add Deal</button>
+  <button class="button"><i class="sms-glyph-icon_plus"></i>Add Deal</button>
   ```
 
   Buttons that live on the blue Content Action Bar should never have icons, and feature both a transparent border and a colored background (the color corresponding to the "weight" of the action within the given screen)
 
   ```html_example
-    <button class="button-success button">Create Deal</button>
+  <button class="button-success button">Create Deal</button>
   ```
   Small button
 
   ```html_example
-    <button class="button-primary button-sm">Create Deal</button>
+  <button class="button-primary button-sm">Create Deal</button>
   ```
   Disabled button
 
   ```html_example
-    <button class="button-primary button-sm disabled">Create Deal</button>
+  <button class="button-primary button-sm disabled">Create Deal</button>
+  ```
+  Loading button
+
+  ```html_example
+  <div class="button-loader loading">
+    <button class="button-primary disabled">Create Deal</button>
+  </div>
   ```
   All the buttons!
 
   ```html_example
-    <div class="flex-between">
-      <button class="button">Default</button>
-      <button class="button-primary">Primary</button>
-      <button class="button-success">Success</button>
-      <button class="button-warning">Warning</button>
-      <button class="button-danger">Danger</button>
+  <div class="flex-between">
+    <button class="button">Default</button>
+    <button class="button-primary">Primary</button>
+    <button class="button-success">Success</button>
+    <button class="button-warning">Warning</button>
+    <button class="button-danger">Danger</button>
+  </div>
+  ```
+  Button menu
+
+  ```html_example
+  <div class="button-menu mrm">
+    <div class="button button-menu-label">
+      Update
     </div>
+    <div class="button-menu-content">
+      <ul>
+        <li>
+          <a href="">Mar 3, 2015</a>
+        </li>
+      </ul>
+    </div>
+  </div>
   ```
 
 %button-base
@@ -87,4 +110,94 @@
 .button-sm
   padding: 5px 10px !important //important tags will come off once shark-sass button styles are removed
 
+.button-loader
+  display: inline-block
+  position: relative
+  @extend .sms-glyph-sharknado
+
+.button-loader.loading:before
+  position: absolute
+  top: 0.15em
+  left: 50%
+  margin-left: -12px
+  @extend .icon-spin
+  font-size: 25px
+
+
+.button-menu
+  display: inline-block
+  position: relative
+
+.button-menu:hover
+  cursor: pointer
+
+  .button-menu-label
+    border-bottom-right-radius: 0
+    border-bottom-left-radius: 0
+
+  .button-menu-content
+    display: block
+
+
+.button-menu-label
+  display: inline-block
+  &:after
+    display: inline-block
+    padding-left: 0.4em
+    position: relative
+
+.button-menu-label:after
+  content: "\f10e"
+  font-family: "sms-glyphs"
+  font-style: normal
+  font-weight: normal
+  font-variant: normal
+  text-transform: none
+  line-height: 1
+  -webkit-font-smoothing: antialiased
+  display: inline-block
+  text-decoration: inherit
+
+
+.button-menu-content
+  background: $border-grey
+  display: none
+  left: 0
+  margin-top: -1px
+  overflow: hidden
+  padding: 1px
+  position: absolute
+  text-align: left
+  top: 100%
+  width: 13.5em
+  z-index: 10
+
+.button-menu-content li
+  &:first-child
+    border-top: 0
+
+  &:last-child a
+    border: 0
+
+  a
+    background-color: #fff
+    border-bottom: 1px solid #eee
+    color: #2f2f2f
+    display: block
+    padding: 8px 15px
+    &:hover
+      background-color: $border-grey
+
+
+
+.button-menu-item
+  background-color: #fff
+  background-image: none
+  border: 0
+  display: block
+  padding: 0.6em 1em
+
+.button-menu-item:hover
+  background: #04A5F1
+  color: #fff
 
