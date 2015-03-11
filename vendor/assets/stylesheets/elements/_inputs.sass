@@ -7,25 +7,36 @@
   Full width text input
 
   ```html_example
-    <input type="text" placeholder="This is what a text input looks like">
+  <input type="text" placeholder="This is what a text input looks like">
   ```
 
   Large Checkbox
 
   ```html_example
-    <div class="checkbox-lg mrm">
-      <input checked="true" id="lg-checkbox" type="checkbox">
-      <label for="lg-checkbox"><i class="sms-glyph-icon_check"></i></label>
-    </div>
+  <div class="checkbox-lg mrm">
+    <input checked="true" id="lg-checkbox" type="checkbox">
+    <label for="lg-checkbox"><i class="sms-glyph-icon_check"></i></label>
+  </div>
   ```
 
   Small Checkbox
 
   ```html_example
-    <div class="checkbox-sm mrm">
-      <input checked="true" id="sm-checkbox" type="checkbox">
-      <label for="sm-checkbox"><i class="sms-glyph-icon_check"></i></label>
-    </div>
+  <div class="checkbox-sm mrm">
+    <input checked="true" id="sm-checkbox" type="checkbox">
+    <label for="sm-checkbox"><i class="sms-glyph-icon_check"></i></label>
+  </div>
+  ```
+
+  Percent & Dollar Sign Inputs
+
+  ```html_example
+  <div class="input-percentage pos-rel inline-block">
+    <input class="right-align prl input-m" type="text" value="14">
+  </div>
+  <div class="input-dollar pos-rel mtm">
+    <input class="right-align input-l" type="text" value="15,400">
+  </div>
   ```
 
 textarea,input
@@ -102,3 +113,20 @@ input:not([type]):disabled  //overriding user agent stylesheet
 
 @include checkbox(sm, 16px, 20px)
 @include checkbox(lg, 25px, 32px)
+
+.input-dollar:after, .input-percentage:after
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+  line-height: 2
+.input-dollar:after
+  content: "$"
+  left: 5px
+.input-percentage:after
+  content: "%"
+  right: 5px
+
+input.input-m
+  width: 5em
+input.input-l
+  width: 10em
