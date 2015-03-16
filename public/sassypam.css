@@ -2208,6 +2208,36 @@ category: layout
 .flex-2 {
   flex: 2; }
 
+.flex-3 {
+  flex: 3; }
+
+.flex-4 {
+  flex: 4; }
+
+.flex-5 {
+  flex: 5; }
+
+.flex-6 {
+  flex: 6; }
+
+.flex-7 {
+  flex: 7; }
+
+.flex-8 {
+  flex: 8; }
+
+.flex-9 {
+  flex: 9; }
+
+.flex-10 {
+  flex: 10; }
+
+.flex-11 {
+  flex: 11; }
+
+.flex-12 {
+  flex: 12; }
+
 .flex-justify {
   justify-content: center; }
 
@@ -2355,6 +2385,9 @@ category: layout
 
 .quintiles-bg {
   background: #3C3670; }
+
+.negotiation-bg {
+  background: #ff005f; }
 
 .grey-bg {
   background: #fafafa; }
@@ -3072,7 +3105,7 @@ select {
   letter-spacing: 0.1em; }
 
 .card {
-  width: 20%;
+  width: 24%;
   background: white; }
 
 .empty-state {
@@ -3612,12 +3645,12 @@ body.collapsed .collapse-icon {
 .content-body {
   background: white; }
 
-.content-title-finance, .content-title-registrations, .content-title-pacing, .content-title-shifts, .content-title-portal-management, .content-title-quintiles, .content-title-reports, .content-title-deals, .content-title-approvals, .content-title-resquared, .content-title-activity, .content-title-history {
+.content-title-finance, .content-title-registrations, .content-title-pacing, .content-title-shifts, .content-title-portal-management, .content-title-quintiles, .content-title-reports, .content-title-deals, .content-title-approvals, .content-title-resquared, .content-title-activity, .content-title-history, .content-title-negotiation {
   background: white;
   position: relative;
   padding: 0.75rem;
   border-bottom: 1px solid #D8D8D8; }
-  .content-title-finance h2, .content-title-registrations h2, .content-title-pacing h2, .content-title-shifts h2, .content-title-portal-management h2, .content-title-quintiles h2, .content-title-reports h2, .content-title-deals h2, .content-title-approvals h2, .content-title-resquared h2, .content-title-activity h2, .content-title-history h2 {
+  .content-title-finance h2, .content-title-registrations h2, .content-title-pacing h2, .content-title-shifts h2, .content-title-portal-management h2, .content-title-quintiles h2, .content-title-reports h2, .content-title-deals h2, .content-title-approvals h2, .content-title-resquared h2, .content-title-activity h2, .content-title-history h2, .content-title-negotiation h2 {
     display: inline-block; }
 
 .content-title-finance {
@@ -3655,6 +3688,9 @@ body.collapsed .collapse-icon {
 
 .content-title-history {
   box-shadow: 0 -2px 0 0 #009BEF; }
+
+.content-title-negotiation {
+  box-shadow: 0 -2px 0 0 #ff005f; }
 
 .content-title-logo img {
   width: 50px;
