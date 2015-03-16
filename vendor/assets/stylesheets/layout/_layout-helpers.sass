@@ -63,8 +63,10 @@
   table-layout: fixed
 
 %clearfix, .cf
-  overflow: hidden
+  &:before,
   &:after
-    content: ""
+    content: " "
     display: table
+
+  &:after
     clear: both
