@@ -17,3 +17,5 @@ node_modules
 .sass-cache/
 .DS_Store
 .ruby-version
+docs/fonts/fonts/*
+docs/img/img/*
