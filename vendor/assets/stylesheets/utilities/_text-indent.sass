@@ -1,16 +1,25 @@
 //doc
   ---
   title: Text Indent
-  name: text-indent  
+  name: text-indent
   category: utilities
   ---
- 
+
   Mix and match these to get your desired effect. You can put them on any element.
 
   ```html_example
   <div class='tis'>I'm indented 5px</div>
   <div class='tim'>I'm indented 10px</div>
   <div class='til'>I'm indented 15px</div>
+  <div class='ind-20'>I'm indented 20px</div>
+  <div class='ind-30'>I'm indented 30px</div>
+  <div class='ind-40'>I'm indented 40px</div>
+  <div class='ind-50'>I'm indented 50px</div>
+  <div class='ind-60'>I'm indented 60px</div>
+  <div class='ind-70'>I'm indented 70px</div>
+  <div class='ind-80'>I'm indented 80px</div>
+  <div class='ind-90'>I'm indented 90px</div>
+  <div class='ind-100'>I'm indented 100px</div>
   ```
 
 
@@ -23,3 +32,7 @@
 .til
   text-indent: 15px !important
 
+$multiplier: 10
+@for $i from 2 through 10
+  .ind-#{$i * $multiplier}
+    text-indent: ($i * $multiplier) + px
