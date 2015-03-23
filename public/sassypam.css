@@ -2167,12 +2167,14 @@ category: layout
 .table-fixed {
   table-layout: fixed; }
 
-.content, .content-body, .cf {
-  overflow: hidden; }
-  .content:after, .content-body:after, .cf:after {
-    content: "";
-    display: table;
-    clear: both; }
+.content:before, .content-body:before, .content:after, .content-body:after, .cf:before, .cf:after {
+  content: " ";
+  display: table; }
+.content:after, .content-body:after, .cf:after {
+  clear: both; }
+
+.margin-auto {
+  margin: auto; }
 
 .flex, .flex-end, .flex-between, .flex-start, .flex-column, .flex-center {
   display: flex; }
@@ -2392,8 +2394,14 @@ category: layout
 .grey-bg {
   background: #fafafa; }
 
+.white-bg {
+  background: #fff; }
+
 .green {
   color: #45ce6f !important; }
+
+.blue {
+  color: #009BEF !important; }
 
 .red {
   color: #ce4545 !important; }
@@ -2566,16 +2574,19 @@ category: layout
   margin-left: auto !important; }
 
 .ars {
-  right: 5px; }
+  right: 5px !important; }
 
 .arm {
-  right: 10px; }
+  right: 10px !important; }
 
 .arl {
-  right: 20px; }
+  right: 20px !important; }
 
 .ats {
-  top: 5px; }
+  top: 5px !important; }
+
+.atn {
+  top: 0px !important; }
 
 .tis {
   text-indent: 5px !important; }
@@ -2585,6 +2596,33 @@ category: layout
 
 .til {
   text-indent: 15px !important; }
+
+.ind-20 {
+  text-indent: 20px; }
+
+.ind-30 {
+  text-indent: 30px; }
+
+.ind-40 {
+  text-indent: 40px; }
+
+.ind-50 {
+  text-indent: 50px; }
+
+.ind-60 {
+  text-indent: 60px; }
+
+.ind-70 {
+  text-indent: 70px; }
+
+.ind-80 {
+  text-indent: 80px; }
+
+.ind-90 {
+  text-indent: 90px; }
+
+.ind-100 {
+  text-indent: 100px; }
 
 .badge {
   background: #009BEF;
@@ -2843,7 +2881,7 @@ table, table.history-table, table.finance-table, table.shift-table {
     background: white;
     border-right: 1px solid #D8D8D8;
     max-width: 10rem;
-    width: 8rem; }
+    /*width: 8rem */ }
   table td.row-title {
     background: #f1f1f1 !important;
     border-top: 1px solid #D6DCE0; }
@@ -3902,13 +3940,13 @@ body.collapsed .collapse-icon {
       height: 15px;
       box-shadow: 0 0 0 1px #d6dce0;
       top: 41%;
-      left: 140px; }
+      left: 159px; }
     .timestamp-container.deal-child:after {
       height: 100%;
       width: 1px;
       background: #D8D8D8;
       position: absolute;
-      right: 22%;
+      right: 4.8%;
       display: block;
       content: ""; }
 
