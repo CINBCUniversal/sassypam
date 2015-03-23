@@ -43,6 +43,17 @@
       <p class="type-sm">Negotiation</p>
       <p>#ff005f</p>
     </div>
+<<<<<<< HEAD
+=======
+    <div class="grey-bg swatch mtm">
+      <p class="type-sm sassypam-pink">Grey</p>
+      <p class="sassypam-pink">#fafafa</p>
+    </div>
+    <div class="white-bg swatch mtm">
+      <p class="type-sm sassypam-pink">White</p>
+      <p class="sassypam-pink">#ffffff</p>
+    </div>
+>>>>>>> master
   </div>
 
   For all other colors, please look at the color variables file in the settings folder of Sassypam.
@@ -63,6 +74,7 @@
 @include color(quintiles, $quintiles)
 @include color(negotiation, $negotiation-tracker)
 @include color('grey', #fafafa)
+@include color('white', #fff)
 
 //doc
   ---
@@ -75,6 +87,7 @@
 
   ```html_example
   <p class="green">Green type<p>
+  <p class="blue">Blue type<p>
   <p class="red">Red type<p>
   <p class="yellow">Yellow type<p>
   <p class="orange">Orange type<p>
@@ -86,6 +99,7 @@
     color: $color !important
 
 @include color(green, $green)
+@include color(blue, $pam-blue)
 @include color(red, $red)
 @include color(yellow, $yellow)
 @include color(orange, $orange)
