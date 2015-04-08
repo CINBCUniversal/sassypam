@@ -2343,6 +2343,102 @@ category: layout
   justify-content: center;
   align-items: center; }
 
+@-webkit-keyframes yellow-fill {
+  0% {
+    fill: #eee; }
+  45% {
+    fill: #F1B13B; }
+  55% {
+    fill: #eee; }
+  100% {
+    fill: #eee; } }
+@-webkit-keyframes orange-fill {
+  0% {
+    fill: #eee; }
+  45% {
+    fill: #E16734; }
+  55% {
+    fill: #eee; }
+  100% {
+    fill: #eee; } }
+@-webkit-keyframes red-fill {
+  0% {
+    fill: #eee; }
+  45% {
+    fill: #B22A47; }
+  55% {
+    fill: #eee; }
+  100% {
+    fill: #eee; } }
+@-webkit-keyframes purple-fill {
+  0% {
+    fill: #eee; }
+  45% {
+    fill: #5D5994; }
+  55% {
+    fill: #eee; }
+  100% {
+    fill: #eee; } }
+@-webkit-keyframes blue-fill {
+  0% {
+    fill: #eee; }
+  45% {
+    fill: #0080B8; }
+  55% {
+    fill: #eee; }
+  100% {
+    fill: #eee; } }
+@-webkit-keyframes green-fill {
+  0% {
+    fill: #eee; }
+  45% {
+    fill: #22A54D; }
+  55% {
+    fill: #eee; }
+  100% {
+    fill: #eee; } }
+#yellowFeather path {
+  fill: #eee;
+  animation: yellow-fill 5s infinite;
+  -webkit-animation: yellow-fill 5s infinite;
+  animation-delay: 0.25s;
+  -webkit-animation-delay: 0.25s; }
+
+#orangeFeather path {
+  fill: #eee;
+  animation: orange-fill 5s infinite;
+  -webkit-animation: orange-fill 5s infinite;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s; }
+
+#redFeather path {
+  fill: #eee;
+  animation: red-fill 5s infinite;
+  -webkit-animation: red-fill 5s infinite;
+  animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s; }
+
+#purpleFeather path {
+  fill: #eee;
+  animation: purple-fill 5s infinite;
+  -webkit-animation: purple-fill 5s infinite;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s; }
+
+#blueFeather path {
+  fill: #eee;
+  animation: blue-fill 5s infinite;
+  -webkit-animation: blue-fill 5s infinite;
+  animation-delay: 1.25s;
+  -webkit-animation-delay: 1.25s; }
+
+#greenFeather path {
+  fill: #eee;
+  animation: green-fill 5s infinite;
+  -webkit-animation: green-fill 5s infinite;
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s; }
+
 .border-right {
   border-right: 1px solid #D8D8D8; }
 
@@ -2360,6 +2456,9 @@ category: layout
 
 .content-border {
   border: 1px solid #D8D8D8; }
+
+.border-radius {
+  border-radius: 3px; }
 
 .dark-blue-bg {
   background: #282e39; }
@@ -2414,6 +2513,9 @@ category: layout
 
 .sassypam-pink {
   color: #e670a4 !important; }
+
+.white {
+  color: white !important; }
 
 * {
   box-sizing: border-box; }
@@ -3597,6 +3699,14 @@ form {
 .comments-wrap .comments-list {
   height: 425px;
   overflow-y: scroll; }
+.comments-wrap .comments-list-alt {
+  height: 217.5px;
+  overflow-y: scroll; }
+  .comments-wrap .comments-list-alt.disabled {
+    background: #d0cccc;
+    opacity: 0.5;
+    z-index: 5;
+    overflow-y: hidden; }
 .comments-wrap .comment-body {
   position: relative;
   border-left: 4px solid #D8D8D8; }
