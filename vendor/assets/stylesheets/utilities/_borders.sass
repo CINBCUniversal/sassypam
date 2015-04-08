@@ -8,12 +8,14 @@
   Border helpers can be used on any element
 
   ```html_example
-  <span class='content-border pam mal'>A border on all sides</span>
-  <span class='border-top mal pam'>A border top</span>
-  <span class='border-bottom mal pam'>A border bottom</span>
-  <span class='border-right mal pam'>A border right</span>
-  <span class='border-left mal pam'>A border left</span>
-  <span class='border-none mal pam'>No border</span>
+  <div class='flex'>
+    <span class='content-border border-radius pam mal'>A border on all sides w/radius</span>
+    <span class='border-top mal pam'>A border top</span>
+    <span class='border-bottom mal pam'>A border bottom</span>
+    <span class='border-right mal pam'>A border right</span>
+    <span class='border-left mal pam'>A border left</span>
+    <span class='border-none mal pam'>No border</span>
+  </div>
   ```
 
 
@@ -36,3 +38,5 @@
 .content-border
   border: 1px solid $border-grey
 
+.border-radius
+  border-radius: 3px
