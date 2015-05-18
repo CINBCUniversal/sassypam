@@ -1,0 +1,38 @@
+//doc
+  ---
+  title: Icon Wrappers
+  name: icon-wrap
+  category: utilities
+  ---
+
+  Sometimes an icon from the collection may be a different size after user interaction, such as an arrow or a plus or minus.  This may cause the layout to pop or flash to adapt to the new icon size after clicking.  To fix this we created several icon-wrap helper classes to be applied only to the i element that contains the icon.
+
+  ```html_example
+  <i class='h6 sms-glyph-arrow_triangle-right icon-wrap-sm' style="background-color:#F8E71C"></i>
+  <br>
+  <i class='h6 sms-glyph-arrow_triangle-down icon-wrap-sm' style="background-color:#F8E71C"></i>
+  ```
+  as opposed to the old...<br>
+  NOTE: The yellow container wrappers below change widths when the icons change but remain the same above no matter which icon is used.
+
+  ```html_example
+  <i class='h6 sms-glyph-arrow_triangle-right' style="background-color:#F8E71C"></i>
+  <br>
+  <i class='h6 sms-glyph-arrow_triangle-down' style="background-color:#F8E71C"></i>
+  ```
+  icon-wrap-sm = 10px square <br>
+  icon-wrap-med = 40px square <br>
+  icon-wrap-lrg = 80px square <br>
+
+.icon-wrap-sm
+  height: 10px
+  width: 10px
+  display: inline-block
+.icon-wrap-med
+  height: 40px
+  width: 40px
+  display: inline-block
+.icon-wrap-lrg
+  height: 80px
+  width: 80px
+  display: inline-block

@@ -1,26 +1,25 @@
 <!doctype html>
 <html>
 <head>
-
-<title>Sassypam</title>
+<title>SassyPam styleguide - layout</title>
 
 <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="./public/sassypam.css">
-<link rel="stylesheet" href="./docs/normalize.css">
-<link rel="stylesheet" href="./docs/github.css">
-<link rel="stylesheet" href="./docs/styleguide.css">
+<link rel="stylesheet" href="./normalize.css">
+<link rel="stylesheet" href="./github.css">
+<link rel="stylesheet" href="./styleguide.css">
 <!-- Latest jQuery -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <!-- Styleguide specific JavaScript -->
-<script type="text/javascript" src="./docs/main.js"></script>
+<script type="text/javascript" src="./main.js"></script>
 </head>
 <body>
 <div class="global-header">
   <div class="sassypam flex">
     <div class='logo-container pull-left'>
-      <img src='./docs/img/sassy_pam.png' />
+      <img src='./img/sassy_pam.png' />
     </div>
     <h2 class='em-low em-italic pll ptm pull-left'>Sassypam</h2>
   </div>
@@ -28,59 +27,68 @@
 
 <aside class="main-nav">
   <ul class="list-vertical-left">
-
+    
       <li class='ct-js'>
-        <a class="category-link width-100 phl pvl h3" href="./docs/home.html">home</a>
+        <a class="category-link width-100 phl pvl h3" href="home.html">home</a>
         <ul class="list-vertical-left hide pbl">
-
+          
             <li><a class="block-link phl pvs type-sm" href="#"></a></li>
-
+          
         </ul>
       </li>
-
+    
       <li class='ct-js'>
-        <a class="category-link width-100 phl pvl h3" href="./docs/utilities.html">utilities</a>
+        <a class="category-link width-100 phl pvl h3" href="utilities.html">utilities</a>
         <ul class="list-vertical-left hide pbl">
-
+          
             <li><a class="block-link phl pvs type-sm" href="#"></a></li>
-
+          
         </ul>
       </li>
-
+    
       <li class='ct-js'>
-        <a class="category-link width-100 phl pvl h3" href="./docs/elements.html">elements</a>
+        <a class="category-link width-100 phl pvl h3" href="elements.html">elements</a>
         <ul class="list-vertical-left hide pbl">
-
+          
             <li><a class="block-link phl pvs type-sm" href="#"></a></li>
-
+          
         </ul>
       </li>
-
+    
       <li class='ct-js'>
-        <a class="category-link width-100 phl pvl h3" href="./docs/components.html">Components</a>
+        <a class="category-link width-100 phl pvl h3" href="components.html">Components</a>
         <ul class="list-vertical-left hide pbl">
-
+          
             <li><a class="block-link phl pvs type-sm" href="#"></a></li>
-
+          
         </ul>
       </li>
-
+    
       <li class='ct-js'>
-        <a class="category-link width-100 phl pvl h3" href="./docs/modules.html">modules</a>
+        <a class="category-link width-100 phl pvl h3" href="modules.html">modules</a>
         <ul class="list-vertical-left hide pbl">
-
+          
             <li><a class="block-link phl pvs type-sm" href="#"></a></li>
-
+          
         </ul>
       </li>
-
+    
+      <li class='ct-js'>
+        <a class="category-link width-100 phl pvl h3" href="layout.html">layout</a>
+        <ul class="list-vertical-left hide pbl">
+          
+            <li><a class="block-link phl pvs type-sm" href="#"></a></li>
+          
+        </ul>
+      </li>
+    
   </ul>
 </aside>
 <div class='main-content'>
   <div class='mal'>
 <h1 id="" class="styleguide"></h1>
 
-<div class='force-up'>
+<div class='force-up mbvl'>
   <h1 class='em-high styleguide pts pbl mbl'>Welcome to Sassypam</h1>
 
   <h3 class="mbl pbl">This is everything you need to get started building UI at NBCU Ad Sales.
@@ -136,14 +144,14 @@
 
   <hr class='mtvl mbvl'>
   <h5 class='em-high h2 sassypam-pink'>How To Use This Styleguide</h5>
-  <p class='h4 mbm em-default mtm'>Once you have downloaded/included Sassypam into your project, you can start building. We've grouped the styleguide into four parts.</p>
-  <p class='h4 mbm'><span class="sassypam-pink">Utilities</span> - These are the smallest pieces you can use. They include icons, borders, whitespace classes, and colors. Think of them as modifiers. You can use these in conjunction with any HTML tag and/or any other UI element you find here in the styleguide.</p>
-  <p class='h4 mbm'><span class="sassypam-pink">Elements</span> - These are the building blocks of apps. They cover typography, buttons, badges, and various form elements.</p>
-  <p class='h4 mbm'><span class="sassypam-pink">Components</span> - Components are common, reusable pieces of UI. They are often built up with elements and modifiers, you can get an idea of how OOCSS works by taking a peek at them. You can find search and filter bars, empty states, messages, and pagination in this section.</p>
-  <p class='h4 mbm'><span class="sassypam-pink">Modules</span> - These are the the most complex pieces of UI. Modules define large sections of an application and can be tricky to wire up. Some examples are comment boxes, modals, and left hand navigation </p>
+  <h6 class='h4 mbm em-default mtm'>Once you have downloaded/included Sassypam into your project, you can start building. We've grouped the styleguide into four parts.</h6>
+  <h6 class='h4 mbm'><span class="sassypam-pink">Utilities</span> - These are the smallest pieces you can use. They include icons, borders, whitespace classes, and colors. Think of them as modifiers. You can use these in conjunction with any HTML tag and/or any other UI element you find here in the styleguide.</h6>
+  <h6 class='h4 mbm'><span class="sassypam-pink">Elements</span> - These are the building blocks of apps. They cover typography, buttons, badges, and various form elements.</h6>
+  <h6 class='h4 mbm'><span class="sassypam-pink">Components</span> - Components are common, reusable pieces of UI. They are often built up with elements and modifiers, you can get an idea of how OOCSS works by taking a peek at them. You can find search and filter bars, empty states, messages, and pagination in this section.</h6>
+  <h6 class='h4 mbm'><span class="sassypam-pink">Modules</span> - These are the the most complex pieces of UI. Modules define large sections of an application and can be tricky to wire up. Some examples are comment boxes, modals, and left hand navigation </h6>
+  <h6 class='h4 mbm'><span class="sassypam-pink">Layout</span> - This is where grids, layout helpers, visibility, and positioning classes are located. </h6>
 </div>
       </div>
     </div>
   </body>
 </html>
-

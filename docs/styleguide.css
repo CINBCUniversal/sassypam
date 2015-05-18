@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-BoldItalic-webfont.eot");
+  src: url("fonts/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-BoldItalic-webfont.woff") format("woff"), url("fonts/OpenSans-BoldItalic-webfont.ttf") format("truetype"), url("fonts/OpenSans-BoldItalic-webfont.svg#Open Sans") format("svg");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Bold-webfont.eot");
+  src: url("fonts/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Bold-webfont.woff") format("woff"), url("fonts/OpenSans-Bold-webfont.ttf") format("truetype"), url("fonts/OpenSans-Bold-webfont.svg#Open Sans") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-SemiboldItalic-webfont.eot");
+  src: url("fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("fonts/OpenSans-SemiboldItalic-webfont.ttf") format("truetype"), url("fonts/OpenSans-SemiboldItalic-webfont.svg#Open Sans") format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Semibold-webfont.eot");
+  src: url("fonts/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Semibold-webfont.woff") format("woff"), url("fonts/OpenSans-Semibold-webfont.ttf") format("truetype"), url("fonts/OpenSans-Semibold-webfont.svg#Open Sans") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Italic-webfont.eot");
+  src: url("fonts/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Italic-webfont.woff") format("woff"), url("fonts/OpenSans-Italic-webfont.ttf") format("truetype"), url("fonts/OpenSans-Italic-webfont.svg#Open Sans") format("svg");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Regular-webfont.eot");
+  src: url("fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Regular-webfont.woff") format("woff"), url("fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("fonts/OpenSans-Regular-webfont.svg#Open Sans") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-LightItalic-webfont.eot");
+  src: url("fonts/OpenSans-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-LightItalic-webfont.woff") format("woff"), url("fonts/OpenSans-LightItalic-webfont.ttf") format("truetype"), url("fonts/OpenSans-LightItalic-webfont.svg#Open Sans") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Light-webfont.eot");
+  src: url("fonts/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Light-webfont.woff") format("woff"), url("fonts/OpenSans-Light-webfont.ttf") format("truetype"), url("fonts/OpenSans-Light-webfont.svg#Open Sans") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "sms-glyphs";
+  src: url("fonts/sms-glyphs.eot");
+  src: url("fonts/sms-glyphs.eot?#iefix") format("embedded-opentype"), url("fonts/sms-glyphs.woff") format("woff"), url("fonts/sms-glyphs.ttf") format("truetype"), url("fonts/sms-glyphs.svg#sms-glyphs") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+i {
+  font-family: 'sms-glyphs';
+  font-style: normal;
+}
+
+body {
+  background: #FAFAFA;
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+ol {
+  padding-left: 55px;
+}
+
+
+.hologram-content {
+  padding: 80px 0;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+h1.styleguide {
+  margin-bottom: 5px;
+  padding-top: 60px;
+  color: #e670a4;
+  font-weight: 900;
+}
+
+p.styleguide {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.codeExample {
+  background-color: white;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+}
+
+.codeBlock {
+  padding: 20px;
+  background: #F4F4F4;
+}
+
+.exampleOutput .codeBlock {
+  align-items: left;
+  justify-content: left;
+}
+
+.codeBlock span, .codeBlock pre {
+  font-family: "Source Code Pro";
+}
+
+.codeExample .exampleOutput {
+  padding: 20px;
+  border-bottom: 2px solid rgba(0,0,0, .05);
+}
+.sassypam h2 {
+  color: white;
+}
+.ct-js {
+  border-bottom: 1px solid #d8d8d8;
+}
+.category-link {
+  display: block;
+  text-transform: capitalize;
+  color: black;
+}
+.category-link.active {
+  background: #E472A4;
+  color: white;
+  font-weight: 100;
+}
+.block-link {
+  display: block;
+  text-transform: capitalize;
+  color: black;
+}
+.block-link:hover {
+  background-color: rgb(194, 194, 194);
+  color: white;
+}
+
+.main-nav li:hover {
+  background: transparent;
+}
+
+.styleguide-component-wrapper {
+  height: 75px;
+  width: 100px;
+}
+
+#glyphs i {
+  font-size: 32px;
+  padding: 0.5em;
+  display: inline-block;
+  color: #738890;
+}
+
+._styleGuide__colors .swatch {
+  height: 100px;
+  width: 100px;
+  margin-right: 12px;
+  display: inline-block;
+  border: 5px solid white;
+  box-shadow: 0 0 0 1px #e3e3e3;
+  position: relative;
+  color: white;
+}
+
+._styleGuide__colors .swatch p{
+  text-align: center;
+  padding: 0px;
+}
+
+.force-up {
+  margin-top: -70px;
+}
+.logo-container {
+  border-radius: 100%;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  transition: .5s ease-in-out all;
+}
+
+.logo-container:hover {
+  background: white;
+}
+
+.logo-container img {
+  width: 40px;
+  vertical-align: middle;
+  height: 40px;
+  object-fit: contain;
+}
