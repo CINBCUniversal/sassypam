@@ -2517,6 +2517,21 @@ category: layout
 .white {
   color: white !important; }
 
+.icon-grey {
+  color: #969696 !important; }
+
+.icon-wrap-sm {
+  height: 10px;
+  width: 10px; }
+
+.icon-wrap-med {
+  height: 40px;
+  width: 40px; }
+
+.icon-wrap-lrg {
+  height: 80px;
+  width: 80px; }
+
 * {
   box-sizing: border-box; }
 
@@ -3410,6 +3425,37 @@ select {
     background-color: rgba(255, 255, 255, 0.7); }
     .Pagination a:hover.disabled {
       background-color: transparent; }
+
+.popover {
+  border: 1px solid #ccc;
+  min-width: 300px;
+  box-shadow: 0px 0px 13px 1px rgba(61, 57, 57, 0.63);
+  margin-left: 20px;
+  top: inherit;
+  left: inherit;
+  display: inherit;
+  position: absolute; }
+  .popover .popover-content {
+    background: white; }
+  .popover .popover-title {
+    background: #fafafa;
+    padding: 10px;
+    z-index: 1040;
+    width: auto;
+    font-size: 14px;
+    border-bottom: 1px solid #E0E0E0;
+    text-transform: uppercase; }
+  .popover .popover-footer {
+    padding: 10px;
+    border-top: 1px solid #E0E0E0;
+    background: #fafafa; }
+  .popover .popover-input {
+    padding: 10px; }
+    .popover .popover-input textarea {
+      min-height: 140px;
+      width: 300px;
+      border: 1px solid #ddd;
+      border-radius: 4px; }
 
 form {
   margin-bottom: 0 !important; }
