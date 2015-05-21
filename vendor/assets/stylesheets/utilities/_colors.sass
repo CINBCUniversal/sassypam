@@ -19,6 +19,14 @@
       <p class="type-sm">Registrations</p>
       <p>#009bef</p>
     </div>
+    <div class="blue-bg swatch">
+      <p class="type-sm">Blue</p>
+      <p>#04a5f1</p>
+    </div>
+    <div class="lt-blue-bg swatch">
+      <p class="type-sm">Light Blue</p>
+      <p>#dbeff8</p>
+    </div>
     <div class="pacing-bg swatch">
       <p class="type-sm">Pacing</p>
       <p>#73d7e4</p>
@@ -43,6 +51,18 @@
       <p class="type-sm">Negotiation</p>
       <p>#ff005f</p>
     </div>
+    <div class="editable-bg swatch mtm">
+      <p class="type-sm">Editable</p>
+      <p>#fffdd1</p>
+    </div>
+    <div class="dark-grey-bg swatch mtm">
+      <p class="type-sm">Dark Grey</p>
+      <p>#6a7487</p>
+    </div>
+    <div class="md-grey-bg swatch mtm">
+      <p class="type-sm">Medium Grey</p>
+      <p>#f3f3f3</p>
+    </div>
     <div class="grey-bg swatch mtm">
       <p class="type-sm sassypam-pink">Grey</p>
       <p class="sassypam-pink">#fafafa</p>
@@ -63,6 +83,8 @@
 @include color(dark-blue, $dark-blue)
 @include color(finance-models, $finance-models)
 @include color(registrations, $registrations)
+@include color('blue', $blue)
+@include color('lt-blue', $light-blue)
 @include color(pacing, $pacing)
 @include color(shifts, $shifts)
 @include color(reports, $reports)
@@ -70,8 +92,11 @@
 @include color(admin, $admin)
 @include color(quintiles, $quintiles)
 @include color(negotiation, $negotiation-tracker)
-@include color('grey', #fafafa)
-@include color('white', #fff)
+@include color('editable', $editable-yellow)
+@include color('dark-grey', $dk-grey)
+@include color('md-grey', $md-grey)
+@include color('grey', $lt-grey)
+@include color('white', $white)
 
 //doc
   ---
@@ -89,6 +114,7 @@
   <p class="yellow">Yellow type<p>
   <p class="orange">Orange type<p>
   <p class="sassypam-pink">Sassypam pink type<p>
+  <p class="icon-grey">Icon Grey type<p>
   <p class="white"> White type<p>
   ```
 

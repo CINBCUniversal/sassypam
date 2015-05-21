@@ -1,0 +1,48 @@
+//doc
+  ---
+  title: Width Helpers
+  name: width-helpers
+  category: layout
+  ---
+
+
+  ```html_example
+
+  <div class="cf content-border pal">
+    <div class="content-border width-2 mal pal">width 2%</div>
+    <div class="content-border width-4 mal pal">width 4%</div>
+    <div class="content-border width-6 mal pal">width 6%</div>
+    <div class="content-border width-8 mal pal">width 8%</div>
+    <div class="content-border width-10 mal pal">width 10%</div>
+    <div class="content-border width-15 mal pal">width 15%</div>
+    <div class="content-border width-20 mal pal">width 20%</div>
+    <div class="content-border width-25 mal pal">width 25%</div>
+    <div class="content-border width-30 mal pal">width 30%</div>
+    <div class="content-border width-35 mal pal">width 35%</div>
+    <div class="content-border width-40 mal pal">width 40%</div>
+    <div class="content-border width-45 mal pal">width 45%</div>
+    <div class="content-border width-50 mal pal">width 50%</div>
+    <div class="content-border width-55 mal pal">width 55%</div>
+    <div class="content-border width-60 mal pal">width 60%</div>
+    <div class="content-border width-65 mal pal">width 65%</div>
+    <div class="content-border width-70 mal pal">width 70%</div>
+    <div class="content-border width-75 mal pal">width 75%</div>
+    <div class="content-border width-80 mal pal">width 80%</div>
+    <div class="content-border width-85 mal pal">width 85%</div>
+    <div class="content-border width-90 mal pal">width 90%</div>
+    <div class="content-border width-95 mal pal">width 95%</div>
+    <div class="content-border width-100 mal pal">width 100%</div>
+  </div>
+
+  ```
+
+//width loop
+
+$first_multiplier: 2%
+@for $i from 1 through 4
+  .width-#{$i * 2}
+    width: $i * $first_multiplier
+$second_multiplier: 5%
+@for $iter from 2 through 10
+  .width-#{$iter * 5}
+    width: $iter * $second_multiplier
