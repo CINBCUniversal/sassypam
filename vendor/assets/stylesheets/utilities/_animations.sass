@@ -123,7 +123,7 @@ $peacock_colors: "yellow" #F1B13B, "orange" #E16734, "red" #B22A47, "purple" #5D
 $peacock_grey: #eee
 
 @each $color in $peacock_colors
-  @-webkit-keyframes #{$peacock_colors}-fill
+  @-webkit-keyframes #{$color}-fill
     0%
       fill: $peacock_grey
     45%
