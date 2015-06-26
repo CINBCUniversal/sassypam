@@ -6,10 +6,10 @@ module Sassypam
     def load!
       register_compass_extension if compass?
 
-      if rails?
-        register_rails_engine
-      elsif sprockets?
+      if sprockets?
         register_sprockets
+      elsif rails?
+        register_rails_engine
       end
 
       configure_sass
