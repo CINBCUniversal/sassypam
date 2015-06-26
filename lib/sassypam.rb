@@ -25,7 +25,7 @@ module Sassypam
     end
 
     def fonts_path
-      File.join assets_path, 'fonts'
+      File.join assets_path, 'fonts', unless sprockets?
     end
 
     def javascripts_path
