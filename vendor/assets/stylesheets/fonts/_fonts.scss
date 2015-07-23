@@ -1,28 +1,28 @@
 
 //Open Sans
 @include font-face('OpenSans', 'OpenSans-BoldItalic-webfont', $weight: 700, $style: italic, $asset-pipeline: true);
-@include font-face('OpenSans', 'OpenSans-Bold-webfont', $weight: 700);
-@include font-face('OpenSans', 'OpenSans-SemiboldItalic-webfont', $weight: 600, italic);
-@include font-face('OpenSans', 'OpenSans-Semibold-webfont', $weight: 600);
-@include font-face('OpenSans', 'OpenSans-Italic-webfont', $weight: 400, italic);
-@include font-face('OpenSans', 'OpenSans-Regular-webfont', $weight: 400);
-@include font-face('OpenSans', 'OpenSans-LightItalic-webfont', $weight: 300, italic);
-@include font-face('OpenSans', 'OpenSans-Light-webfont', $weight: 300);
+@include font-face('OpenSans', 'OpenSans-Bold-webfont', $weight: 700, $asset-pipeline: true);
+@include font-face('OpenSans', 'OpenSans-SemiboldItalic-webfont', $weight: 600, italic, $asset-pipeline: true);
+@include font-face('OpenSans', 'OpenSans-Semibold-webfont', $weight: 600, $asset-pipeline: true);
+@include font-face('OpenSans', 'OpenSans-Italic-webfont', $weight: 400, italic, $asset-pipeline: true);
+@include font-face('OpenSans', 'OpenSans-Regular-webfont', $weight: 400, $asset-pipeline: true);
+@include font-face('OpenSans', 'OpenSans-LightItalic-webfont', $weight: 300, italic, $asset-pipeline: true);
+@include font-face('OpenSans', 'OpenSans-Light-webfont', $weight: 300, $asset-pipeline: true);
 
 //Flexo
-@include font-face('Flexo', 'Durotype-Flexo-Light', $weight: 300);
-@include font-face('Flexo', 'Durotype-Flexo-Regular', $weight: 500);
+@include font-face('Flexo', 'Durotype-Flexo-Light', $weight: 300, $asset-pipeline: true);
+@include font-face('Flexo', 'Durotype-Flexo-Regular', $weight: 500, $asset-pipeline: true);
 
 //Helveti
-@include font-face('HelveticaNeue', 'Helvetica-Neue-Bold-Italic', $weight: 700, italic);
-@include font-face('HelveticaNeue', 'Helvetica-Neue-Bold', $weight: 700);
-@include font-face('HelveticaNeue', 'Helvetica-Neue-Italic', $weight: 500, italic);
-@include font-face('HelveticaNeue', 'Helvetica-Neue-Light-Italic', $weight: 300, italic);
-@include font-face('HelveticaNeue', 'Helvetica-Neue-Light', $weight: 300);
-@include font-face('HelveticaNeue', 'Helvetica-Neue-Medium', $weight: 500);
-@include font-face('HelveticaNeue', 'Helvetica-Neue-UltraLight', $weight: 100);
-@include font-face('HelveticaNeue', 'Helvetica-Neue', $weight: 400);
+@include font-face('HelveticaNeue', 'Helvetica-Neue-Bold-Italic', $weight: 700, italic, $asset-pipeline: true);
+@include font-face('HelveticaNeue', 'Helvetica-Neue-Bold', $weight: 700, $asset-pipeline: true);
+@include font-face('HelveticaNeue', 'Helvetica-Neue-Italic', $weight: 500, italic, $asset-pipeline: true);
+@include font-face('HelveticaNeue', 'Helvetica-Neue-Light-Italic', $weight: 300, italic, $asset-pipeline: true);
+@include font-face('HelveticaNeue', 'Helvetica-Neue-Light', $weight: 300, $asset-pipeline: true);
+@include font-face('HelveticaNeue', 'Helvetica-Neue-Medium', $weight: 500, $asset-pipeline: true);
+@include font-face('HelveticaNeue', 'Helvetica-Neue-UltraLight', $weight: 100, $asset-pipeline: true);
+@include font-face('HelveticaNeue', 'Helvetica-Neue', $weight: 400, $asset-pipeline: true);
 
 //PAM Icoant Icons + custom stuff through IcoMoon)
-@include font-face('sms-glyphs', 'sms-glyphs/sms-glyphs', $weight: 300);
+@include font-face('sms-glyphs', 'sms-glyphs/sms-glyphs', $weight: 300, $asset-pipeline: true);
 
