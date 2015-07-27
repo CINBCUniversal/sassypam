@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'hologram'
   spec.add_development_dependency 'sass'
+  spec.add_dependency 'compass'
 end

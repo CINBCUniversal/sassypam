@@ -2,16 +2,31 @@ PATH
   remote: .
   specs:
     sassypam (0.1.1)
+      compass
 
 GEM
   remote: https://rubygems.org/
   specs:
+    chunky_png (1.3.4)
     coderay (1.1.0)
+    compass (1.0.3)
+      chunky_png (~> 1.2)
+      compass-core (~> 1.0.2)
+      compass-import-once (~> 1.0.5)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      sass (>= 3.3.13, < 3.5)
+    compass-core (1.0.3)
+      multi_json (~> 1.0)
+      sass (>= 3.3.0, < 3.5)
+    compass-import-once (1.0.5)
+      sass (>= 3.2, < 3.5)
     ffi (1.9.6-java)
     hologram (1.3.1)
       redcarpet (>= 2.2, < 4.0)
       rouge (>= 1.5)
     method_source (0.8.2)
+    multi_json (1.11.2)
     pry (0.9.12.6)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -22,6 +37,9 @@ GEM
       slop (~> 3.4)
       spoon (~> 0.0)
     rake (10.3.2)
+    rb-fsevent (0.9.5)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
     redcarpet (3.2.2)
     rouge (1.8.0)
     sass (3.4.9)
