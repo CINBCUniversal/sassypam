@@ -1,14 +1,15 @@
 {
   "name": "sassypam",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/CINBCUniversal/sassypam",
   "authors": [
-    "Abhi Sharma"
+    "Abhi Sharma",
+    Don McGrath
   ],
   "description": "PAM Toolkit",
   "main": [
     "vendor/assets/fonts/",
-    "vendor/assets/stylesheets/sassypam.css.sass",
+    "vendor/assets/stylesheets/sassypam.sass",
     "vendor/assets/javascripts/"
   ],
   "moduleType": [
