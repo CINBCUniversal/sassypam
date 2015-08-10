@@ -1,0 +1,43 @@
+$font-path: "../bower_components/sassypam/doc_assets/fonts" !default;
+
+
+@mixin declare-font-face($folder-name, $font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('#{$folder-name}/#{$font-filename}.eot');
+    src: url('#{$folder-name}/#{$font-filename}.eot?#iefix') format('embedded-opentype'),
+         url('#{$folder-name}/#{$font-filename}.woff') format('woff'),
+         url('#{$folder-name}/#{$font-filename}.ttf') format('truetype'),
+         url('#{$folder-name}/#{$font-filename}.svg') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
+
+//Open Sans
+@include declare-font-face('#{$font-path}', 'Open Sans', 'OpenSans-BoldItalic-webfont', 700, italic);
+@include declare-font-face('#{$font-path}','Open Sans', 'OpenSans-Bold-webfont', 700);
+@include declare-font-face('#{$font-path}','Open Sans', 'OpenSans-SemiboldItalic-webfont', 600, italic);
+@include declare-font-face('#{$font-path}','Open Sans', 'OpenSans-Semibold-webfont', 600);
+@include declare-font-face('#{$font-path}','Open Sans', 'OpenSans-Italic-webfont', 400, italic);
+@include declare-font-face('#{$font-path}','Open Sans', 'OpenSans-Regular-webfont', 400);
+@include declare-font-face('#{$font-path}','Open Sans', 'OpenSans-LightItalic-webfont', 300, italic);
+@include declare-font-face('#{$font-path}','Open Sans', 'OpenSans-Light-webfont', 300);
+
+//Flexo
+@include declare-font-face('#{$font-path}','Flexo', 'Durotype-Flexo-Light', 300);
+@include declare-font-face('#{$font-path}','Flexo', 'Durotype-Flexo-Regular', 500);
+
+//Helvetica Neue
+@include declare-font-face('#{$font-path}','Helvetica Neue', 'Helvetica-Neue-Bold-Italic', 700, italic);
+@include declare-font-face('#{$font-path}','Helvetica Neue', 'Helvetica-Neue-Bold', 700);
+@include declare-font-face('#{$font-path}','Helvetica Neue', 'Helvetica-Neue-Italic', 500, italic);
+@include declare-font-face('#{$font-path}','Helvetica Neue', 'Helvetica-Neue-Light-Italic', 300, italic);
+@include declare-font-face('#{$font-path}','Helvetica Neue', 'Helvetica-Neue-Light', 300);
+@include declare-font-face('#{$font-path}','Helvetica Neue', 'Helvetica-Neue-Medium', 500);
+@include declare-font-face('#{$font-path}','Helvetica Neue', 'Helvetica-Neue-UltraLight', 100);
+@include declare-font-face('#{$font-path}','Helvetica Neue', 'Helvetica-Neue', 400);
+
+//PAM Icons (Elegant Icons + custom stuff through IcoMoon)
+@include declare-font-face('#{$font-path}', 'sms-glyphs', 'sms-glyphs', 300);

@@ -37,8 +37,12 @@ Using sassypam as a Bower package is still being tested. It is compatible with n
 ## Usage
 
 Once you've installed the SassyPAM toolkit, use it by calling the main file in your application.sass/scss:
+remember sassypam has a dependancy on bootstrap and your application.sass/scss must be in root/css to be able
+to access root/bower_components
 
-    @import "sassypam"
+    @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+    @import "../bower_components/sassypam/vendor/assets/stylesheets/sassypam_bower.sass";
 
 ## Contributing
 
