@@ -21,3 +21,4 @@ node_modules
 .ruby-version
 docs/fonts/fonts/*
 docs/img/img/*
+.idea
