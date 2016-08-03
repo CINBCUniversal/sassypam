@@ -1452,9 +1452,6 @@ th {
 .sms-glyph-typography:before {
   content: "\f23f"; }
 
-.sms-glyph-pat_logo:before {
-  content: "\e900"; }
-
 html, body {
   height: 100%; }
 

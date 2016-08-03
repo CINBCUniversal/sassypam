@@ -1290,3 +1290,8 @@
   content: "\f23f";
   @extend %sms-family;
 }
+
+.sms-glyph-pat_logo:before {
+  content: "\e900";
+  @extend %sms-family;
+}
