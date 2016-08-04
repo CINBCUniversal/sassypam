@@ -40,3 +40,6 @@ DEPENDENCIES
   rake
   sass
   sassypam!
+
+BUNDLED WITH
+   1.10.3
