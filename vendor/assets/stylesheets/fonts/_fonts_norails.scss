@@ -7,7 +7,7 @@ $font-path: "../bower_components/sassypam/doc_assets/fonts" !default;
     text-decoration: none;
     $font-src: ();
     @each $ext in $extensions {
-      $font-src: append( $font-src, "url('#{$folder-name}/#{$font-filename}.#{$ext}')", comma );
+      $font-src: append( $font-src, url('#{$folder-name}/#{$font-filename}.#{$ext}'), comma );
     }
     src: $font-src;
     font-weight: $font-weight;
