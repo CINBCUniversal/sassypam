@@ -1322,3 +1322,7 @@
   content: "\e904";
   @extend %sms-family;
 }
+.sms-glyph-export:before {
+  content: "\e903";
+  @extend %sms-family;
+}
