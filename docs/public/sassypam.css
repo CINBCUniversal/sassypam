@@ -492,26 +492,29 @@ th {
   display: inline-block;
   text-decoration: inherit; }
 
-.sms-glyph-export:before {
+.sms-glyph-history:before {
+  content: "\e900"; }
+
+.sms-glyph-export-fill:before {
+  content: "\e901"; }
+
+.sms-glyph-save-fill:before {
+  content: "\e902"; }
+
+.sms-glyph-send-fill:before {
   content: "\e903"; }
 
-.sms-glyph-send:before {
-  content: "\e907"; }
+.sms-glyph-export:before {
+  content: "\e904"; }
+
+.sms-glyph-final-fill:before {
+  content: "\e905"; }
 
 .sms-glyph-save:before {
   content: "\e906"; }
 
-.sms-glyph-export-fill:before {
-  content: "\e900"; }
-
-.sms-glyph-send-fill:before {
-  content: "\e902"; }
-
-.sms-glyph-save-fill:before {
-  content: "\e901"; }
-
-.sms-glyph-final-fill:before {
-  content: "\e904"; }
+.sms-glyph-send:before {
+  content: "\e907"; }
 
 .sms-glyph-arrow-up-down:before {
   content: "\f100"; }

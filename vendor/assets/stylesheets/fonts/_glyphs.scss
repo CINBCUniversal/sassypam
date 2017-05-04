@@ -1294,10 +1294,6 @@
   content: "\f240";
   @extend %sms-family;
 }
-.sms-glyph-export:before {
-  content: "\e903";
-  @extend %sms-family;
-}
 .sms-glyph-send:before {
   content: "\e907";
   @extend %sms-family;
@@ -1306,23 +1302,27 @@
   content: "\e906";
   @extend %sms-family;
 }
-.sms-glyph-export-fill:before {
-  content: "\e900";
-  @extend %sms-family;
-}
-.sms-glyph-send-fill:before {
-  content: "\e902";
-  @extend %sms-family;
-}
-.sms-glyph-save-fill:before {
-  content: "\e901";
-  @extend %sms-family;
-}
 .sms-glyph-final-fill:before {
-  content: "\e904";
+  content: "\e905";
   @extend %sms-family;
 }
 .sms-glyph-export:before {
+  content: "\e904";
+  @extend %sms-family;
+}
+.sms-glyph-send-fill:before {
   content: "\e903";
+  @extend %sms-family;
+}
+.sms-glyph-save-fill:before {
+  content: "\e902";
+  @extend %sms-family;
+}
+.sms-glyph-export-fill:before {
+  content: "\e901";
+  @extend %sms-family;
+}
+.sms-glyph-history:before {
+  content: "\e900";
   @extend %sms-family;
 }
