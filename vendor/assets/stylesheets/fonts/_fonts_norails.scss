@@ -15,6 +15,16 @@ $font-path: "../bower_components/sassypam/doc_assets/fonts" !default;
   }
 }
 
+@mixin declare-font-face-ext($folder-name, $font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('#{$folder-name}/#{$font-filename}');
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
+
 //Open Sans
 @include declare-font-face('#{$font-path}/open-sans', 'Open Sans', 'OpenSans-BoldItalic-webfont', 700, italic);
 @include declare-font-face('#{$font-path}/open-sans','Open Sans', 'OpenSans-Bold-webfont', 700);
@@ -26,18 +36,18 @@ $font-path: "../bower_components/sassypam/doc_assets/fonts" !default;
 @include declare-font-face('#{$font-path}/open-sans','Open Sans', 'OpenSans-Light-webfont', 300);
 
 //Flexo
-@include declare-font-face('#{$font-path}/flexo','Flexo', 'Durotype-Flexo-Light', 300);
-@include declare-font-face('#{$font-path}/flexo','Flexo', 'Durotype-Flexo-Regular', 500);
+@include declare-font-face-ext('#{$font-path}/flexo','Flexo', 'Durotype-Flexo-Light.otf', 300);
+@include declare-font-face-ext('#{$font-path}/flexo','Flexo', 'Durotype-Flexo-Regular.otf', 500);
 
 //Helvetica Neue
-@include declare-font-face('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Bold-Italic', 700, italic);
-@include declare-font-face('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Bold', 700);
-@include declare-font-face('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Italic', 500, italic);
-@include declare-font-face('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Light-Italic', 300, italic);
-@include declare-font-face('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Light', 300);
-@include declare-font-face('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Medium', 500);
-@include declare-font-face('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-UltraLight', 100);
-@include declare-font-face('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue', 400);
+@include declare-font-face-ext('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Bold-Italic.ttf', 700, italic);
+@include declare-font-face-ext('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Bold.ttf', 700);
+@include declare-font-face-ext('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Italic.ttf', 500, italic);
+@include declare-font-face-ext('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Light-Italic.ttf', 300, italic);
+@include declare-font-face-ext('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Light.ttf', 300);
+@include declare-font-face-ext('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-Medium.ttf', 500);
+@include declare-font-face-ext('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue-UltraLight.ttf', 100);
+@include declare-font-face-ext('#{$font-path}/helvetica-neue','Helvetica Neue', 'Helvetica-Neue.ttf', 400);
 
 //PAM Icons (Elegant Icons + custom stuff through IcoMoon)
 @include declare-font-face('#{$font-path}/sms-glyphs', 'sms-glyphs', 'sms-glyphs', 300);
