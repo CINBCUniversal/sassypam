@@ -481,7 +481,7 @@ th {
   font-weight: 300;
   font-style: normal;
   font-stretch: normal; }
-.sms-glyph-export:before, .sms-glyph-send:before, .sms-glyph-save:before, .sms-glyph-export-fill:before, .sms-glyph-send-fill:before, .sms-glyph-save-fill:before, .sms-glyph-final-fill:before, .sms-glyph-arrow-up-down:before, .sms-glyph-arrow_back:before, .sms-glyph-arrow_carrot-2down:before, .sms-glyph-arrow_carrot-2down_alt2:before, .sms-glyph-arrow_carrot-2dwnn_alt:before, .sms-glyph-arrow_carrot-2left:before, .sms-glyph-arrow_carrot-2left_alt:before, .sms-glyph-arrow_carrot-2left_alt2:before, .sms-glyph-arrow_carrot-2right:before, .sms-glyph-arrow_carrot-2right_alt:before, .sms-glyph-arrow_carrot-2right_alt2:before, .sms-glyph-arrow_carrot-2up:before, .sms-glyph-arrow_carrot-2up_alt:before, .sms-glyph-arrow_carrot-2up_alt2:before, .sms-glyph-arrow_carrot-down:before, .sms-glyph-arrow_carrot-down_alt:before, .sms-glyph-arrow_carrot-down_alt2:before, .sms-glyph-arrow_carrot-left:before, .sms-glyph-arrow_carrot-left_alt:before, .sms-glyph-arrow_carrot-left_alt2:before, .sms-glyph-arrow_carrot-right:before, .sms-glyph-arrow_carrot-right_alt:before, .sms-glyph-arrow_carrot-right_alt2:before, .sms-glyph-arrow_carrot-up:before, .sms-glyph-arrow_carrot-up_alt2:before, .sms-glyph-arrow_carrot_up_alt:before, .sms-glyph-arrow_condense:before, .sms-glyph-arrow_condense_alt:before, .sms-glyph-arrow_down:before, .sms-glyph-arrow_down_alt:before, .sms-glyph-arrow_expand:before, .sms-glyph-arrow_expand_alt:before, .sms-glyph-arrow_expand_alt2:before, .sms-glyph-arrow_expand_alt3:before, .sms-glyph-arrow_left-down:before, .sms-glyph-arrow_left-down_alt:before, .sms-glyph-arrow_left-right:before, .sms-glyph-arrow_left-right_alt:before, .sms-glyph-arrow_left-up:before, .sms-glyph-arrow_left-up_alt:before, .sms-glyph-arrow_left:before, .sms-glyph-arrow_left_alt:before, .sms-glyph-arrow_move:before, .sms-glyph-arrow_right-down:before, .sms-glyph-arrow_right-down_alt:before, .sms-glyph-arrow_right-up:before, .sms-glyph-arrow_right-up_alt:before, .sms-glyph-arrow_right:before, .sms-glyph-arrow_right_alt:before, .sms-glyph-arrow_triangle-down:before, .sms-glyph-arrow_triangle-down_alt:before, .sms-glyph-arrow_triangle-down_alt2:before, .sms-glyph-arrow_triangle-left:before, .sms-glyph-arrow_triangle-left_alt:before, .sms-glyph-arrow_triangle-left_alt2:before, .sms-glyph-arrow_triangle-right:before, .sms-glyph-arrow_triangle-right_alt:before, .sms-glyph-arrow_triangle-right_alt2:before, .sms-glyph-arrow_triangle-up:before, .sms-glyph-arrow_triangle-up_alt:before, .sms-glyph-arrow_triangle-up_alt2:before, .sms-glyph-arrow_up-down_alt:before, .sms-glyph-arrow_up:before, .sms-glyph-arrow_up_alt:before, .sms-glyph-circle:before, .sms-glyph-colors:before, .sms-glyph-copy:before, .sms-glyph-filter:before, .sms-glyph-handshake:before, .sms-glyph-icon:before, .sms-glyph-icon_adjust-horiz:before, .sms-glyph-icon_adjust-vert:before, .sms-glyph-icon_archive:before, .sms-glyph-icon_archive_alt:before, .sms-glyph-icon_bag:before, .sms-glyph-icon_bag_alt:before, .sms-glyph-icon_blocked:before, .sms-glyph-icon_book:before, .sms-glyph-icon_book_alt:before, .sms-glyph-icon_box-checked:before, .sms-glyph-icon_box-empty:before, .sms-glyph-icon_box-selected:before, .sms-glyph-icon_calendar:before, .sms-glyph-icon_camera:before, .sms-glyph-icon_camera_alt:before, .sms-glyph-icon_cart:before, .sms-glyph-icon_cart_alt:before, .sms-glyph-icon_chat:before, .sms-glyph-icon_chat_alt:before, .sms-glyph-icon_check:before, .sms-glyph-icon_check_alt:before, .sms-glyph-icon_check_alt2:before, .sms-glyph-icon_circle-empty:before, .sms-glyph-icon_circle-slelected:before, .sms-glyph-icon_clock:before, .sms-glyph-icon_clock_alt:before, .sms-glyph-icon_close:before, .sms-glyph-icon_close_alt:before, .sms-glyph-icon_close_alt2:before, .sms-glyph-icon_cloud-download:before, .sms-glyph-icon_cloud-download_alt:before, .sms-glyph-icon_cloud-upload:before, .sms-glyph-icon_cloud-upload_alt:before, .sms-glyph-icon_cloud:before, .sms-glyph-icon_cloud_alt:before, .sms-glyph-icon_cog:before, .sms-glyph-icon_cogs:before, .sms-glyph-icon_comment:before, .sms-glyph-icon_comment_alt:before, .sms-glyph-icon_compass:before, .sms-glyph-icon_compass_alt:before, .sms-glyph-icon_cone:before, .sms-glyph-icon_cone_alt:before, .sms-glyph-icon_contacts:before, .sms-glyph-icon_contacts_alt:before, .sms-glyph-icon_creditcard:before, .sms-glyph-icon_cursor:before, .sms-glyph-icon_cursor_alt:before, .sms-glyph-icon_desktop:before, .sms-glyph-icon_document:before, .sms-glyph-icon_document_alt:before, .sms-glyph-icon_documents:before, .sms-glyph-icon_documents_alt:before, .sms-glyph-icon_download:before, .sms-glyph-icon_drawer:before, .sms-glyph-icon_drawer_alt:before, .sms-glyph-icon_error-circle:before, .sms-glyph-icon_error-circle_alt:before, .sms-glyph-icon_error-oct:before, .sms-glyph-icon_error-oct_alt:before, .sms-glyph-icon_error-triangle:before, .sms-glyph-icon_error-triangle_alt:before, .sms-glyph-icon_film:before, .sms-glyph-icon_folder-add:before, .sms-glyph-icon_folder-add_alt:before, .sms-glyph-icon_folder-alt:before, .sms-glyph-icon_folder-open:before, .sms-glyph-icon_folder-open_alt:before, .sms-glyph-icon_folder:before, .sms-glyph-icon_folder_download:before, .sms-glyph-icon_folder_upload:before, .sms-glyph-icon_genius:before, .sms-glyph-icon_gift:before, .sms-glyph-icon_gift_alt:before, .sms-glyph-icon_grid-2x2:before, .sms-glyph-icon_grid-3x3:before, .sms-glyph-icon_group:before, .sms-glyph-icon_headphones:before, .sms-glyph-icon_heart:before, .sms-glyph-icon_heart_alt:before, .sms-glyph-icon_house:before, .sms-glyph-icon_house_alt:before, .sms-glyph-icon_image:before, .sms-glyph-icon_images:before, .sms-glyph-icon_info:before, .sms-glyph-icon_info_alt:before, .sms-glyph-icon_key:before, .sms-glyph-icon_key_alt:before, .sms-glyph-icon_laptop:before, .sms-glyph-icon_lifesaver:before, .sms-glyph-icon_lightbulb:before, .sms-glyph-icon_lightbulb_alt:before, .sms-glyph-icon_link:before, .sms-glyph-icon_link_alt:before, .sms-glyph-icon_loading:before, .sms-glyph-icon_lock-open:before, .sms-glyph-icon_lock-open_alt:before, .sms-glyph-icon_lock:before, .sms-glyph-icon_lock_alt:before, .sms-glyph-icon_mail:before, .sms-glyph-icon_mail_alt:before, .sms-glyph-icon_map:before, .sms-glyph-icon_map_alt:before, .sms-glyph-icon_menu-circle_alt:before, .sms-glyph-icon_menu-circle_alt2:before, .sms-glyph-icon_menu-square_alt:before, .sms-glyph-icon_menu-square_alt2:before, .sms-glyph-icon_menu:before, .sms-glyph-icon_mic:before, .sms-glyph-icon_mic_alt:before, .sms-glyph-icon_minus-06:before, .sms-glyph-icon_minus-box:before, .sms-glyph-icon_minus_alt:before, .sms-glyph-icon_minus_alt2:before, .sms-glyph-icon_mobile:before, .sms-glyph-icon_music:before, .sms-glyph-icon_ol:before, .sms-glyph-icon_paperclip:before, .sms-glyph-icon_pause:before, .sms-glyph-icon_pause_alt:before, .sms-glyph-icon_pause_alt2:before, .sms-glyph-icon_pencil-edit:before, .sms-glyph-icon_pencil-edit_alt:before, .sms-glyph-icon_pencil:before, .sms-glyph-icon_pencil_alt:before, .sms-glyph-icon_phone:before, .sms-glyph-icon_piechart:before, .sms-glyph-icon_pin:before, .sms-glyph-icon_pin_alt:before, .sms-glyph-icon_plus-box:before, .sms-glyph-icon_plus:before, .sms-glyph-icon_plus_alt:before, .sms-glyph-icon_plus_alt2:before, .sms-glyph-icon_profile:before, .sms-glyph-icon_pushpin:before, .sms-glyph-icon_pushpin_alt:before, .sms-glyph-icon_question:before, .sms-glyph-icon_question_alt:before, .sms-glyph-icon_question_alt2:before, .sms-glyph-icon_quotations:before, .sms-glyph-icon_quotations_alt:before, .sms-glyph-icon_quotations_alt2:before, .sms-glyph-icon_refresh:before, .sms-glyph-icon_ribbon:before, .sms-glyph-icon_ribbon_alt:before, .sms-glyph-icon_search:before, .sms-glyph-icon_star-half:before, .sms-glyph-icon_star-half_alt:before, .sms-glyph-icon_star:before, .sms-glyph-icon_star_alt:before, .sms-glyph-icon_stop:before, .sms-glyph-icon_stop_alt:before, .sms-glyph-icon_stop_alt2:before, .sms-glyph-icon_table:before, .sms-glyph-icon_tablet:before, .sms-glyph-icon_tag:before, .sms-glyph-icon_tag_alt:before, .sms-glyph-icon_tags:before, .sms-glyph-icon_tags_alt:before, .sms-glyph-icon_tool:before, .sms-glyph-icon_toolbox:before, .sms-glyph-icon_toolbox_alt:before, .sms-glyph-icon_tools:before, .sms-glyph-icon_trash:before, .sms-glyph-icon_trash_alt:before, .sms-glyph-icon_ul:before, .sms-glyph-icon_upload:before, .sms-glyph-icon_vol-mute:before, .sms-glyph-icon_vol-mute_alt:before, .sms-glyph-icon_volume-high:before, .sms-glyph-icon_volume-high_alt:before, .sms-glyph-icon_volume-low:before, .sms-glyph-icon_volume-low_alt:before, .sms-glyph-icon_zoom-in:before, .sms-glyph-icon_zoom-in_alt:before, .sms-glyph-icon_zoom-out:before, .sms-glyph-icon_zoom-out_alt:before, .sms-glyph-paste:before, .sms-glyph-reports:before, .sms-glyph-sharknado:before, .button-loader:before, .sms-glyph-social_blogger:before, .sms-glyph-social_blogger_circle:before, .sms-glyph-social_blogger_square:before, .sms-glyph-social_delicious:before, .sms-glyph-social_delicious_circle:before, .sms-glyph-social_delicious_square:before, .sms-glyph-social_deviantart:before, .sms-glyph-social_deviantart_circle:before, .sms-glyph-social_deviantart_square:before, .sms-glyph-social_dribbble:before, .sms-glyph-social_dribbble_circle:before, .sms-glyph-social_dribbble_square:before, .sms-glyph-social_facebook:before, .sms-glyph-social_facebook_circle:before, .sms-glyph-social_facebook_square:before, .sms-glyph-social_flickr:before, .sms-glyph-social_flickr_circle:before, .sms-glyph-social_flickr_square:before, .sms-glyph-social_googledrive:before, .sms-glyph-social_googledrive_alt2:before, .sms-glyph-social_googledrive_square:before, .sms-glyph-social_googleplus:before, .sms-glyph-social_googleplus_circle:before, .sms-glyph-social_googleplus_square:before, .sms-glyph-social_instagram:before, .sms-glyph-social_instagram_circle:before, .sms-glyph-social_instagram_square:before, .sms-glyph-social_linkedin:before, .sms-glyph-social_linkedin_circle:before, .sms-glyph-social_linkedin_square:before, .sms-glyph-social_myspace:before, .sms-glyph-social_myspace_circle:before, .sms-glyph-social_myspace_square:before, .sms-glyph-social_picassa:before, .sms-glyph-social_picassa_circle:before, .sms-glyph-social_picassa_square:before, .sms-glyph-social_pinterest:before, .sms-glyph-social_pinterest_circle:before, .sms-glyph-social_pinterest_square:before, .sms-glyph-social_rss:before, .sms-glyph-social_rss_circle:before, .sms-glyph-social_rss_square:before, .sms-glyph-social_share:before, .sms-glyph-social_share_circle:before, .sms-glyph-social_share_square:before, .sms-glyph-social_skype:before, .sms-glyph-social_skype_circle:before, .sms-glyph-social_skype_square:before, .sms-glyph-social_spotify:before, .sms-glyph-social_spotify_circle:before, .sms-glyph-social_spotify_square:before, .sms-glyph-social_stumbleupon_circle:before, .sms-glyph-social_stumbleupon_square:before, .sms-glyph-social_tumbleupon:before, .sms-glyph-social_tumblr:before, .sms-glyph-social_tumblr_circle:before, .sms-glyph-social_tumblr_square:before, .sms-glyph-social_twitter:before, .sms-glyph-social_twitter_circle:before, .sms-glyph-social_twitter_square:before, .sms-glyph-social_vimeo:before, .sms-glyph-social_vimeo_circle:before, .sms-glyph-social_vimeo_square:before, .sms-glyph-social_wordpress:before, .sms-glyph-social_wordpress_circle:before, .sms-glyph-social_wordpress_square:before, .sms-glyph-social_youtube:before, .sms-glyph-social_youtube_circle:before, .sms-glyph-social_youtube_square:before, .sms-glyph-typography:before {
+.sms-glyph-arrow-up-down:before, .sms-glyph-arrow_back:before, .sms-glyph-arrow_carrot-2down:before, .sms-glyph-arrow_carrot-2down_alt2:before, .sms-glyph-arrow_carrot-2dwnn_alt:before, .sms-glyph-arrow_carrot-2left:before, .sms-glyph-arrow_carrot-2left_alt:before, .sms-glyph-arrow_carrot-2left_alt2:before, .sms-glyph-arrow_carrot-2right:before, .sms-glyph-arrow_carrot-2right_alt:before, .sms-glyph-arrow_carrot-2right_alt2:before, .sms-glyph-arrow_carrot-2up:before, .sms-glyph-arrow_carrot-2up_alt:before, .sms-glyph-arrow_carrot-2up_alt2:before, .sms-glyph-arrow_carrot-down:before, .sms-glyph-arrow_carrot-down_alt:before, .sms-glyph-arrow_carrot-down_alt2:before, .sms-glyph-arrow_carrot-left:before, .sms-glyph-arrow_carrot-left_alt:before, .sms-glyph-arrow_carrot-left_alt2:before, .sms-glyph-arrow_carrot-right:before, .sms-glyph-arrow_carrot-right_alt:before, .sms-glyph-arrow_carrot-right_alt2:before, .sms-glyph-arrow_carrot-up:before, .sms-glyph-arrow_carrot-up_alt2:before, .sms-glyph-arrow_carrot_up_alt:before, .sms-glyph-arrow_condense:before, .sms-glyph-arrow_condense_alt:before, .sms-glyph-arrow_down:before, .sms-glyph-arrow_down_alt:before, .sms-glyph-arrow_expand:before, .sms-glyph-arrow_expand_alt:before, .sms-glyph-arrow_expand_alt2:before, .sms-glyph-arrow_expand_alt3:before, .sms-glyph-arrow_left-down:before, .sms-glyph-arrow_left-down_alt:before, .sms-glyph-arrow_left-right:before, .sms-glyph-arrow_left-right_alt:before, .sms-glyph-arrow_left-up:before, .sms-glyph-arrow_left-up_alt:before, .sms-glyph-arrow_left:before, .sms-glyph-arrow_left_alt:before, .sms-glyph-arrow_move:before, .sms-glyph-arrow_right-down:before, .sms-glyph-arrow_right-down_alt:before, .sms-glyph-arrow_right-up:before, .sms-glyph-arrow_right-up_alt:before, .sms-glyph-arrow_right:before, .sms-glyph-arrow_right_alt:before, .sms-glyph-arrow_triangle-down:before, .sms-glyph-arrow_triangle-down_alt:before, .sms-glyph-arrow_triangle-down_alt2:before, .sms-glyph-arrow_triangle-left:before, .sms-glyph-arrow_triangle-left_alt:before, .sms-glyph-arrow_triangle-left_alt2:before, .sms-glyph-arrow_triangle-right:before, .sms-glyph-arrow_triangle-right_alt:before, .sms-glyph-arrow_triangle-right_alt2:before, .sms-glyph-arrow_triangle-up:before, .sms-glyph-arrow_triangle-up_alt:before, .sms-glyph-arrow_triangle-up_alt2:before, .sms-glyph-arrow_up-down_alt:before, .sms-glyph-arrow_up:before, .sms-glyph-arrow_up_alt:before, .sms-glyph-circle:before, .sms-glyph-colors:before, .sms-glyph-copy:before, .sms-glyph-filter:before, .sms-glyph-handshake:before, .sms-glyph-icon:before, .sms-glyph-icon_adjust-horiz:before, .sms-glyph-icon_adjust-vert:before, .sms-glyph-icon_archive:before, .sms-glyph-icon_archive_alt:before, .sms-glyph-icon_bag:before, .sms-glyph-icon_bag_alt:before, .sms-glyph-icon_blocked:before, .sms-glyph-icon_book:before, .sms-glyph-icon_book_alt:before, .sms-glyph-icon_box-checked:before, .sms-glyph-icon_box-empty:before, .sms-glyph-icon_box-selected:before, .sms-glyph-icon_calendar:before, .sms-glyph-icon_camera:before, .sms-glyph-icon_camera_alt:before, .sms-glyph-icon_cart:before, .sms-glyph-icon_cart_alt:before, .sms-glyph-icon_chat:before, .sms-glyph-icon_chat_alt:before, .sms-glyph-icon_check:before, .sms-glyph-icon_check_alt:before, .sms-glyph-icon_check_alt2:before, .sms-glyph-icon_circle-empty:before, .sms-glyph-icon_circle-slelected:before, .sms-glyph-icon_clock:before, .sms-glyph-icon_clock_alt:before, .sms-glyph-icon_close:before, .sms-glyph-icon_close_alt:before, .sms-glyph-icon_close_alt2:before, .sms-glyph-icon_cloud-download:before, .sms-glyph-icon_cloud-download_alt:before, .sms-glyph-icon_cloud-upload:before, .sms-glyph-icon_cloud-upload_alt:before, .sms-glyph-icon_cloud:before, .sms-glyph-icon_cloud_alt:before, .sms-glyph-icon_cog:before, .sms-glyph-icon_cogs:before, .sms-glyph-icon_comment:before, .sms-glyph-icon_comment_alt:before, .sms-glyph-icon_compass:before, .sms-glyph-icon_compass_alt:before, .sms-glyph-icon_cone:before, .sms-glyph-icon_cone_alt:before, .sms-glyph-icon_contacts:before, .sms-glyph-icon_contacts_alt:before, .sms-glyph-icon_creditcard:before, .sms-glyph-icon_cursor:before, .sms-glyph-icon_cursor_alt:before, .sms-glyph-icon_desktop:before, .sms-glyph-icon_document:before, .sms-glyph-icon_document_alt:before, .sms-glyph-icon_documents:before, .sms-glyph-icon_documents_alt:before, .sms-glyph-icon_download:before, .sms-glyph-icon_drawer:before, .sms-glyph-icon_drawer_alt:before, .sms-glyph-icon_error-circle:before, .sms-glyph-icon_error-circle_alt:before, .sms-glyph-icon_error-oct:before, .sms-glyph-icon_error-oct_alt:before, .sms-glyph-icon_error-triangle:before, .sms-glyph-icon_error-triangle_alt:before, .sms-glyph-icon_film:before, .sms-glyph-icon_folder-add:before, .sms-glyph-icon_folder-add_alt:before, .sms-glyph-icon_folder-alt:before, .sms-glyph-icon_folder-open:before, .sms-glyph-icon_folder-open_alt:before, .sms-glyph-icon_folder:before, .sms-glyph-icon_folder_download:before, .sms-glyph-icon_folder_upload:before, .sms-glyph-icon_genius:before, .sms-glyph-icon_gift:before, .sms-glyph-icon_gift_alt:before, .sms-glyph-icon_grid-2x2:before, .sms-glyph-icon_grid-3x3:before, .sms-glyph-icon_group:before, .sms-glyph-icon_headphones:before, .sms-glyph-icon_heart:before, .sms-glyph-icon_heart_alt:before, .sms-glyph-icon_house:before, .sms-glyph-icon_house_alt:before, .sms-glyph-icon_image:before, .sms-glyph-icon_images:before, .sms-glyph-icon_info:before, .sms-glyph-icon_info_alt:before, .sms-glyph-icon_key:before, .sms-glyph-icon_key_alt:before, .sms-glyph-icon_laptop:before, .sms-glyph-icon_lifesaver:before, .sms-glyph-icon_lightbulb:before, .sms-glyph-icon_lightbulb_alt:before, .sms-glyph-icon_link:before, .sms-glyph-icon_link_alt:before, .sms-glyph-icon_loading:before, .sms-glyph-icon_lock-open:before, .sms-glyph-icon_lock-open_alt:before, .sms-glyph-icon_lock:before, .sms-glyph-icon_lock_alt:before, .sms-glyph-icon_mail:before, .sms-glyph-icon_mail_alt:before, .sms-glyph-icon_map:before, .sms-glyph-icon_map_alt:before, .sms-glyph-icon_menu-circle_alt:before, .sms-glyph-icon_menu-circle_alt2:before, .sms-glyph-icon_menu-square_alt:before, .sms-glyph-icon_menu-square_alt2:before, .sms-glyph-icon_menu:before, .sms-glyph-icon_mic:before, .sms-glyph-icon_mic_alt:before, .sms-glyph-icon_minus-06:before, .sms-glyph-icon_minus-box:before, .sms-glyph-icon_minus_alt:before, .sms-glyph-icon_minus_alt2:before, .sms-glyph-icon_mobile:before, .sms-glyph-icon_music:before, .sms-glyph-icon_ol:before, .sms-glyph-icon_paperclip:before, .sms-glyph-icon_pause:before, .sms-glyph-icon_pause_alt:before, .sms-glyph-icon_pause_alt2:before, .sms-glyph-icon_pencil-edit:before, .sms-glyph-icon_pencil-edit_alt:before, .sms-glyph-icon_pencil:before, .sms-glyph-icon_pencil_alt:before, .sms-glyph-icon_phone:before, .sms-glyph-icon_piechart:before, .sms-glyph-icon_pin:before, .sms-glyph-icon_pin_alt:before, .sms-glyph-icon_plus-box:before, .sms-glyph-icon_plus:before, .sms-glyph-icon_plus_alt:before, .sms-glyph-icon_plus_alt2:before, .sms-glyph-icon_profile:before, .sms-glyph-icon_pushpin:before, .sms-glyph-icon_pushpin_alt:before, .sms-glyph-icon_question:before, .sms-glyph-icon_question_alt:before, .sms-glyph-icon_question_alt2:before, .sms-glyph-icon_quotations:before, .sms-glyph-icon_quotations_alt:before, .sms-glyph-icon_quotations_alt2:before, .sms-glyph-icon_refresh:before, .sms-glyph-icon_ribbon:before, .sms-glyph-icon_ribbon_alt:before, .sms-glyph-icon_search:before, .sms-glyph-icon_star-half:before, .sms-glyph-icon_star-half_alt:before, .sms-glyph-icon_star:before, .sms-glyph-icon_star_alt:before, .sms-glyph-icon_stop:before, .sms-glyph-icon_stop_alt:before, .sms-glyph-icon_stop_alt2:before, .sms-glyph-icon_table:before, .sms-glyph-icon_tablet:before, .sms-glyph-icon_tag:before, .sms-glyph-icon_tag_alt:before, .sms-glyph-icon_tags:before, .sms-glyph-icon_tags_alt:before, .sms-glyph-icon_tool:before, .sms-glyph-icon_toolbox:before, .sms-glyph-icon_toolbox_alt:before, .sms-glyph-icon_tools:before, .sms-glyph-icon_trash:before, .sms-glyph-icon_trash_alt:before, .sms-glyph-icon_ul:before, .sms-glyph-icon_upload:before, .sms-glyph-icon_vol-mute:before, .sms-glyph-icon_vol-mute_alt:before, .sms-glyph-icon_volume-high:before, .sms-glyph-icon_volume-high_alt:before, .sms-glyph-icon_volume-low:before, .sms-glyph-icon_volume-low_alt:before, .sms-glyph-icon_zoom-in:before, .sms-glyph-icon_zoom-in_alt:before, .sms-glyph-icon_zoom-out:before, .sms-glyph-icon_zoom-out_alt:before, .sms-glyph-paste:before, .sms-glyph-reports:before, .sms-glyph-sharknado:before, .button-loader:before, .sms-glyph-social_blogger:before, .sms-glyph-social_blogger_circle:before, .sms-glyph-social_blogger_square:before, .sms-glyph-social_delicious:before, .sms-glyph-social_delicious_circle:before, .sms-glyph-social_delicious_square:before, .sms-glyph-social_deviantart:before, .sms-glyph-social_deviantart_circle:before, .sms-glyph-social_deviantart_square:before, .sms-glyph-social_dribbble:before, .sms-glyph-social_dribbble_circle:before, .sms-glyph-social_dribbble_square:before, .sms-glyph-social_facebook:before, .sms-glyph-social_facebook_circle:before, .sms-glyph-social_facebook_square:before, .sms-glyph-social_flickr:before, .sms-glyph-social_flickr_circle:before, .sms-glyph-social_flickr_square:before, .sms-glyph-social_googledrive:before, .sms-glyph-social_googledrive_alt2:before, .sms-glyph-social_googledrive_square:before, .sms-glyph-social_googleplus:before, .sms-glyph-social_googleplus_circle:before, .sms-glyph-social_googleplus_square:before, .sms-glyph-social_instagram:before, .sms-glyph-social_instagram_circle:before, .sms-glyph-social_instagram_square:before, .sms-glyph-social_linkedin:before, .sms-glyph-social_linkedin_circle:before, .sms-glyph-social_linkedin_square:before, .sms-glyph-social_myspace:before, .sms-glyph-social_myspace_circle:before, .sms-glyph-social_myspace_square:before, .sms-glyph-social_picassa:before, .sms-glyph-social_picassa_circle:before, .sms-glyph-social_picassa_square:before, .sms-glyph-social_pinterest:before, .sms-glyph-social_pinterest_circle:before, .sms-glyph-social_pinterest_square:before, .sms-glyph-social_rss:before, .sms-glyph-social_rss_circle:before, .sms-glyph-social_rss_square:before, .sms-glyph-social_share:before, .sms-glyph-social_share_circle:before, .sms-glyph-social_share_square:before, .sms-glyph-social_skype:before, .sms-glyph-social_skype_circle:before, .sms-glyph-social_skype_square:before, .sms-glyph-social_spotify:before, .sms-glyph-social_spotify_circle:before, .sms-glyph-social_spotify_square:before, .sms-glyph-social_stumbleupon_circle:before, .sms-glyph-social_stumbleupon_square:before, .sms-glyph-social_tumbleupon:before, .sms-glyph-social_tumblr:before, .sms-glyph-social_tumblr_circle:before, .sms-glyph-social_tumblr_square:before, .sms-glyph-social_twitter:before, .sms-glyph-social_twitter_circle:before, .sms-glyph-social_twitter_square:before, .sms-glyph-social_vimeo:before, .sms-glyph-social_vimeo_circle:before, .sms-glyph-social_vimeo_square:before, .sms-glyph-social_wordpress:before, .sms-glyph-social_wordpress_circle:before, .sms-glyph-social_wordpress_square:before, .sms-glyph-social_youtube:before, .sms-glyph-social_youtube_circle:before, .sms-glyph-social_youtube_square:before, .sms-glyph-typography:before, .sms-glyph-icon_pat:before, .sms-glyph-export:before, .sms-glyph-send:before, .sms-glyph-save:before, .sms-glyph-export-fill:before, .sms-glyph-send-fill:before, .sms-glyph-save-fill:before, .sms-glyph-final-fill:before {
   font-family: "sms-glyphs";
   font-style: normal;
   font-weight: normal;
@@ -491,30 +491,6 @@ th {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   text-decoration: inherit; }
-
-.sms-glyph-history:before {
-  content: "\e900"; }
-
-.sms-glyph-export-fill:before {
-  content: "\e901"; }
-
-.sms-glyph-save-fill:before {
-  content: "\e902"; }
-
-.sms-glyph-send-fill:before {
-  content: "\e903"; }
-
-.sms-glyph-export:before {
-  content: "\e904"; }
-
-.sms-glyph-final-fill:before {
-  content: "\e905"; }
-
-.sms-glyph-save:before {
-  content: "\e906"; }
-
-.sms-glyph-send:before {
-  content: "\e907"; }
 
 .sms-glyph-arrow-up-down:before {
   content: "\f100"; }
@@ -1475,6 +1451,30 @@ th {
 
 .sms-glyph-typography:before {
   content: "\f23f"; }
+
+.sms-glyph-icon_pat:before {
+  content: "\f240"; }
+
+.sms-glyph-export:before {
+  content: "\e903"; }
+
+.sms-glyph-send:before {
+  content: "\e907"; }
+
+.sms-glyph-save:before {
+  content: "\e906"; }
+
+.sms-glyph-export-fill:before {
+  content: "\e900"; }
+
+.sms-glyph-send-fill:before {
+  content: "\e902"; }
+
+.sms-glyph-save-fill:before {
+  content: "\e901"; }
+
+.sms-glyph-final-fill:before {
+  content: "\e904"; }
 
 html, body {
   height: 100%; }
@@ -2439,96 +2439,96 @@ category: layout
   justify-content: center;
   align-items: center; }
 
-@-webkit-keyframes yellow-fill {
+@-webkit-keyframes yellow #F1B13B, 1-fill {
   0% {
     fill: #eee; }
   45% {
-    fill: #F1B13B; }
+    fill: "yellow" #F1B13B, 2; }
   55% {
     fill: #eee; }
   100% {
     fill: #eee; } }
-@-webkit-keyframes orange-fill {
+@-webkit-keyframes orange #E16734, 1-fill {
   0% {
     fill: #eee; }
   45% {
-    fill: #E16734; }
+    fill: "orange" #E16734, 2; }
   55% {
     fill: #eee; }
   100% {
     fill: #eee; } }
-@-webkit-keyframes red-fill {
+@-webkit-keyframes red #B22A47, 1-fill {
   0% {
     fill: #eee; }
   45% {
-    fill: #B22A47; }
+    fill: "red" #B22A47, 2; }
   55% {
     fill: #eee; }
   100% {
     fill: #eee; } }
-@-webkit-keyframes purple-fill {
+@-webkit-keyframes purple #5D5994, 1-fill {
   0% {
     fill: #eee; }
   45% {
-    fill: #5D5994; }
+    fill: "purple" #5D5994, 2; }
   55% {
     fill: #eee; }
   100% {
     fill: #eee; } }
-@-webkit-keyframes blue-fill {
+@-webkit-keyframes blue #0080B8, 1-fill {
   0% {
     fill: #eee; }
   45% {
-    fill: #0080B8; }
+    fill: "blue" #0080B8, 2; }
   55% {
     fill: #eee; }
   100% {
     fill: #eee; } }
-@-webkit-keyframes green-fill {
+@-webkit-keyframes green #22A54D, 1-fill {
   0% {
     fill: #eee; }
   45% {
-    fill: #22A54D; }
+    fill: "green" #22A54D, 2; }
   55% {
     fill: #eee; }
   100% {
     fill: #eee; } }
-#yellowFeather path {
+yellowFeather path {
   fill: #eee;
   animation: yellow-fill 5s infinite;
   -webkit-animation: yellow-fill 5s infinite;
   animation-delay: 0.25s;
   -webkit-animation-delay: 0.25s; }
 
-#orangeFeather path {
+orangeFeather path {
   fill: #eee;
   animation: orange-fill 5s infinite;
   -webkit-animation: orange-fill 5s infinite;
   animation-delay: 0.5s;
   -webkit-animation-delay: 0.5s; }
 
-#redFeather path {
+redFeather path {
   fill: #eee;
   animation: red-fill 5s infinite;
   -webkit-animation: red-fill 5s infinite;
   animation-delay: 0.75s;
   -webkit-animation-delay: 0.75s; }
 
-#purpleFeather path {
+purpleFeather path {
   fill: #eee;
   animation: purple-fill 5s infinite;
   -webkit-animation: purple-fill 5s infinite;
   animation-delay: 1s;
   -webkit-animation-delay: 1s; }
 
-#blueFeather path {
+blueFeather path {
   fill: #eee;
   animation: blue-fill 5s infinite;
   -webkit-animation: blue-fill 5s infinite;
   animation-delay: 1.25s;
   -webkit-animation-delay: 1.25s; }
 
-#greenFeather path {
+greenFeather path {
   fill: #eee;
   animation: green-fill 5s infinite;
   -webkit-animation: green-fill 5s infinite;
