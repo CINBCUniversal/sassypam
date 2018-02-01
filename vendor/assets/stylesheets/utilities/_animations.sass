@@ -53,99 +53,98 @@
 
 
 // Please leave a comment on how the animation works
-// Don't forget to add a webkit keyframe
 // -------------------------------------------------------------
 
 
 //Fade out animation, great for removal of items
 
-@keyframes fade-out
-  from
-    opacity: 1
-    -webkit-transform: scale(1)
-    transform: scale(1)
+$peacock_colors: ("yellow": #F1B13B, "orange": #E16734, "red" :#B22A47, "purple": #5D5994, "blue": #0080B8, "green": #22A54D);
+$peacock_grey: #eee;
 
-  to
-    -webkit-transform: scale(0)
-    transform: scale(0)
-    opacity: 0
+@mixin feather-animation($color, $delay){
+    ##{$color}Feather {
+        path{
+            fill: $peacock_grey;
+            animation:  #{$color}-fill 5s infinite;
+            -webkit-animation:  #{$color}-fill 5s infinite;
+            animation-delay: $delay;
+            -webkit-animation-delay: $delay;
+        }
+    }
+}
 
-@-webkit-keyframes fade-out
-  from
-    opacity: 1
-    -webkit-transform: scale(1)
-    transform: scale(1)
+@keyframes fade-out{
+    from {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
+    }
+}
 
-  to
-    -webkit-transform: scale(0)
-    transform: scale(0)
-    opacity: 0
+@keyframes spin{
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(359deg);
+    }
+}
 
-@-webkit-keyframes spin
-  0%
-    -webkit-transform: rotateY(0deg)
-  100%
-    -webkit-transform: rotateY(359deg)
+.icon-spin {
+    -webkit-animation:  2s linear 0s normal none infinite spin;
+    animation:  2s linear 0s normal none infinite spin;
+}
 
-@keyframes spin
-  0%
-    transform: rotateY(0deg)
-  100%
-    transform: rotateY(359deg)
+.icon-spinner {
+    width: 100px;
+    height: 100px;
+    color: darken(white, 5%);
+    font-size: 100px;
+}
 
-.icon-spin
-  -webkit-animation:  2s linear 0s normal none infinite spin
-  animation:  2s linear 0s normal none infinite spin
+.background-fade {
+    z-index: 2000;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: .8;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.icon-spinner
-  width: 100px
-  height: 100px
-  color: darken(white, 5%)
-  font-size: 100px
+@include feather-animation('yellow', .25s);
+@include feather-animation('orange', .5s);
+@include feather-animation('red', .75s);
+@include feather-animation('purple', 1s);
+@include feather-animation('blue', 1.25s);
+@include feather-animation('green', 1.5s);
 
-.background-fade
-  z-index: 2000
-  background-color: black
-  height: 100%
-  width: 100%
-  position: fixed
-  opacity: .8
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
-  display: flex
-  justify-content: center
-  align-items: center
+@each $color, $hex in $peacock_colors {
+@keyframes #{$color}-fill {
+        0% {
+            fill: $peacock_grey
+        }
+        45% {
+            fill: $hex
+        }
+        55% {
+            fill: $peacock_grey
+        }
+        100% {
+            fill: $peacock_grey
+        }
+    }
+}
 
-$peacock_colors: "yellow" #F1B13B, "orange" #E16734, "red" #B22A47, "purple" #5D5994, "blue" #0080B8, "green" #22A54D
-
-$peacock_grey: #eee
-
-@each $color in $peacock_colors
-  @-webkit-keyframes #{$color,1}-fill
-    0%
-      fill: $peacock_grey
-    45%
-      fill: $color,2
-    55%
-      fill: $peacock_grey
-    100%
-      fill: $peacock_grey
-
-
-@mixin feather-animation($color, $delay)
-  #{$color}Feather path
-    fill: $peacock_grey
-    animation:  #{$color}-fill 5s infinite
-    -webkit-animation:  #{$color}-fill 5s infinite
-    animation-delay: $delay
-    -webkit-animation-delay: $delay
-
-@include feather-animation('yellow', .25s)
-@include feather-animation('orange', .5s)
-@include feather-animation('red', .75s)
-@include feather-animation('purple', 1s)
-@include feather-animation('blue', 1.25s)
-@include feather-animation('green', 1.5s)
 
