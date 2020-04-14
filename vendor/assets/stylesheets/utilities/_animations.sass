@@ -83,15 +83,15 @@
 
 @-webkit-keyframes spin
   0%
-    -webkit-transform: rotateY(0deg)
+    -webkit-transform: translateZ(1000px) rotateY(0deg)
   100%
-    -webkit-transform: rotateY(359deg)
+    -webkit-transform: translateZ(1000px) rotateY(359deg)
 
 @keyframes spin
   0%
-    transform: rotateY(0deg)
+    transform: translateZ(1000px) rotateY(0deg)
   100%
-    transform: rotateY(359deg)
+    transform: translateZ(1000px) rotateY(359deg)
 
 .icon-spin
   -webkit-animation:  2s linear 0s normal none infinite spin
@@ -99,7 +99,7 @@
 
 .icon-spinner
   width: 100px
-  height: 100px
+  height: 120px
   color: darken(white, 5%)
   font-size: 100px
 
